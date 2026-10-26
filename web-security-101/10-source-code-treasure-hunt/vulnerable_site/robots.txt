@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /admin-old/
+Disallow: /backup/
+Disallow: /staging/

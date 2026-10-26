@@ -1,0 +1,4 @@
+cryptography>=42.0
+dnspython>=2.6
+scapy>=2.5
+Pillow>=10.0

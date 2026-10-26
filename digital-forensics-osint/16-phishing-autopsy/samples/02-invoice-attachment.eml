@@ -1,0 +1,46 @@
+From: "Vendor Payments" <billing@vendor-payments.example>
+To: student@example.com
+Subject: Invoice INV-2026-1042 is overdue - final notice
+Date: Mon, 26 Oct 2026 10:02:00 +0000
+Message-ID: <demo-002@vendor-payments.example>
+Reply-To: <billing@vendor-payments.example>
+Return-Path: <billing@vendor-payments.example>
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=vendor-payments.example; dkim=pass header.d=vendor-payments.example; dmarc=pass header.from=vendor-payments.example
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUND2"
+
+--BOUND2
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+Our records show that invoice INV-2026-1042 is overdue. Please open the attached invoice and confirm payment immediately. This is a final notice.
+
+Thank you,
+Vendor Payments
+
+--BOUND2
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<!doctype html>
+<html>
+<body>
+  <p>Hello,</p>
+  <p>Our records show that invoice <strong>INV-2026-1042</strong> is overdue.
+  Please open the attached invoice and confirm payment immediately.</p>
+  <p>This is a final notice.</p>
+  <p><a href="https://vendor-payments.example/invoice/1042">View invoice</a></p>
+  <p>Thank you,<br>Vendor Payments</p>
+</body>
+</html>
+
+--BOUND2
+Content-Type: application/zip; name="invoice_2026.zip"
+Content-Disposition: attachment; filename="invoice_2026.zip"
+Content-Transfer-Encoding: base64
+
+VGhpcyBpcyBhIGZha2UgaW52b2ljZSBhdHRhY2htZW50IGZvciB0cmFpbmluZy4=
+
+--BOUND2--

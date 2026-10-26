@@ -1,0 +1,7 @@
+ip,mac,owner,trust,notes,locally_administered
+192.168.1.1,a4:bb:cc:00:11:22,Home router,trusted,Main gateway,no
+192.168.1.23,3c:22:fb:11:22:33,Student laptop,trusted,Study machine,no
+192.168.1.42,de:ad:be:ef:00:01,Phone,trusted,Private Wi-Fi address,yes
+192.168.1.57,b8:27:eb:44:55:66,Living room TV,trusted,Streaming,no
+192.168.1.88,00:1b:44:11:3a:b7,Printer,trusted,Shared printer,no
+192.168.1.99,f0:18:98:ab:cd:ef,,unknown,,no

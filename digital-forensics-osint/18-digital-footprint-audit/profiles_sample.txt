@@ -1,0 +1,8 @@
+# Digital Footprint Audit - safe demo profiles
+# Use this file only for YOUR OWN public pages.
+# Format: optional label | URL
+# Lines starting with # are ignored.
+
+Personal example page | https://example.com
+HTTP redirect test | http://example.com
+Missing profile | https://foundev-student.example/

@@ -1,0 +1,118 @@
+:root {
+  --ink: #172033;
+  --muted: #5b6474;
+  --paper: #f7f5ef;
+  --line: #ded9cd;
+  --teal: #0f766e;
+  --lime: #d9f99d;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px 20px;
+  border-bottom: 1px solid var(--line);
+}
+
+.brand { font-weight: 800; letter-spacing: -.02em; }
+
+nav { display: flex; gap: 18px; }
+nav a { color: var(--ink); text-decoration: none; font-size: 14px; font-weight: 650; }
+nav a:hover { color: var(--teal); }
+
+main { max-width: 1000px; margin: 0 auto; padding: 40px 20px 70px; }
+
+.hero {
+  padding: 48px 0 40px;
+  border-bottom: 1px solid var(--line);
+}
+
+.tag {
+  font-family: Consolas, monospace;
+  font-size: 11px;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+
+h1 { max-width: 14ch; margin: 10px 0 16px; font-size: clamp(2.5rem, 7vw, 5rem); line-height: .98; letter-spacing: -.05em; }
+h2 { margin-top: 0; font-size: 1.2rem; }
+p { color: var(--muted); }
+
+.button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: var(--teal);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 36px 0;
+}
+
+.grid article, .signup {
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #fff;
+}
+
+.signup { max-width: 560px; }
+label { display: block; margin-bottom: 6px; font-weight: 700; font-size: 14px; }
+
+input[type="email"] {
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font: inherit;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--ink);
+  color: #fff;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 22px 20px 50px;
+  border-top: 1px solid var(--line);
+  font-size: 12px;
+}
+
+footer p { margin: 4px 0; }
+
+@media (max-width: 700px) {
+  .grid { grid-template-columns: 1fr; }
+  header { align-items: flex-start; flex-direction: column; gap: 12px; }
+}

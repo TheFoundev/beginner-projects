@@ -1,0 +1,6 @@
+mac,owner,trust,notes
+a4:bb:cc:00:11:22,Home router,trusted,Main gateway
+3c:22:fb:11:22:33,Student laptop,trusted,Study machine
+de:ad:be:ef:00:01,Phone,trusted,Private Wi-Fi address
+b8:27:eb:44:55:66,Living room TV,trusted,Streaming
+00:1b:44:11:3a:b7,Printer,trusted,Shared printer

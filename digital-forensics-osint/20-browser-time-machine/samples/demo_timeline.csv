@@ -1,0 +1,11 @@
+﻿visit_id,visit_time_utc,visit_time_local,url,title,domain,transition
+1,2026-10-25T08:15:00+00:00,2026-10-25T13:45:00+05:30,https://example.com/,Example Domain,example.com,typed
+2,2026-10-25T08:31:00+00:00,2026-10-25T14:01:00+05:30,https://en.wikipedia.org/wiki/Phishing,Phishing - Wikipedia,en.wikipedia.org,link
+3,2026-10-25T09:05:00+00:00,2026-10-25T14:35:00+05:30,https://www.python.org/doc/,Python Documentation,www.python.org,typed
+4,2026-10-25T09:22:00+00:00,2026-10-25T14:52:00+05:30,http://neverssl.com/,NeverSSL - plain HTTP demo,neverssl.com,form submit
+5,2026-10-25T10:02:00+00:00,2026-10-25T15:32:00+05:30,https://haveibeenpwned.com/,Have I Been Pwned,haveibeenpwned.com,link
+6,2026-10-25T14:45:00+00:00,2026-10-25T20:15:00+05:30,https://en.wikipedia.org/wiki/Phishing,Phishing - Wikipedia,en.wikipedia.org,reload
+7,2026-10-25T16:10:00+00:00,2026-10-25T21:40:00+05:30,https://example.com/security,Security notes,example.com,link
+8,2026-10-26T07:50:00+00:00,2026-10-26T13:20:00+05:30,https://www.youtube.com/watch?v=demo123,Fictional demo video,www.youtube.com,link
+9,2026-10-26T08:20:00+00:00,2026-10-26T13:50:00+05:30,https://example.com/,Example Domain,example.com,reload
+10,2026-10-26T09:12:00+00:00,2026-10-26T14:42:00+05:30,https://www.python.org/doc/,Python Documentation,www.python.org,link

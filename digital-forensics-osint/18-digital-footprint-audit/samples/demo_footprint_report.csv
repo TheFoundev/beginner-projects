@@ -1,0 +1,4 @@
+label,requested_url,final_url,status,https,redirected,title,noindex,robots_disallow,email_found,phone_found,third_party_hosts,exposure_score,verdict,error
+Personal example page,https://example.com,https://example.com,200,True,False,Example Domain,False,False,False,False,,10,Lower exposure - keep an eye on it,
+HTTP redirect test,http://example.com,http://example.com,200,False,False,Example Domain,False,False,False,False,,30,Moderate exposure - review,
+Missing profile,https://foundev-student.example/,,,False,False,,False,False,False,False,,0,,<urlopen error [Errno 11001] getaddrinfo failed>
