@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fun Facts</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">FunFacts</h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#categories" class="nav-link">Categories</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          🌙
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section" id="home">
+      <div class="container">
+        <h1 class="hero-title">Discover Amazing Fun Facts</h1>
+        <p class="hero-subtitle">Learn something new every day — deployed on Vercel with automatic global CDN</p>
+        <button class="btn btn--large" id="newFactBtn">Surprise Me!</button>
+      </div>
+    </section>
+
+    <section class="fact-display" id="factDisplay">
+      <div class="container">
+        <div class="fact-card">
+          <div class="fact-icon">🤔</div>
+          <p class="fact-text" id="factText">Click the button above for a fun fact!</p>
+          <div class="fact-source" id="factSource"></div>
+        </div>
+        <button class="btn btn--outline" id="anotherFactBtn">Another Fact</button>
+      </div>
+    </section>
+
+    <section class="section" id="categories">
+      <div class="container">
+        <h2 class="section-title">Browse by Category</h2>
+        <div class="category-grid">
+          <button class="category-card" data-category="science">
+            <span class="category-icon">🔬</span>
+            <span class="category-name">Science</span>
+          </button>
+          <button class="category-card" data-category="history">
+            <span class="category-icon">🏛️</span>
+            <span class="category-name">History</span>
+          </button>
+          <button class="category-card" data-category="nature">
+            <span class="category-icon">🌿</span>
+            <span class="category-name">Nature</span>
+          </button>
+          <button class="category-card" data-category="tech">
+            <span class="category-icon">💻</span>
+            <span class="category-name">Technology</span>
+          </button>
+          <button class="category-card" data-category="food">
+            <span class="category-icon">🍕</span>
+            <span class="category-name">Food</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--gray" id="about">
+      <div class="container">
+        <h2 class="section-title">About This Project</h2>
+        <div class="about-content">
+          <p>This website is a static site deployed on <strong>Vercel</strong> — a platform built for frontend developers. It features:</p>
+          <ul class="feature-list">
+            <li>✅ Global Content Delivery Network (CDN) — loads instantly worldwide</li>
+            <li>✅ Automatic SSL certificates — secure by default</li>
+            <li>✅ Instant cache invalidation — updates appear in seconds</li>
+            <li>✅ Preview deployments — every branch gets its own URL</li>
+            <li>✅ Serverless functions — add backend logic without a server</li>
+          </ul>
+          <p>This project demonstrates how to build and deploy a static site with interactive features using only HTML, CSS, and vanilla JavaScript.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 FunFacts. Deployed on Vercel. Built for learning.</p>
+    </div>
+  </footer>
+
+  <script src="facts-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

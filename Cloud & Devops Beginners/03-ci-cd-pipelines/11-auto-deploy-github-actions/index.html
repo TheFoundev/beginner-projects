@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Project Showcase</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="#" class="logo">Project Showcase</a>
+      <nav>
+        <ul class="nav-list" id="navList">
+          <li><a href="#projects" class="nav-link active">Projects</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle">&#9776;</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero-title">My Project Showcase</h1>
+        <p class="hero-subtitle">
+          A collection of projects built while learning cloud computing and DevOps.
+          Deployed automatically with GitHub Actions CI/CD.
+        </p>
+        <div class="deploy-badge">
+          <span class="badge badge--success">✓ Auto-Deployed</span>
+          <span class="badge" id="lastDeploy">Loading...</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Projects populated by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--gray" id="about">
+      <div class="container">
+        <h2 class="section-title">About This Site</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>This website is a showcase of my learning journey in Cloud Computing and DevOps.</p>
+            <p>It demonstrates the full CI/CD pipeline:</p>
+            <ul class="feature-list">
+              <li>Version control with Git</li>
+              <li>Automated testing on every commit</li>
+              <li>Automatic deployment to GitHub Pages</li>
+              <li>Global CDN with SSL</li>
+            </ul>
+          </div>
+          <div class="deploy-pipeline">
+            <div class="pipeline-step">
+              <div class="step-number">1</div>
+              <div class="step-text">Edit code and commit</div>
+            </div>
+            <div class="pipeline-step">
+              <div class="step-number">2</div>
+              <div class="step-text">GitHub Actions builds</div>
+            </div>
+            <div class="pipeline-step">
+              <div class="step-number">3</div>
+              <div class="step-text">Site auto-deploys</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">Built with ❤️ by Alex • CI/CD Powered by GitHub Actions</p>
+      <p class="footer__subtext">Push to <code>main</code> branch → Auto-deploy in seconds</p>
+    </div>
+  </footer>
+
+  <script src="projects-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

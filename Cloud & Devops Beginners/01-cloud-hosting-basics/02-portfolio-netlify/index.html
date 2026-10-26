@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alex's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero" id="hero">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">AlexDev</a>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#home" class="nav__link">Home</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+      <button class="nav__toggle" id="nav-toggle">&#9776;</button>
+    </nav>
+
+    <div class="hero__container container">
+      <h1 class="hero__title">Hi, I'm Alex Johnson</h1>
+      <p class="hero__subtitle">Computer Science Student | Cloud & DevOps Enthusiast</p>
+      <div class="hero__stats">
+        <span class="stat-badge">10+ Projects</span>
+        <span class="stat-badge">Learning Daily</span>
+        <span class="stat-badge">Open to Collaboration</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section__title">My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <div class="project-card__image">
+            <img src="https://via.placeholder.com/300x200/667eea/ffffff?text=Resume" alt="Resume Website" />
+          </div>
+          <div class="project-card__content">
+            <h3>Personal Resume Website</h3>
+            <p>A responsive HTML resume with dark mode and animations. Deployed to GitHub Pages.</p>
+            <div class="project-card__tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__image">
+            <img src="https://via.placeholder.com/300x200/764ba2/ffffff?text=Docker" alt="Docker Quote Generator" />
+          </div>
+          <div class="project-card__content">
+            <h3>Docker Quote Generator</h3>
+            <p>A Python script packaged in a Docker container that shows random motivational quotes.</p>
+            <div class="project-card__tags">
+              <span class="tag">Python</span>
+              <span class="tag">Docker</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__image">
+            <img src="https://via.placeholder.com/300x200/22c55e/ffffff?text=CI/CD" alt="CI/CD Pipeline" />
+          </div>
+          <div class="project-card__content">
+            <h3>CI/CD Test Pipeline</h3>
+            <p>A Python calculator with unit tests that automatically run on every commit using GitHub Actions.</p>
+            <div class="project-card__tags">
+              <span class="tag">Python</span>
+              <span class="tag">GitHub Actions</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--gray" id="skills">
+    <div class="container">
+      <h2 class="section__title">Skills</h2>
+      <div class="skills-container">
+        <div class="skill-item">
+          <div class="skill-name">Python</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 70%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name">Git / GitHub</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 60%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name">HTML / CSS</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 85%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name">Docker</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 50%"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 65%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section__title">Get In Touch</h2>
+      <div class="contact-container">
+        <p class="contact-intro">I'm open to internships, study groups, and project collaborations. Drop me a line!</p>
+        <form class="contact-form" id="contactForm">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your message..." rows="5" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="form-status" id="formStatus"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">Made with ❤️ by Alex Johnson • 2026</p>
+      <p class="footer__subtext">Hosted on Netlify • Auto-deployed from GitHub</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

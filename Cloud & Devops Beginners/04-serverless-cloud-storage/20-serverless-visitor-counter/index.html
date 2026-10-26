@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Visitor Counter</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-decoration"></div>
+  <div class="container">
+    <div class="counter-app">
+      <header class="app-header">
+        <div class="app-icon">👁️</div>
+        <h1>Visitor Counter</h1>
+        <p class="app-subtitle">Tracking unique page visits with a serverless backend</p>
+      </header>
+
+      <div class="counter-display">
+        <div class="counter-big" id="visitorCount">
+          <span class="count-value">0</span>
+        </div>
+        <p class="counter-label">Unique Visitors</p>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-value" id="redisStatus">--</div>
+          <div class="stat-label">Database</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="responseTime">--</div>
+          <div class="stat-label">Response Time</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="apiEndpoint">/api/count</div>
+          <div class="stat-label">API Endpoint</div>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button class="btn btn--primary" id="refreshBtn">
+          <span class="btn-text">Refresh Count</span>
+        </button>
+        <button class="btn btn--secondary" id="resetLocalBtn">
+          Reset My Visit
+        </button>
+      </div>
+
+      <div class="api-info">
+        <h3>Serverless Stack</h3>
+        <div class="stack-grid">
+          <div class="stack-item">
+            <span class="stack-icon">⚡</span>
+            <span class="stack-name">Vercel Functions</span>
+          </div>
+          <div class="stack-item">
+            <span class="stack-icon">🗄️</span>
+            <span class="stack-name">Upstash Redis</span>
+          </div>
+        </div>
+        <p class="stack-desc">
+          This counter uses a serverless function that increments a value
+          in Upstash Redis every time the page loads. No servers to manage!
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

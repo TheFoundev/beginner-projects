@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fortune Cookie</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-pattern"></div>
+  <div class="container">
+    <div class="fortune-app">
+      <header class="app-header">
+        <div class="app-icon">🥠</div>
+        <h1 class="app-title">Fortune Cookie</h1>
+        <p class="app-subtitle">Get a random fortune from the cloud</p>
+      </header>
+      <div class="fortune-display">
+        <div class="fortune-icon">🧧</div>
+        <p class="fortune-text" id="fortuneText">Click the button below for your fortune!</p>
+        <div class="fortune-meta" id="fortuneMeta"></div>
+      </div>
+      <div class="controls">
+        <button class="btn btn--primary" id="getFortuneBtn">
+          <span class="btn-text">Get New Fortune</span>
+          <span class="btn-loading" style="display:none;">Loading...</span>
+        </button>
+        <div class="stats-bar">
+          <span class="stat" id="requestCount">Requests: 0</span>
+          <span class="stat">Endpoint: /api/fortune</span>
+        </div>
+      </div>
+      <div class="api-info">
+        <h3>Serverless API Info</h3>
+        <p>This site uses a <strong>Netlify Function</strong> — a serverless function that runs in the cloud.</p>
+        <div class="api-details">
+          <code class="api-code">GET /api/fortune</code>
+          <p>Returns JSON: <code>{ "fortune": "...", "totalFortunes": 10 }</code></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

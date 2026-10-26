@@ -1,0 +1,69 @@
+name: Convert Markdown to Web
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install markdown
+
+      - name: Convert README.md to HTML
+        run: |
+          python -c "
+          import markdown
+          with open('README.md', 'r') as f:
+              text = f.read()
+          html_body = markdown.markdown(text, extensions=['fenced_code', 'tables'])
+          full_html = '''<!DOCTYPE html>
+          <html lang=\"en\">
+          <head>
+            <meta charset=\"UTF-8\">
+            <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+            <title>My Learning Journey</title>
+            <style>
+              body { font-family: Georgia, serif; max-width: 800px; margin: 0 auto; padding: 30px; line-height: 1.7; color: #333; }
+              h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+              h2 { color: #3498db; margin-top: 30px; }
+              code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-size: 0.9em; }
+              pre { background: #f8f9fa; padding: 15px; border-radius: 5px; overflow-x: auto; }
+              blockquote { background: #fff3cd; padding: 10px 15px; border-left: 4px solid #ffc107; margin: 15px 0; font-style: italic; }
+            </style>
+          </head>
+          <body>
+          ''' + html_body + '''
+          </body>
+          </html>'''
+          with open('index.html', 'w') as f:
+              f.write(full_html)
+          print('index.html generated successfully!')
+          "
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main'
+        uses: actions/deploy-pages@v4

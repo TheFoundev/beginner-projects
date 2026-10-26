@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header__content">
+        <h1 class="logo">📸 Photo Gallery</h1>
+        <nav>
+          <ul class="nav-list" id="navList">
+            <li><a href="#" class="nav-link active" data-filter="all">All Photos</a></li>
+            <li><a href="#" class="nav-link" data-filter="nature">Nature</a></li>
+            <li><a href="#" class="nav-link" data-filter="urban">Urban</a></li>
+            <li><a href="#" class="nav-link" data-filter="people">People</a></li>
+          </ul>
+          <button class="nav-toggle" id="navToggle">&#9776;</button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">Nature & Beyond</h1>
+      <p class="hero-subtitle">
+        A curated collection of travel and nature photography.
+        All photos stored on AWS S3 and served via CloudFront CDN.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="gallery-toolbar">
+        <div class="gallery-info">
+          <span id="photoCount" class="photo-count">0 photos</span>
+          <span class="gallery-caption" id="galleryCaption">Showing all photos</span>
+        </div>
+        <div class="view-toggle">
+          <button class="view-btn active" data-view="grid">Grid</button>
+          <button class="view-btn" data-view="list">List</button>
+        </div>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Photos injected by JavaScript -->
+      </div>
+
+      <div class="load-more-container">
+        <button class="btn btn--load-more" id="loadMoreBtn">Load More</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal" id="photoModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <img src="" alt="Full size photo" class="modal-image" id="modalImage" />
+      <div class="modal-caption" id="modalCaption"></div>
+      <div class="modal-meta" id="modalMeta"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Photo Gallery. Hosted on AWS S3 with CloudFront.</p>
+    </div>
+  </footer>
+
+  <script src="assets/photo-data.js"></script>
+  <script src="assets/script.js"></script>
+</body>
+</html>

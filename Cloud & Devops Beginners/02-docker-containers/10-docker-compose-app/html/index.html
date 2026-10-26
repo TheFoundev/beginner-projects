@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do Counter</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <header class="app-header">
+      <h1>To-Do Counter</h1>
+      <p class="subtitle">Powered by Flask API + Redis (Docker Compose)</p>
+    </header>
+
+    <div class="stats-section">
+      <div class="stat-card">
+        <div class="stat-value" id="visitorCount">--</div>
+        <div class="stat-label">Total Visitors</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="todoCount">0</div>
+        <div class="stat-label">Active Todos</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="redisStatus">--</div>
+        <div class="stat-label">Redis Status</div>
+      </div>
+    </div>
+
+    <div class="todo-section">
+      <h2>Add a Task</h2>
+      <form class="todo-form" id="todoForm">
+        <input type="text" id="taskInput" placeholder="What needs to be done?" required />
+        <button type="submit" class="btn">Add</button>
+      </form>
+
+      <div class="todo-list" id="todoList">
+        <p class="empty-msg">No tasks yet. Add one above!</p>
+      </div>
+    </div>
+
+    <div class="api-info">
+      <h3>API Endpoints</h3>
+      <code>GET /api/stats</code> — Visitor statistics from Redis<br>
+      <code>GET /api/todos</code> — Get all todos<br>
+      <code>POST /api/todos</code> — Add a todo
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>

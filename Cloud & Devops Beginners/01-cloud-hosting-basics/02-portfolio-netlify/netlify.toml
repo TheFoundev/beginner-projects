@@ -1,0 +1,26 @@
+# Netlify Configuration
+[build]
+  publish = "."
+  command = ""
+
+# Redirects
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+# Security & Performance Headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Redirect www to apex domain (optional)
+# [[redirects]]
+#   from = "https://www.yourdomain.com/*"
+#   to = "https://yourdomain.com/:splat"
+#   status = 301
+#   force = true

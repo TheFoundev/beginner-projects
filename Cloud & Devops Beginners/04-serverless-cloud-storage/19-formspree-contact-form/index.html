@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Send Me a Message</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-decoration"></div>
+  <div class="container">
+    <div class="form-container">
+      <header class="form-header">
+        <div class="form-icon">✉️</div>
+        <h1>Contact Me</h1>
+        <p class="form-subtitle">Fill the form below and I'll get back to you as soon as possible.</p>
+      </header>
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-row">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Full Name" required />
+            <span class="input-icon">👤</span>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Email Address" required />
+            <span class="input-icon">✉️</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="text" name="subject" placeholder="Subject" required />
+          <span class="input-icon">📝</span>
+        </div>
+        <div class="form-group">
+          <textarea name="message" rows="6" placeholder="Type your message here..." required></textarea>
+          <span class="input-icon textarea-icon">💬</span>
+        </div>
+        <button type="submit" class="btn btn--primary">
+          <span class="btn-text">Send Message</span>
+          <span class="btn-loading" style="display:none;">Sending...</span>
+        </button>
+        <div class="form-status" id="formStatus"></div>
+        <div class="form-footer">
+          <p class="footer-text">Powered by <strong>Formspree</strong> — a no-code form backend.</p>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="assets/script.js"></script>
+</body>
+</html>

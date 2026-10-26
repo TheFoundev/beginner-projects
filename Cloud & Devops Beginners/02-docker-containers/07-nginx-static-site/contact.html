@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - MultiPage Site</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">MultiPage</a>
+      <nav>
+        <ul class="nav-list" id="navList">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle">&#9776;</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="section">
+      <div class="container">
+        <div class="contact-container">
+          <div class="contact-info">
+            <h1>Get In Touch</h1>
+            <p>I'd love to hear from you! Send me a message or find me on social media.</p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <span class="contact-icon">📧</span>
+                <div class="contact-text">
+                  <strong>Email</strong>
+                  <span>alex@example.com</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">📍</span>
+                <div class="contact-text">
+                  <strong>Location</strong>
+                  <span>San Francisco, CA</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">💼</span>
+                <div class="contact-text">
+                  <strong>Student</strong>
+                  <span>University of Technology</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="#" class="social-link">GitHub</a>
+              <a href="#" class="social-link">LinkedIn</a>
+              <a href="#" class="social-link">Twitter</a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <input type="text" name="subject" placeholder="Subject" required />
+            </div>
+            <div class="form-group">
+              <textarea name="message" rows="5" placeholder="Your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary">Send Message</button>
+            <div class="form-status" id="formStatus"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Multi Page Site. Served by Nginx in Docker.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

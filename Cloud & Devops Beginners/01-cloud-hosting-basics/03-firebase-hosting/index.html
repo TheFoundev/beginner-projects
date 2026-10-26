@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevLog — Firebase Hosting</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header" id="header">
+    <div class="container">
+      <div class="header__content">
+        <a href="#" class="logo">DevLog</a>
+        <nav class="nav" id="nav">
+          <ul class="nav__list" id="navList">
+            <li><a href="#home" class="nav__link">Home</a></li>
+            <li><a href="#posts" class="nav__link">Blog</a></li>
+            <li><a href="#tools" class="nav__link">Tools</a></li>
+            <li><a href="#about" class="nav__link">About</a></li>
+          </ul>
+          <button class="nav__toggle" id="navToggle">&#9776;</button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container">
+      <h1 class="hero__title">DevLog — My Cloud Learning Journey</h1>
+      <p class="hero__subtitle">Notes, resources, and experiments from learning cloud computing and DevOps</p>
+    </div>
+  </section>
+
+  <section class="section" id="posts">
+    <div class="container">
+      <h2 class="section__title">Latest Blog Posts</h2>
+      <div class="posts-grid" id="postsGrid">
+        <!-- Posts injected by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--gray" id="tools">
+    <div class="container">
+      <h2 class="section__title">Learning Tools</h2>
+      <div class="tools-grid">
+        <div class="tool-card">
+          <div class="tool-card__icon">☁️</div>
+          <h3>Firebase Hosting</h3>
+          <p>This site is hosted on Google Firebase — a platform that provides hosting, databases, and authentication with a single CLI.</p>
+        </div>
+        <div class="tool-card">
+          <div class="tool-card__icon">🐳</div>
+          <h3>Docker</h3>
+          <p>I'm learning to package applications in containers for consistent deployments everywhere.</p>
+        </div>
+        <div class="tool-card">
+          <div class="tool-card__icon">🔁</div>
+          <h3>CI/CD</h3>
+          <p>Automating testing and deployment with GitHub Actions so code ships faster.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section__title">About Me</h2>
+      <div class="about-content">
+        <img src="https://via.placeholder.com/150/4A90D9/ffffff?text=A" alt="Profile" class="about__photo" />
+        <div class="about__text">
+          <p>I'm a first-semester engineering student diving into cloud computing and DevOps. This site is built with static HTML/CSS/JS and deployed using the Firebase CLI.</p>
+          <p>Follow along as I document my journey learning Docker, CI/CD pipelines, and cloud infrastructure!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 DevLog. Built with HTML/CSS/JS — Hosted on Firebase.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects - MultiPage Site</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">MultiPage</a>
+      <nav>
+        <ul class="nav-list" id="navList">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="projects.html" class="nav-link active">Projects</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle">&#9776;</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="section">
+      <div class="container">
+        <h1>My Projects</h1>
+        <p class="intro-text">Here are some projects I've built while learning Docker and web development.</p>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="assets/project-1.png" alt="Project 1" />
+            </div>
+            <div class="project-card__content">
+              <h3>Personal Resume Website</h3>
+              <p>A responsive HTML resume with dark mode toggle and smooth animations. Deployed to GitHub Pages.</p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <a href="#" class="project-link">View Project →</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="assets/project-2.png" alt="Project 2" />
+            </div>
+            <div class="project-card__content">
+              <h3>Docker Quote Generator</h3>
+              <p>A Python script in a Docker container that generates random motivational quotes with multilingual support.</p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Docker</span>
+              </div>
+              <a href="#" class="project-link">View Project →</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="assets/project-3.png" alt="Project 3" />
+            </div>
+            <div class="project-card__content">
+              <h3>CI/CD Pipeline</h3>
+              <p>An automated pipeline using GitHub Actions that tests and deploys code on every commit.</p>
+              <div class="project-tags">
+                <span class="tag">YAML</span>
+                <span class="tag">GitHub Actions</span>
+              </div>
+              <a href="#" class="project-link">View Project →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Multi Page Site. Served by Nginx in Docker.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

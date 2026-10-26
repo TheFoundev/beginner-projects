@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alex Johnson - Resume</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="theme-toggle-container">
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+      <span id="themeIcon">🌙</span>
+    </button>
+  </div>
+
+  <div class="resume-container">
+    <!-- Header Section -->
+    <header class="resume-header">
+      <div class="profile-pic-placeholder">
+        <img src="profile-placeholder.png" alt="Profile Photo" id="profileImage" />
+      </div>
+      <h1 class="name">Alex Johnson</h1>
+      <p class="title">Computer Science Student & Aspiring Cloud Engineer</p>
+      <div class="contact-links">
+        <a href="mailto:alex@example.com">📧 alex@example.com</a>
+        <span>|</span>
+        <a href="https://github.com/alexjohnson">GitHub</a>
+        <span>|</span>
+        <a href="https://linkedin.com/in/alexjohnson">LinkedIn</a>
+      </div>
+    </header>
+
+    <!-- Education Section -->
+    <section class="resume-section">
+      <h2 class="section-title">Education</h2>
+      <div class="section-content">
+        <h3>B.S. Computer Engineering</h3>
+        <p class="institution">University of Technology</p>
+        <p class="date-range">2026 — 2030 (Expected)</p>
+        <p class="gpa">GPA: 3.7 / 4.0 (in progress)</p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="resume-section">
+      <h2 class="section-title">About Me</h2>
+      <div class="section-content">
+        <p>First-year engineering student passionate about cloud computing, DevOps, and automation. Currently learning Docker, CI/CD pipelines, and cloud infrastructure. I love turning ideas into working software and enjoy solving technical challenges. My goal is to become a full-stack developer who deploys scalable applications in the cloud.</p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="resume-section">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3 class="skill-category-title">Programming Languages</h3>
+          <div class="skills-list">
+            <span class="skill-item">Python</span>
+            <span class="skill-item">JavaScript</span>
+            <span class="skill-item">HTML / CSS</span>
+            <span class="skill-item">C++</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category-title">Cloud & DevOps</h3>
+          <div class="skills-list">
+            <span class="skill-item">Git / GitHub</span>
+            <span class="skill-item">Docker</span>
+            <span class="skill-item">AWS</span>
+            <span class="skill-item">CI/CD</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="resume-section">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-item">
+        <h3>Personal Portfolio Website</h3>
+        <p class="project-description">A responsive single-page portfolio built with HTML, CSS, and JavaScript. Deployed to Netlify with automatic deployments on every commit.</p>
+        <p class="project-tech">Technologies: HTML · CSS · JavaScript · Netlify</p>
+      </div>
+      <div class="project-item">
+        <h3>Docker Quote Generator</h3>
+        <p class="project-description">A Python script packaged in a Docker container that displays random motivational quotes. Published to Docker Hub for sharing.</p>
+        <p class="project-tech">Technologies: Python · Docker · Docker Hub</p>
+      </div>
+      <div class="project-item">
+        <h3>CI/CD Test Pipeline</h3>
+        <p class="project-description">A Python calculator with unit tests that automatically run on GitHub Actions every time code is pushed.</p>
+        <p class="project-tech">Technologies: Python · Pytest · GitHub Actions</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="resume-footer">
+      <p>This resume was deployed to the web using GitHub Pages.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
