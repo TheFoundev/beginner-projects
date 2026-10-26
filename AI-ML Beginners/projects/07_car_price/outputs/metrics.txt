@@ -1,0 +1,6 @@
+intercept: 26817.96
+age coefficient: -1241.53
+km coefficient: -0.092223
+MAE: 905.97
+R2: 0.9280
+example prediction: 15076.97

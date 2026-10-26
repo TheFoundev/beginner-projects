@@ -1,0 +1,16 @@
+accuracy: 1.0000
+
+              precision    recall  f1-score   support
+
+        fake       1.00      1.00      1.00        10
+        real       1.00      1.00      1.00        10
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+New reviews:
+fake (100.00%) -> AMAZING!!! Best product ever. Buy it now, you will not regret it!
+real (99.99%) -> The item arrived on time. The battery is fine, but the cable is short.
+fake (99.93%) -> Perfect quality, perfect price, perfect everything. Five stars!
+real (98.74%) -> It works as described. Shipping took a week longer than expected.

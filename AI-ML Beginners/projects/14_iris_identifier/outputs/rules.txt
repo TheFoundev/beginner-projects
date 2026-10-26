@@ -1,0 +1,25 @@
+depth=2: accuracy=0.9211
+depth=3: accuracy=0.8947
+depth=None: accuracy=0.8947
+
+best depth: 2
+
+|--- petal_length <= 2.45
+|   |--- class: setosa
+|--- petal_length >  2.45
+|   |--- petal_length <= 4.85
+|   |   |--- class: versicolor
+|   |--- petal_length >  4.85
+|   |   |--- class: virginica
+
+new flower prediction: versicolor
+
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        12
+  versicolor       0.86      0.92      0.89        13
+   virginica       0.92      0.85      0.88        13
+
+    accuracy                           0.92        38
+   macro avg       0.92      0.92      0.92        38
+weighted avg       0.92      0.92      0.92        38

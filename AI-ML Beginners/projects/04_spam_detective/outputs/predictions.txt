@@ -1,0 +1,16 @@
+accuracy: 1.0000
+
+              precision    recall  f1-score   support
+
+         ham       1.00      1.00      1.00        10
+        spam       1.00      1.00      1.00        10
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+New messages:
+spam (99.97%) -> Congratulations! You won a free smartphone. Click now to claim your prize.
+ham (98.79%) -> Can we meet at the library at 4 pm to review the project?
+spam (98.36%) -> URGENT: verify your password immediately or your account will be suspended.
+ham (88.40%) -> Thanks for sending the notes. I will read them tonight.

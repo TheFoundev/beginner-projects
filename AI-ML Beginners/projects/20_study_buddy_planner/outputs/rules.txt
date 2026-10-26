@@ -1,0 +1,32 @@
+accuracy: 1.0000
+
+|--- hours_left <= 2.50
+|   |--- class: Quick review
+|--- hours_left >  2.50
+|   |--- energy <= 2.50
+|   |   |--- class: Take a break first
+|   |--- energy >  2.50
+|   |   |--- distraction <= 3.50
+|   |   |   |--- difficulty <= 3.50
+|   |   |   |   |--- class: Deep focus block
+|   |   |   |--- difficulty >  3.50
+|   |   |   |   |--- class: Practice problems
+|   |   |--- distraction >  3.50
+|   |   |   |--- class: Take a break first
+
+demo plans:
+{'hours_left': 2, 'difficulty': 4, 'energy': 3, 'distraction': 2} -> Quick review
+{'hours_left': 6, 'difficulty': 5, 'energy': 4, 'distraction': 1} -> Practice problems
+{'hours_left': 4, 'difficulty': 3, 'energy': 1, 'distraction': 2} -> Take a break first
+{'hours_left': 8, 'difficulty': 2, 'energy': 4, 'distraction': 5} -> Take a break first
+
+                    precision    recall  f1-score   support
+
+  Deep focus block       1.00      1.00      1.00         8
+ Practice problems       1.00      1.00      1.00         3
+      Quick review       1.00      1.00      1.00         5
+Take a break first       1.00      1.00      1.00        14
+
+          accuracy                           1.00        30
+         macro avg       1.00      1.00      1.00        30
+      weighted avg       1.00      1.00      1.00        30

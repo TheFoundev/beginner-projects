@@ -1,0 +1,40 @@
+|--- is_female <= 0.50
+|   |--- age <= 18.50
+|   |   |--- age <= 14.50
+|   |   |   |--- pclass <= 2.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- pclass >  2.50
+|   |   |   |   |--- class: 0
+|   |   |--- age >  14.50
+|   |   |   |--- pclass <= 1.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- pclass >  1.50
+|   |   |   |   |--- class: 1
+|   |--- age >  18.50
+|   |   |--- fare <= 15.50
+|   |   |   |--- fare <= 14.30
+|   |   |   |   |--- class: 0
+|   |   |   |--- fare >  14.30
+|   |   |   |   |--- class: 1
+|   |   |--- fare >  15.50
+|   |   |   |--- class: 0
+|--- is_female >  0.50
+|   |--- age <= 37.50
+|   |   |--- pclass <= 1.50
+|   |   |   |--- class: 1
+|   |   |--- pclass >  1.50
+|   |   |   |--- age <= 23.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- age >  23.50
+|   |   |   |   |--- class: 0
+|   |--- age >  37.50
+|   |   |--- age <= 44.50
+|   |   |   |--- class: 0
+|   |   |--- age >  44.50
+|   |   |   |--- age <= 51.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- age >  51.50
+|   |   |   |   |--- class: 0
+
+accuracy: 0.7391
+made-up passenger survival probability: 0.0000

@@ -1,0 +1,4 @@
+Equation: cups = 1.5776 * temperature + -10.6618
+Prediction at 35 C: 44.55 cups
+Mean absolute error: 2.16
+R-squared: 0.90

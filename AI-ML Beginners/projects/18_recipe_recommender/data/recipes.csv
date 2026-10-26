@@ -1,0 +1,25 @@
+name,cuisine,spice,sweet,savory,sour,veggie
+Margherita Pizza,Italian,2,2,5,3,2
+Spicy Ramen,Japanese,5,1,5,2,2
+Chicken Tikka Masala,Indian,4,2,5,2,2
+Pad Thai,Thai,3,3,4,4,2
+Sushi,Japanese,1,1,4,3,1
+Taco,Mexican,4,1,4,3,2
+Greek Salad,Greek,1,1,3,4,3
+Pancakes,American,1,5,2,1,1
+Chocolate Cake,Dessert,1,5,2,1,1
+Tom Yum Soup,Thai,5,1,4,5,2
+Lasagna,Italian,2,2,5,2,2
+Falafel Wrap,Middle Eastern,2,1,4,3,3
+Bibimbap,Korean,3,2,4,2,3
+Butter Chicken,Indian,3,3,5,1,1
+Fish and Chips,British,1,1,4,3,1
+Paella,Spanish,2,1,5,2,2
+Miso Soup,Japanese,1,1,3,3,1
+Burrito Bowl,Mexican,3,1,4,3,3
+Caprese Salad,Italian,1,2,3,4,3
+Thai Green Curry,Thai,4,3,4,2,2
+Blueberry Muffin,American,1,4,2,2,1
+Lemon Tart,French,1,4,2,5,1
+Mushroom Risotto,Italian,1,1,5,2,2
+Kimchi Fried Rice,Korean,4,1,4,3,2

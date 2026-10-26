@@ -1,0 +1,4 @@
+equation: score = 5.2766 * hours + 35.8466
+mean absolute error: 4.3208
+r2: 0.8486
+prediction at 6 hours: 67.51

@@ -1,0 +1,15 @@
+accuracy at 0.5 cutoff: 0.8667
+
+              precision    recall  f1-score   support
+
+           0       0.80      0.57      0.67         7
+           1       0.88      0.96      0.92        23
+
+    accuracy                           0.87        30
+   macro avg       0.84      0.76      0.79        30
+weighted avg       0.86      0.87      0.86        30
+
+Example probabilities:
+6 hours, 80% attendance: 0.9645
+3 hours, 60% attendance: 0.4440
+8 hours, 95% attendance: 0.9967

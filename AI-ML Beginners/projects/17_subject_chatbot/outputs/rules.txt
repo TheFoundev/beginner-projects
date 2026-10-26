@@ -1,0 +1,54 @@
+accuracy: 0.7826
+
+|--- likes_programming <= 0.50
+|   |--- likes_stories <= 0.50
+|   |   |--- enjoys_experiments <= 0.50
+|   |   |   |--- likes_living_things <= 0.50
+|   |   |   |   |--- class: Math
+|   |   |   |--- likes_living_things >  0.50
+|   |   |   |   |--- class: Biology
+|   |   |--- enjoys_experiments >  0.50
+|   |   |   |--- class: Biology
+|   |--- likes_stories >  0.50
+|   |   |--- likes_living_things <= 0.50
+|   |   |   |--- class: Literature
+|   |   |--- likes_living_things >  0.50
+|   |   |   |--- enjoys_debate <= 0.50
+|   |   |   |   |--- class: Biology
+|   |   |   |--- enjoys_debate >  0.50
+|   |   |   |   |--- class: Literature
+|--- likes_programming >  0.50
+|   |--- likes_numbers <= 0.50
+|   |   |--- enjoys_debate <= 0.50
+|   |   |   |--- enjoys_experiments <= 0.50
+|   |   |   |   |--- class: Math
+|   |   |   |--- enjoys_experiments >  0.50
+|   |   |   |   |--- class: Biology
+|   |   |--- enjoys_debate >  0.50
+|   |   |   |--- likes_stories <= 0.50
+|   |   |   |   |--- class: Literature
+|   |   |   |--- likes_stories >  0.50
+|   |   |   |   |--- class: Literature
+|   |--- likes_numbers >  0.50
+|   |   |--- likes_living_things <= 0.50
+|   |   |   |--- class: Math
+|   |   |--- likes_living_things >  0.50
+|   |   |   |--- enjoys_debate <= 0.50
+|   |   |   |   |--- class: Math
+|   |   |   |--- enjoys_debate >  0.50
+|   |   |   |   |--- class: Math
+
+demo predictions:
+student 1: Math
+student 2: Biology
+student 3: Literature
+
+              precision    recall  f1-score   support
+
+     Biology       0.67      0.67      0.67         6
+  Literature       0.86      0.75      0.80         8
+        Math       0.80      0.89      0.84         9
+
+    accuracy                           0.78        23
+   macro avg       0.77      0.77      0.77        23
+weighted avg       0.79      0.78      0.78        23

@@ -1,0 +1,16 @@
+If you like Margherita Pizza, try:
+  Lasagna (Italian), similarity 0.523
+  Paella (Spanish), similarity 0.457
+  Mushroom Risotto (Italian), similarity 0.418
+
+If you like Spicy Ramen, try:
+  Chicken Tikka Masala (Indian), similarity 0.486
+  Kimchi Fried Rice (Korean), similarity 0.397
+  Taco (Mexican), similarity 0.397
+
+If you like Chocolate Cake, try:
+  Pancakes (American), similarity 1.000
+  Blueberry Muffin (American), similarity 0.457
+  Butter Chicken (Indian), similarity 0.217
+
+Surprise me: Chicken Tikka Masala (Indian)

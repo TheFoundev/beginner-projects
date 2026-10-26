@@ -1,0 +1,8 @@
+equation: price = 4.0224 + 0.9656*diameter + 1.8125*toppings
+MAE: 0.5791
+R2: 0.9762
+
+Small, 8-inch, 1 topping: $13.56
+Medium, 12-inch, 3 toppings: $21.05
+Large, 16-inch, 5 toppings: $28.53
+Party, 18-inch, 5 toppings: $30.46

@@ -1,0 +1,4 @@
+equation: child = 0.8847 * midparent + 21.1747
+MAE: 3.0810 cm
+R2: 0.5362
+prediction at midparent 170 cm: 171.58 cm

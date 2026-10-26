@@ -1,0 +1,5 @@
+equation: sleep = -0.5746 * screen_time + 9.2522
+correlation: -0.8462
+MAE: 0.5227
+R2: 0.4376
+prediction at 3 hours: 7.53

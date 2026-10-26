@@ -1,0 +1,28 @@
+depth=2: accuracy=0.8667
+depth=4: accuracy=0.8444
+depth=None: accuracy=0.8444
+
+best depth: 2
+
+|--- minor_axis <= 6.04
+|   |--- area <= 1019.50
+|   |   |--- class: Karacabey
+|   |--- area >  1019.50
+|   |   |--- class: Urgup_Sivrisi
+|--- minor_axis >  6.04
+|   |--- major_axis <= 12.58
+|   |   |--- class: Urgup_Sivrisi
+|   |--- major_axis >  12.58
+|   |   |--- class: Cercevelik
+
+new seed prediction: Urgup_Sivrisi
+
+               precision    recall  f1-score   support
+
+   Cercevelik       1.00      0.80      0.89        15
+    Karacabey       1.00      0.80      0.89        15
+Urgup_Sivrisi       0.71      1.00      0.83        15
+
+     accuracy                           0.87        45
+    macro avg       0.90      0.87      0.87        45
+ weighted avg       0.90      0.87      0.87        45
