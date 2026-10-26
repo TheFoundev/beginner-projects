@@ -1,0 +1,14 @@
+STUDY HABITS INSIGHTS
+==================================================
+Average exam score: 82.1
+Average study time: 5.8 hours/day
+Best average score by method: solo (84.1)
+Strongest relationship with exam score: study_hours (r = 0.90)
+Remember: correlation does not prove causation.
+
+Study-method summary:
+              students  avg_exam_score  avg_study_hours  avg_sleep_hours
+study_method                                                            
+solo               101           84.13             6.17             6.72
+online              37           80.80             5.51             6.91
+group               82           80.10             5.45             6.94

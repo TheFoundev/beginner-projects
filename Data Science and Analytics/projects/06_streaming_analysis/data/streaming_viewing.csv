@@ -1,0 +1,701 @@
+user_id,date,show,genre,minutes_watched,completed
+96,2025-01-14,Wild Routes,Documentary,81,1
+32,2025-01-06,Second Chances,Drama,64,1
+29,2025-01-03,Orbit 9,Sci-Fi,59,0
+79,2025-01-02,Second Chances,Drama,53,1
+61,2025-01-21,The Last Colony,Sci-Fi,61,1
+62,2025-01-03,The Long Road,Drama,66,1
+6,2025-01-13,Orbit 9,Sci-Fi,68,0
+19,2025-01-30,The Big Audition,Reality,64,1
+48,2025-01-27,Laugh Track,Comedy,31,0
+42,2025-01-09,Second Chances,Drama,5,0
+50,2025-01-05,Signal Lost,Sci-Fi,54,0
+41,2025-01-25,The Office Party,Comedy,25,0
+117,2025-01-20,The Long Road,Drama,39,1
+33,2025-01-04,Kitchen Clash,Reality,90,0
+4,2025-01-13,Second Chances,Drama,129,1
+99,2025-01-12,Second Chances,Drama,100,0
+43,2025-01-15,Island House,Reality,57,1
+107,2025-01-22,Wild Routes,Documentary,103,0
+26,2025-01-18,Wild Routes,Documentary,37,1
+64,2025-01-24,Roommates,Comedy,101,1
+22,2025-01-30,Second Chances,Drama,61,0
+93,2025-01-05,Island House,Reality,23,1
+83,2025-01-09,Laugh Track,Comedy,74,0
+22,2025-01-17,Second Chances,Drama,130,1
+82,2025-01-03,City Lights,Drama,5,0
+63,2025-01-27,Ocean Deep,Documentary,79,0
+21,2025-01-14,City Lights,Drama,56,1
+42,2025-01-23,Laugh Track,Comedy,117,1
+10,2025-01-03,The Last Colony,Sci-Fi,130,1
+58,2025-01-13,City Lights,Drama,76,0
+105,2025-01-30,Ocean Deep,Documentary,95,1
+14,2025-01-25,The Big Audition,Reality,99,1
+45,2025-01-06,Cities of Tomorrow,Documentary,121,0
+35,2025-01-14,Island House,Reality,91,1
+102,2025-01-22,The Big Audition,Reality,49,1
+55,2025-01-29,Roommates,Comedy,26,1
+109,2025-01-05,Island House,Reality,47,1
+112,2025-01-24,Roommates,Comedy,110,1
+19,2025-01-06,Ocean Deep,Documentary,80,1
+58,2025-01-19,Signal Lost,Sci-Fi,87,1
+46,2025-01-21,The Big Audition,Reality,75,1
+88,2025-01-03,The Long Road,Drama,68,0
+54,2025-01-04,City Lights,Drama,93,1
+66,2025-01-03,Laugh Track,Comedy,119,0
+45,2025-01-30,The Big Audition,Reality,93,0
+63,2025-01-29,The Big Audition,Reality,67,1
+7,2025-01-01,Second Chances,Drama,103,1
+117,2025-01-22,The Last Colony,Sci-Fi,108,0
+86,2025-01-04,Second Chances,Drama,135,1
+30,2025-01-19,The Big Audition,Reality,17,0
+76,2025-01-29,Kitchen Clash,Reality,54,1
+6,2025-01-19,Ocean Deep,Documentary,5,0
+59,2025-01-30,The Long Road,Drama,84,0
+31,2025-01-30,Second Chances,Drama,49,1
+113,2025-01-05,Laugh Track,Comedy,70,1
+65,2025-01-27,Kitchen Clash,Reality,74,0
+31,2025-01-19,The Office Party,Comedy,83,0
+90,2025-01-28,Wild Routes,Documentary,87,1
+1,2025-01-15,Roommates,Comedy,45,1
+83,2025-01-11,Wild Routes,Documentary,63,0
+4,2025-01-25,Orbit 9,Sci-Fi,103,1
+77,2025-01-08,Second Chances,Drama,84,1
+89,2025-01-10,Kitchen Clash,Reality,46,1
+17,2025-01-20,Laugh Track,Comedy,61,1
+83,2025-01-27,Island House,Reality,51,0
+20,2025-01-23,Second Chances,Drama,107,1
+111,2025-01-20,The Office Party,Comedy,71,0
+66,2025-01-28,The Last Colony,Sci-Fi,8,1
+2,2025-01-25,Orbit 9,Sci-Fi,61,1
+10,2025-01-03,Cities of Tomorrow,Documentary,96,0
+110,2025-01-10,Ocean Deep,Documentary,44,0
+36,2025-01-19,Second Chances,Drama,63,1
+69,2025-01-21,Wild Routes,Documentary,61,0
+31,2025-01-29,The Last Colony,Sci-Fi,77,1
+103,2025-01-09,The Big Audition,Reality,92,1
+77,2025-01-25,The Long Road,Drama,76,1
+119,2025-01-26,Island House,Reality,41,1
+119,2025-01-16,Kitchen Clash,Reality,65,1
+55,2025-01-03,Cities of Tomorrow,Documentary,99,0
+119,2025-01-12,The Last Colony,Sci-Fi,14,1
+39,2025-01-02,Second Chances,Drama,68,1
+48,2025-01-15,Roommates,Comedy,87,0
+91,2025-01-25,Kitchen Clash,Reality,65,0
+33,2025-01-26,Wild Routes,Documentary,13,0
+73,2025-01-06,Wild Routes,Documentary,67,0
+9,2025-01-08,Island House,Reality,82,1
+69,2025-01-02,Laugh Track,Comedy,164,1
+43,2025-01-25,The Big Audition,Reality,33,1
+67,2025-01-16,The Long Road,Drama,81,1
+118,2025-01-20,The Long Road,Drama,40,1
+48,2025-01-30,The Last Colony,Sci-Fi,42,1
+3,2025-01-12,The Last Colony,Sci-Fi,70,1
+71,2025-01-30,Roommates,Comedy,7,0
+71,2025-01-18,Island House,Reality,91,1
+31,2025-01-22,Laugh Track,Comedy,82,1
+109,2025-01-21,Island House,Reality,44,0
+37,2025-01-02,Cities of Tomorrow,Documentary,7,0
+58,2025-01-10,Cities of Tomorrow,Documentary,31,1
+14,2025-01-19,Orbit 9,Sci-Fi,10,1
+103,2025-01-25,City Lights,Drama,100,0
+36,2025-01-01,Kitchen Clash,Reality,48,0
+59,2025-01-26,The Long Road,Drama,126,0
+18,2025-01-08,Wild Routes,Documentary,120,0
+75,2025-01-23,The Last Colony,Sci-Fi,71,1
+44,2025-01-26,Island House,Reality,101,1
+103,2025-01-04,Laugh Track,Comedy,5,1
+27,2025-01-28,The Big Audition,Reality,20,1
+82,2025-01-27,Ocean Deep,Documentary,85,0
+43,2025-01-19,Laugh Track,Comedy,35,1
+86,2025-01-11,The Big Audition,Reality,50,1
+116,2025-01-05,Wild Routes,Documentary,44,1
+18,2025-01-19,Laugh Track,Comedy,72,0
+9,2025-01-01,Island House,Reality,102,0
+114,2025-01-14,City Lights,Drama,24,1
+82,2025-01-27,The Last Colony,Sci-Fi,63,1
+103,2025-01-20,Laugh Track,Comedy,59,1
+23,2025-01-16,Roommates,Comedy,46,1
+90,2025-01-01,Kitchen Clash,Reality,85,1
+13,2025-01-16,Laugh Track,Comedy,112,1
+41,2025-01-16,The Big Audition,Reality,37,0
+96,2025-01-12,Ocean Deep,Documentary,68,1
+74,2025-01-17,Second Chances,Drama,77,1
+26,2025-01-25,Roommates,Comedy,110,0
+63,2025-01-23,Ocean Deep,Documentary,83,1
+74,2025-01-10,Roommates,Comedy,112,1
+51,2025-01-05,Second Chances,Drama,9,1
+26,2025-01-13,The Big Audition,Reality,83,1
+103,2025-01-22,Roommates,Comedy,41,1
+56,2025-01-05,Second Chances,Drama,62,0
+96,2025-01-10,Signal Lost,Sci-Fi,80,0
+4,2025-01-13,Laugh Track,Comedy,73,0
+19,2025-01-02,Second Chances,Drama,69,1
+120,2025-01-12,Orbit 9,Sci-Fi,68,1
+34,2025-01-14,Island House,Reality,75,1
+116,2025-01-20,Kitchen Clash,Reality,48,0
+42,2025-01-06,Orbit 9,Sci-Fi,60,0
+29,2025-01-03,Cities of Tomorrow,Documentary,5,1
+14,2025-01-12,Island House,Reality,56,0
+98,2025-01-16,The Big Audition,Reality,48,1
+48,2025-01-05,The Long Road,Drama,69,1
+93,2025-01-06,Ocean Deep,Documentary,120,0
+34,2025-01-25,The Big Audition,Reality,23,1
+81,2025-01-08,Ocean Deep,Documentary,141,1
+97,2025-01-22,Laugh Track,Comedy,96,1
+77,2025-01-16,The Office Party,Comedy,54,0
+1,2025-01-01,Ocean Deep,Documentary,83,1
+119,2025-01-09,Island House,Reality,85,0
+42,2025-01-25,Kitchen Clash,Reality,17,1
+46,2025-01-18,The Office Party,Comedy,39,1
+26,2025-01-26,Second Chances,Drama,84,0
+109,2025-01-18,Orbit 9,Sci-Fi,74,1
+20,2025-01-01,Kitchen Clash,Reality,88,1
+80,2025-01-26,Roommates,Comedy,107,1
+62,2025-01-29,Island House,Reality,31,0
+78,2025-01-23,Wild Routes,Documentary,44,0
+12,2025-01-18,The Long Road,Drama,38,0
+81,2025-01-20,The Big Audition,Reality,67,0
+43,2025-01-17,Kitchen Clash,Reality,88,0
+52,2025-01-10,Island House,Reality,32,0
+91,2025-01-07,The Big Audition,Reality,11,0
+64,2025-01-14,Wild Routes,Documentary,61,0
+61,2025-01-22,Orbit 9,Sci-Fi,73,0
+31,2025-01-15,Laugh Track,Comedy,100,1
+67,2025-01-25,The Big Audition,Reality,72,0
+100,2025-01-27,Island House,Reality,72,0
+94,2025-01-19,The Office Party,Comedy,80,0
+63,2025-01-26,Kitchen Clash,Reality,50,1
+20,2025-01-08,The Big Audition,Reality,88,1
+33,2025-01-06,Roommates,Comedy,61,0
+23,2025-01-09,Wild Routes,Documentary,85,1
+76,2025-01-14,Laugh Track,Comedy,98,0
+111,2025-01-16,The Office Party,Comedy,103,1
+88,2025-01-15,The Office Party,Comedy,112,1
+58,2025-01-29,The Last Colony,Sci-Fi,91,1
+109,2025-01-24,Island House,Reality,124,1
+30,2025-01-25,Second Chances,Drama,103,0
+59,2025-01-19,The Big Audition,Reality,87,0
+75,2025-01-24,The Long Road,Drama,64,0
+54,2025-01-26,Island House,Reality,42,1
+57,2025-01-10,Second Chances,Drama,91,1
+119,2025-01-24,Signal Lost,Sci-Fi,64,1
+61,2025-01-26,Ocean Deep,Documentary,26,0
+114,2025-01-18,Cities of Tomorrow,Documentary,92,0
+61,2025-01-09,Laugh Track,Comedy,60,0
+99,2025-01-08,Kitchen Clash,Reality,6,0
+100,2025-01-02,Orbit 9,Sci-Fi,122,1
+38,2025-01-22,Laugh Track,Comedy,61,0
+90,2025-01-23,Signal Lost,Sci-Fi,18,1
+30,2025-01-06,The Office Party,Comedy,160,0
+72,2025-01-21,Signal Lost,Sci-Fi,71,1
+106,2025-01-22,Roommates,Comedy,95,0
+58,2025-01-01,Signal Lost,Sci-Fi,13,1
+46,2025-01-27,Roommates,Comedy,100,1
+84,2025-01-15,The Long Road,Drama,73,1
+30,2025-01-03,The Long Road,Drama,5,1
+119,2025-01-20,Cities of Tomorrow,Documentary,79,0
+115,2025-01-23,The Long Road,Drama,30,0
+72,2025-01-26,Signal Lost,Sci-Fi,155,1
+91,2025-01-04,The Office Party,Comedy,8,1
+99,2025-01-13,Kitchen Clash,Reality,41,1
+49,2025-01-15,Kitchen Clash,Reality,103,1
+102,2025-01-22,City Lights,Drama,50,0
+81,2025-01-03,Kitchen Clash,Reality,110,0
+2,2025-01-20,Signal Lost,Sci-Fi,62,0
+98,2025-01-21,Orbit 9,Sci-Fi,5,0
+89,2025-01-08,Roommates,Comedy,31,1
+106,2025-01-25,Signal Lost,Sci-Fi,43,0
+59,2025-01-04,The Last Colony,Sci-Fi,60,1
+54,2025-01-24,City Lights,Drama,71,1
+68,2025-01-11,Ocean Deep,Documentary,11,1
+38,2025-01-07,Signal Lost,Sci-Fi,22,1
+87,2025-01-29,The Big Audition,Reality,95,1
+26,2025-01-09,Laugh Track,Comedy,108,0
+105,2025-01-08,City Lights,Drama,75,0
+45,2025-01-25,Second Chances,Drama,77,1
+99,2025-01-29,The Office Party,Comedy,60,1
+75,2025-01-04,The Long Road,Drama,126,1
+87,2025-01-12,Second Chances,Drama,36,0
+111,2025-01-23,The Long Road,Drama,53,1
+73,2025-01-02,The Big Audition,Reality,113,1
+81,2025-01-29,The Last Colony,Sci-Fi,95,0
+99,2025-01-29,Second Chances,Drama,103,0
+77,2025-01-20,Ocean Deep,Documentary,57,0
+114,2025-01-30,The Office Party,Comedy,51,1
+61,2025-01-25,Roommates,Comedy,43,1
+109,2025-01-12,Kitchen Clash,Reality,140,1
+75,2025-01-10,The Long Road,Drama,5,0
+22,2025-01-08,Second Chances,Drama,78,0
+95,2025-01-30,Roommates,Comedy,85,1
+106,2025-01-09,Ocean Deep,Documentary,22,0
+102,2025-01-30,Wild Routes,Documentary,70,1
+58,2025-01-25,Roommates,Comedy,35,0
+48,2025-01-30,The Office Party,Comedy,21,1
+25,2025-01-16,City Lights,Drama,96,1
+82,2025-01-20,Ocean Deep,Documentary,79,1
+97,2025-01-06,The Office Party,Comedy,65,1
+99,2025-01-16,Island House,Reality,5,1
+29,2025-01-21,Cities of Tomorrow,Documentary,125,0
+46,2025-01-21,Second Chances,Drama,94,1
+43,2025-01-05,The Office Party,Comedy,5,0
+37,2025-01-06,City Lights,Drama,65,1
+4,2025-01-30,The Big Audition,Reality,84,1
+67,2025-01-18,Signal Lost,Sci-Fi,124,1
+38,2025-01-28,Laugh Track,Comedy,64,0
+69,2025-01-09,Roommates,Comedy,25,1
+100,2025-01-08,Signal Lost,Sci-Fi,103,1
+113,2025-01-15,Roommates,Comedy,99,0
+101,2025-01-17,The Last Colony,Sci-Fi,103,1
+53,2025-01-05,Kitchen Clash,Reality,77,0
+34,2025-01-27,Laugh Track,Comedy,25,0
+24,2025-01-03,Orbit 9,Sci-Fi,61,0
+85,2025-01-13,Cities of Tomorrow,Documentary,5,1
+92,2025-01-06,Signal Lost,Sci-Fi,44,0
+84,2025-01-18,Second Chances,Drama,5,1
+33,2025-01-04,Signal Lost,Sci-Fi,50,0
+57,2025-01-20,Wild Routes,Documentary,104,0
+77,2025-01-20,Orbit 9,Sci-Fi,58,0
+84,2025-01-20,Island House,Reality,93,1
+62,2025-01-15,Signal Lost,Sci-Fi,145,0
+104,2025-01-03,Second Chances,Drama,35,1
+6,2025-01-03,The Big Audition,Reality,121,1
+21,2025-01-09,Orbit 9,Sci-Fi,35,0
+22,2025-01-08,Laugh Track,Comedy,92,1
+58,2025-01-28,Wild Routes,Documentary,25,0
+49,2025-01-17,Kitchen Clash,Reality,93,0
+35,2025-01-08,The Last Colony,Sci-Fi,12,1
+5,2025-01-19,Roommates,Comedy,61,1
+56,2025-01-10,Cities of Tomorrow,Documentary,128,1
+38,2025-01-20,Roommates,Comedy,58,0
+112,2025-01-27,The Long Road,Drama,30,0
+47,2025-01-22,City Lights,Drama,63,0
+5,2025-01-15,Kitchen Clash,Reality,86,1
+43,2025-01-06,The Last Colony,Sci-Fi,25,1
+11,2025-01-18,Kitchen Clash,Reality,89,1
+16,2025-01-01,Laugh Track,Comedy,52,1
+107,2025-01-16,Signal Lost,Sci-Fi,43,0
+10,2025-01-18,The Last Colony,Sci-Fi,44,0
+86,2025-01-12,Island House,Reality,34,1
+10,2025-01-04,The Long Road,Drama,49,0
+52,2025-01-22,Signal Lost,Sci-Fi,92,0
+26,2025-01-02,The Office Party,Comedy,97,1
+8,2025-01-19,Kitchen Clash,Reality,56,0
+17,2025-01-03,Second Chances,Drama,86,1
+96,2025-01-18,Ocean Deep,Documentary,93,0
+41,2025-01-25,Laugh Track,Comedy,56,1
+111,2025-01-11,Cities of Tomorrow,Documentary,110,1
+72,2025-01-03,The Big Audition,Reality,137,1
+96,2025-01-14,The Office Party,Comedy,65,1
+92,2025-01-13,The Office Party,Comedy,56,1
+74,2025-01-06,Roommates,Comedy,94,0
+76,2025-01-25,Cities of Tomorrow,Documentary,70,0
+92,2025-01-08,Kitchen Clash,Reality,121,0
+57,2025-01-30,City Lights,Drama,5,1
+99,2025-01-20,The Last Colony,Sci-Fi,93,1
+42,2025-01-29,Second Chances,Drama,16,1
+84,2025-01-02,The Long Road,Drama,88,1
+28,2025-01-24,The Long Road,Drama,5,1
+107,2025-01-29,The Long Road,Drama,70,1
+10,2025-01-21,The Big Audition,Reality,120,1
+58,2025-01-17,Orbit 9,Sci-Fi,82,1
+75,2025-01-22,Orbit 9,Sci-Fi,115,0
+22,2025-01-17,Laugh Track,Comedy,89,1
+116,2025-01-30,Wild Routes,Documentary,47,0
+24,2025-01-01,Laugh Track,Comedy,75,1
+53,2025-01-02,The Last Colony,Sci-Fi,46,0
+77,2025-01-14,The Office Party,Comedy,51,1
+12,2025-01-14,Laugh Track,Comedy,41,1
+34,2025-01-10,Kitchen Clash,Reality,62,1
+113,2025-01-14,Cities of Tomorrow,Documentary,98,1
+31,2025-01-04,Wild Routes,Documentary,30,0
+23,2025-01-27,Signal Lost,Sci-Fi,33,0
+116,2025-01-12,The Long Road,Drama,5,0
+52,2025-01-21,Laugh Track,Comedy,43,0
+45,2025-01-20,The Big Audition,Reality,156,1
+24,2025-01-22,Orbit 9,Sci-Fi,47,1
+63,2025-01-01,Cities of Tomorrow,Documentary,73,1
+42,2025-01-04,Orbit 9,Sci-Fi,5,0
+36,2025-01-16,The Long Road,Drama,90,1
+8,2025-01-09,Roommates,Comedy,59,0
+105,2025-01-12,Cities of Tomorrow,Documentary,5,0
+54,2025-01-09,Signal Lost,Sci-Fi,103,1
+11,2025-01-29,Kitchen Clash,Reality,117,1
+120,2025-01-17,Signal Lost,Sci-Fi,64,1
+61,2025-01-23,Island House,Reality,41,0
+5,2025-01-15,The Last Colony,Sci-Fi,119,1
+77,2025-01-19,Laugh Track,Comedy,126,1
+113,2025-01-02,Roommates,Comedy,63,0
+117,2025-01-15,Roommates,Comedy,75,1
+44,2025-01-27,Signal Lost,Sci-Fi,95,0
+116,2025-01-07,Second Chances,Drama,86,0
+84,2025-01-10,The Big Audition,Reality,20,1
+79,2025-01-16,The Long Road,Drama,50,1
+60,2025-01-05,Laugh Track,Comedy,78,1
+8,2025-01-30,The Big Audition,Reality,178,0
+112,2025-01-13,Cities of Tomorrow,Documentary,101,1
+50,2025-01-09,Kitchen Clash,Reality,92,1
+27,2025-01-16,The Office Party,Comedy,103,0
+88,2025-01-29,Orbit 9,Sci-Fi,81,1
+76,2025-01-20,Orbit 9,Sci-Fi,43,1
+9,2025-01-14,Signal Lost,Sci-Fi,113,0
+53,2025-01-07,Cities of Tomorrow,Documentary,44,0
+12,2025-01-29,Kitchen Clash,Reality,5,0
+117,2025-01-18,Orbit 9,Sci-Fi,134,1
+61,2025-01-08,Wild Routes,Documentary,49,0
+56,2025-01-11,The Big Audition,Reality,35,0
+24,2025-01-08,Laugh Track,Comedy,90,0
+106,2025-01-03,Wild Routes,Documentary,110,1
+65,2025-01-24,The Last Colony,Sci-Fi,124,0
+52,2025-01-15,Ocean Deep,Documentary,44,1
+111,2025-01-03,Ocean Deep,Documentary,100,0
+112,2025-01-05,Island House,Reality,115,1
+51,2025-01-07,The Last Colony,Sci-Fi,92,1
+91,2025-01-26,Ocean Deep,Documentary,40,1
+32,2025-01-07,Ocean Deep,Documentary,102,1
+117,2025-01-18,Second Chances,Drama,70,0
+58,2025-01-02,Cities of Tomorrow,Documentary,105,0
+107,2025-01-20,The Office Party,Comedy,27,0
+25,2025-01-16,City Lights,Drama,110,0
+96,2025-01-26,Wild Routes,Documentary,26,0
+97,2025-01-09,Wild Routes,Documentary,87,0
+7,2025-01-20,Cities of Tomorrow,Documentary,72,0
+66,2025-01-09,Wild Routes,Documentary,90,1
+111,2025-01-13,City Lights,Drama,60,0
+18,2025-01-23,Kitchen Clash,Reality,149,0
+90,2025-01-08,Orbit 9,Sci-Fi,10,0
+100,2025-01-04,Orbit 9,Sci-Fi,67,0
+78,2025-01-12,The Last Colony,Sci-Fi,68,1
+115,2025-01-11,Second Chances,Drama,56,1
+50,2025-01-23,City Lights,Drama,57,0
+119,2025-01-26,The Last Colony,Sci-Fi,43,0
+31,2025-01-10,The Last Colony,Sci-Fi,67,1
+35,2025-01-10,Cities of Tomorrow,Documentary,79,1
+9,2025-01-17,Ocean Deep,Documentary,89,0
+26,2025-01-09,The Long Road,Drama,126,1
+98,2025-01-27,The Last Colony,Sci-Fi,99,1
+65,2025-01-05,The Last Colony,Sci-Fi,83,0
+120,2025-01-24,Cities of Tomorrow,Documentary,58,1
+32,2025-01-03,The Long Road,Drama,104,0
+13,2025-01-03,Signal Lost,Sci-Fi,66,0
+57,2025-01-12,Island House,Reality,84,1
+82,2025-01-17,Laugh Track,Comedy,150,0
+10,2025-01-18,Kitchen Clash,Reality,38,0
+101,2025-01-17,Roommates,Comedy,5,0
+55,2025-01-04,Kitchen Clash,Reality,27,0
+64,2025-01-07,Island House,Reality,46,1
+58,2025-01-24,Second Chances,Drama,49,1
+110,2025-01-06,Island House,Reality,71,1
+15,2025-01-09,The Office Party,Comedy,83,1
+112,2025-01-18,Ocean Deep,Documentary,17,1
+76,2025-01-24,The Big Audition,Reality,48,0
+12,2025-01-07,The Last Colony,Sci-Fi,60,1
+85,2025-01-10,The Last Colony,Sci-Fi,72,0
+69,2025-01-02,Cities of Tomorrow,Documentary,99,1
+78,2025-01-14,Laugh Track,Comedy,42,0
+55,2025-01-13,Island House,Reality,90,0
+117,2025-01-16,City Lights,Drama,41,0
+22,2025-01-23,Orbit 9,Sci-Fi,82,0
+87,2025-01-03,Cities of Tomorrow,Documentary,108,1
+43,2025-01-24,Orbit 9,Sci-Fi,59,1
+35,2025-01-16,The Big Audition,Reality,107,1
+77,2025-01-09,City Lights,Drama,63,0
+2,2025-01-30,Orbit 9,Sci-Fi,110,1
+43,2025-01-15,Ocean Deep,Documentary,102,0
+18,2025-01-26,Orbit 9,Sci-Fi,103,0
+107,2025-01-04,The Long Road,Drama,79,0
+73,2025-01-30,Wild Routes,Documentary,66,1
+30,2025-01-23,Wild Routes,Documentary,5,1
+46,2025-01-25,The Long Road,Drama,119,0
+87,2025-01-10,Ocean Deep,Documentary,113,1
+31,2025-01-15,Cities of Tomorrow,Documentary,110,0
+87,2025-01-22,City Lights,Drama,90,1
+114,2025-01-12,Cities of Tomorrow,Documentary,102,1
+83,2025-01-19,The Last Colony,Sci-Fi,45,0
+13,2025-01-27,The Last Colony,Sci-Fi,59,0
+60,2025-01-11,Kitchen Clash,Reality,57,0
+74,2025-01-14,Laugh Track,Comedy,57,1
+20,2025-01-23,City Lights,Drama,53,0
+94,2025-01-02,The Office Party,Comedy,75,1
+16,2025-01-25,Laugh Track,Comedy,70,0
+116,2025-01-17,The Big Audition,Reality,5,0
+11,2025-01-19,Cities of Tomorrow,Documentary,96,1
+45,2025-01-06,Signal Lost,Sci-Fi,100,1
+84,2025-01-13,Wild Routes,Documentary,111,1
+28,2025-01-28,Ocean Deep,Documentary,49,1
+31,2025-01-17,Cities of Tomorrow,Documentary,85,1
+27,2025-01-11,City Lights,Drama,40,0
+107,2025-01-03,Second Chances,Drama,92,0
+91,2025-01-11,Signal Lost,Sci-Fi,70,1
+49,2025-01-29,Laugh Track,Comedy,20,1
+16,2025-01-03,Roommates,Comedy,46,1
+3,2025-01-27,The Office Party,Comedy,31,1
+36,2025-01-20,Signal Lost,Sci-Fi,39,1
+43,2025-01-25,The Last Colony,Sci-Fi,50,1
+94,2025-01-06,Orbit 9,Sci-Fi,124,0
+5,2025-01-26,Laugh Track,Comedy,47,1
+61,2025-01-23,Kitchen Clash,Reality,47,1
+114,2025-01-23,Ocean Deep,Documentary,37,1
+49,2025-01-01,Laugh Track,Comedy,76,1
+53,2025-01-24,Laugh Track,Comedy,24,1
+100,2025-01-23,Kitchen Clash,Reality,42,1
+88,2025-01-01,The Last Colony,Sci-Fi,60,1
+104,2025-01-07,Laugh Track,Comedy,18,0
+74,2025-01-08,Wild Routes,Documentary,104,1
+100,2025-01-07,The Last Colony,Sci-Fi,47,0
+57,2025-01-24,Signal Lost,Sci-Fi,72,0
+5,2025-01-09,The Big Audition,Reality,5,1
+31,2025-01-20,Kitchen Clash,Reality,103,0
+53,2025-01-07,The Big Audition,Reality,57,1
+50,2025-01-19,Wild Routes,Documentary,38,0
+105,2025-01-17,The Big Audition,Reality,79,1
+118,2025-01-12,The Office Party,Comedy,96,1
+20,2025-01-25,Cities of Tomorrow,Documentary,18,0
+95,2025-01-05,Wild Routes,Documentary,108,1
+108,2025-01-29,Kitchen Clash,Reality,63,1
+76,2025-01-04,The Long Road,Drama,108,0
+7,2025-01-18,The Last Colony,Sci-Fi,140,1
+18,2025-01-04,The Office Party,Comedy,117,1
+37,2025-01-02,City Lights,Drama,67,0
+90,2025-01-25,The Last Colony,Sci-Fi,63,1
+94,2025-01-29,The Office Party,Comedy,76,1
+112,2025-01-11,The Last Colony,Sci-Fi,110,1
+111,2025-01-29,Cities of Tomorrow,Documentary,47,1
+55,2025-01-28,Orbit 9,Sci-Fi,34,0
+114,2025-01-07,Laugh Track,Comedy,49,0
+52,2025-01-21,Signal Lost,Sci-Fi,114,0
+4,2025-01-15,Laugh Track,Comedy,95,0
+55,2025-01-21,The Long Road,Drama,93,0
+3,2025-01-29,The Big Audition,Reality,52,1
+65,2025-01-16,City Lights,Drama,79,0
+79,2025-01-24,The Long Road,Drama,91,1
+87,2025-01-24,Orbit 9,Sci-Fi,115,1
+75,2025-01-07,Second Chances,Drama,172,1
+115,2025-01-08,Orbit 9,Sci-Fi,5,0
+116,2025-01-17,The Long Road,Drama,55,0
+62,2025-01-05,City Lights,Drama,116,0
+57,2025-01-07,Wild Routes,Documentary,5,1
+66,2025-01-26,City Lights,Drama,161,1
+26,2025-01-28,Signal Lost,Sci-Fi,51,1
+76,2025-01-28,City Lights,Drama,86,0
+19,2025-01-04,Roommates,Comedy,68,1
+29,2025-01-10,Kitchen Clash,Reality,115,1
+87,2025-01-05,The Long Road,Drama,33,1
+101,2025-01-06,Island House,Reality,115,0
+1,2025-01-18,Signal Lost,Sci-Fi,47,0
+77,2025-01-24,Signal Lost,Sci-Fi,65,0
+50,2025-01-16,Second Chances,Drama,63,0
+47,2025-01-29,The Office Party,Comedy,87,1
+7,2025-01-04,Laugh Track,Comedy,35,1
+79,2025-01-29,The Office Party,Comedy,30,1
+96,2025-01-07,Signal Lost,Sci-Fi,95,0
+116,2025-01-28,City Lights,Drama,98,0
+82,2025-01-04,Orbit 9,Sci-Fi,24,0
+10,2025-01-07,Orbit 9,Sci-Fi,31,0
+62,2025-01-02,Ocean Deep,Documentary,25,1
+95,2025-01-10,Kitchen Clash,Reality,64,1
+103,2025-01-10,The Big Audition,Reality,30,1
+44,2025-01-08,Orbit 9,Sci-Fi,57,0
+117,2025-01-20,Roommates,Comedy,131,1
+109,2025-01-21,Roommates,Comedy,101,0
+63,2025-01-15,Roommates,Comedy,101,1
+67,2025-01-03,The Long Road,Drama,122,0
+73,2025-01-09,Cities of Tomorrow,Documentary,99,1
+7,2025-01-05,Island House,Reality,66,1
+79,2025-01-24,Signal Lost,Sci-Fi,28,0
+40,2025-01-10,Laugh Track,Comedy,15,0
+96,2025-01-02,Cities of Tomorrow,Documentary,68,0
+4,2025-01-12,Second Chances,Drama,14,0
+97,2025-01-21,City Lights,Drama,113,1
+117,2025-01-18,The Long Road,Drama,88,0
+63,2025-01-27,The Last Colony,Sci-Fi,77,1
+40,2025-01-09,The Office Party,Comedy,26,1
+105,2025-01-19,The Big Audition,Reality,97,1
+75,2025-01-22,The Big Audition,Reality,44,1
+6,2025-01-25,Island House,Reality,76,1
+116,2025-01-18,Orbit 9,Sci-Fi,57,1
+93,2025-01-18,Cities of Tomorrow,Documentary,54,1
+80,2025-01-15,Cities of Tomorrow,Documentary,103,1
+51,2025-01-24,Ocean Deep,Documentary,32,0
+114,2025-01-13,Kitchen Clash,Reality,94,0
+111,2025-01-07,Wild Routes,Documentary,111,0
+65,2025-01-14,The Last Colony,Sci-Fi,97,1
+113,2025-01-16,The Long Road,Drama,135,1
+54,2025-01-16,Signal Lost,Sci-Fi,67,1
+25,2025-01-02,Signal Lost,Sci-Fi,53,0
+93,2025-01-15,Ocean Deep,Documentary,61,1
+95,2025-01-12,The Big Audition,Reality,54,0
+61,2025-01-14,The Office Party,Comedy,60,0
+40,2025-01-28,Kitchen Clash,Reality,55,1
+101,2025-01-05,Orbit 9,Sci-Fi,116,1
+76,2025-01-19,Second Chances,Drama,87,1
+56,2025-01-18,Signal Lost,Sci-Fi,27,0
+42,2025-01-06,Ocean Deep,Documentary,20,0
+18,2025-01-23,Laugh Track,Comedy,102,1
+114,2025-01-16,Orbit 9,Sci-Fi,31,0
+68,2025-01-09,Signal Lost,Sci-Fi,5,1
+2,2025-01-15,Roommates,Comedy,52,0
+10,2025-01-17,The Last Colony,Sci-Fi,68,0
+1,2025-01-28,Ocean Deep,Documentary,57,1
+90,2025-01-09,Cities of Tomorrow,Documentary,85,0
+108,2025-01-22,Ocean Deep,Documentary,102,1
+22,2025-01-25,Kitchen Clash,Reality,50,0
+51,2025-01-28,Ocean Deep,Documentary,68,0
+57,2025-01-25,Ocean Deep,Documentary,68,1
+30,2025-01-15,City Lights,Drama,90,0
+111,2025-01-29,Wild Routes,Documentary,150,1
+35,2025-01-03,The Long Road,Drama,73,1
+28,2025-01-10,Second Chances,Drama,74,1
+13,2025-01-07,Roommates,Comedy,5,1
+86,2025-01-10,Island House,Reality,32,0
+90,2025-01-18,The Big Audition,Reality,80,1
+104,2025-01-30,The Office Party,Comedy,105,1
+108,2025-01-07,City Lights,Drama,84,0
+58,2025-01-03,The Last Colony,Sci-Fi,63,1
+15,2025-01-24,Signal Lost,Sci-Fi,16,1
+2,2025-01-20,Roommates,Comedy,50,0
+76,2025-01-06,Signal Lost,Sci-Fi,58,1
+117,2025-01-24,Laugh Track,Comedy,89,1
+18,2025-01-27,The Long Road,Drama,29,1
+55,2025-01-09,Signal Lost,Sci-Fi,48,1
+51,2025-01-30,Signal Lost,Sci-Fi,42,1
+54,2025-01-12,The Long Road,Drama,53,0
+2,2025-01-29,Cities of Tomorrow,Documentary,97,1
+28,2025-01-15,City Lights,Drama,62,1
+11,2025-01-06,Ocean Deep,Documentary,22,0
+112,2025-01-19,The Big Audition,Reality,73,0
+116,2025-01-30,Orbit 9,Sci-Fi,57,0
+110,2025-01-30,The Big Audition,Reality,44,0
+3,2025-01-04,The Long Road,Drama,68,1
+51,2025-01-20,Laugh Track,Comedy,89,0
+7,2025-01-15,Cities of Tomorrow,Documentary,5,0
+45,2025-01-30,Signal Lost,Sci-Fi,12,1
+3,2025-01-25,Roommates,Comedy,30,1
+35,2025-01-25,Ocean Deep,Documentary,24,1
+15,2025-01-23,Signal Lost,Sci-Fi,57,1
+35,2025-01-28,The Last Colony,Sci-Fi,91,0
+97,2025-01-23,The Big Audition,Reality,95,1
+71,2025-01-14,The Office Party,Comedy,55,1
+57,2025-01-13,Kitchen Clash,Reality,43,1
+69,2025-01-02,Signal Lost,Sci-Fi,89,0
+89,2025-01-08,Roommates,Comedy,22,0
+47,2025-01-20,The Long Road,Drama,34,0
+31,2025-01-29,Laugh Track,Comedy,88,1
+68,2025-01-19,The Long Road,Drama,5,1
+79,2025-01-25,Cities of Tomorrow,Documentary,131,0
+106,2025-01-02,The Last Colony,Sci-Fi,6,0
+13,2025-01-12,The Long Road,Drama,57,0
+36,2025-01-01,The Long Road,Drama,95,1
+55,2025-01-14,City Lights,Drama,65,0
+62,2025-01-03,Cities of Tomorrow,Documentary,11,0
+89,2025-01-25,Roommates,Comedy,118,1
+115,2025-01-05,Signal Lost,Sci-Fi,15,0
+27,2025-01-17,Island House,Reality,43,0
+22,2025-01-20,Roommates,Comedy,78,1
+16,2025-01-24,The Office Party,Comedy,61,1
+41,2025-01-16,Orbit 9,Sci-Fi,35,1
+15,2025-01-13,City Lights,Drama,50,0
+76,2025-01-03,Cities of Tomorrow,Documentary,61,0
+1,2025-01-19,Wild Routes,Documentary,103,1
+60,2025-01-03,Orbit 9,Sci-Fi,85,0
+105,2025-01-01,The Office Party,Comedy,108,1
+26,2025-01-22,Laugh Track,Comedy,67,0
+118,2025-01-03,Cities of Tomorrow,Documentary,57,1
+61,2025-01-27,Orbit 9,Sci-Fi,88,1
+77,2025-01-26,Ocean Deep,Documentary,46,1
+85,2025-01-15,Ocean Deep,Documentary,98,1
+59,2025-01-28,Signal Lost,Sci-Fi,42,1
+13,2025-01-12,Orbit 9,Sci-Fi,119,1
+66,2025-01-03,Roommates,Comedy,77,1
+26,2025-01-22,Kitchen Clash,Reality,68,0
+111,2025-01-16,City Lights,Drama,21,1
+116,2025-01-23,City Lights,Drama,13,0
+105,2025-01-29,Second Chances,Drama,54,0
+45,2025-01-08,Kitchen Clash,Reality,5,1
+70,2025-01-22,The Last Colony,Sci-Fi,78,0
+29,2025-01-21,Roommates,Comedy,63,0
+27,2025-01-22,Orbit 9,Sci-Fi,62,0
+85,2025-01-24,Cities of Tomorrow,Documentary,5,1
+84,2025-01-20,Signal Lost,Sci-Fi,60,1
+52,2025-01-17,Kitchen Clash,Reality,39,1
+68,2025-01-18,The Office Party,Comedy,87,1
+25,2025-01-08,The Office Party,Comedy,100,0
+72,2025-01-29,The Last Colony,Sci-Fi,83,0
+84,2025-01-18,Kitchen Clash,Reality,5,1
+56,2025-01-21,Island House,Reality,74,1
+92,2025-01-05,Signal Lost,Sci-Fi,55,0
+8,2025-01-06,Ocean Deep,Documentary,92,0
+89,2025-01-05,Wild Routes,Documentary,127,1
+112,2025-01-13,The Big Audition,Reality,54,1
+44,2025-01-02,City Lights,Drama,60,0
+101,2025-01-27,The Big Audition,Reality,111,1
+29,2025-01-15,Kitchen Clash,Reality,116,1
+16,2025-01-30,Ocean Deep,Documentary,72,1
+69,2025-01-10,Orbit 9,Sci-Fi,62,1
+3,2025-01-18,Orbit 9,Sci-Fi,71,1
+92,2025-01-06,Second Chances,Drama,68,0
+100,2025-01-06,The Long Road,Drama,76,0
+50,2025-01-11,The Big Audition,Reality,56,1
+49,2025-01-11,Roommates,Comedy,112,0
+113,2025-01-01,Island House,Reality,131,1
+1,2025-01-04,The Last Colony,Sci-Fi,37,1
+27,2025-01-28,Laugh Track,Comedy,77,1
+11,2025-01-13,Cities of Tomorrow,Documentary,111,1
+58,2025-01-24,Ocean Deep,Documentary,53,1
+86,2025-01-10,The Office Party,Comedy,109,0
+27,2025-01-21,Cities of Tomorrow,Documentary,55,1
+76,2025-01-21,The Long Road,Drama,13,0
+12,2025-01-14,The Office Party,Comedy,81,1
+6,2025-01-15,The Big Audition,Reality,72,0
+56,2025-01-14,Signal Lost,Sci-Fi,63,0
+92,2025-01-15,Orbit 9,Sci-Fi,43,0
+18,2025-01-11,Laugh Track,Comedy,104,1
+64,2025-01-10,Laugh Track,Comedy,55,0
+116,2025-01-06,The Big Audition,Reality,76,1
+112,2025-01-09,Ocean Deep,Documentary,54,1
+36,2025-01-04,Roommates,Comedy,82,0
+77,2025-01-26,Second Chances,Drama,91,0
+73,2025-01-15,Roommates,Comedy,109,0
+48,2025-01-06,Roommates,Comedy,45,1
+104,2025-01-12,Kitchen Clash,Reality,86,1
+25,2025-01-02,The Big Audition,Reality,5,1
+69,2025-01-19,The Office Party,Comedy,5,0
+48,2025-01-28,The Office Party,Comedy,148,0
+86,2025-01-14,The Long Road,Drama,104,1
+87,2025-01-11,The Big Audition,Reality,85,1
+2,2025-01-02,City Lights,Drama,72,0
+47,2025-01-25,Second Chances,Drama,119,1
+91,2025-01-10,Roommates,Comedy,99,1
+89,2025-01-17,The Long Road,Drama,110,1
+110,2025-01-01,Second Chances,Drama,51,1
+82,2025-01-09,Ocean Deep,Documentary,82,0
+17,2025-01-17,Signal Lost,Sci-Fi,114,1
+40,2025-01-27,City Lights,Drama,50,1
+83,2025-01-08,The Big Audition,Reality,83,1
+66,2025-01-20,Ocean Deep,Documentary,47,1
+118,2025-01-28,Signal Lost,Sci-Fi,41,0
+87,2025-01-12,Kitchen Clash,Reality,109,1
+32,2025-01-16,The Long Road,Drama,34,0
+90,2025-01-11,Ocean Deep,Documentary,5,0
+113,2025-01-08,City Lights,Drama,93,1
+59,2025-01-18,Island House,Reality,78,1
+90,2025-01-30,City Lights,Drama,112,0
+83,2025-01-05,Cities of Tomorrow,Documentary,93,1
+84,2025-01-18,The Big Audition,Reality,5,0
+39,2025-01-20,Signal Lost,Sci-Fi,69,0
+69,2025-01-27,Wild Routes,Documentary,103,1
+8,2025-01-18,Island House,Reality,16,1
+53,2025-01-15,The Office Party,Comedy,48,0
+111,2025-01-07,Ocean Deep,Documentary,89,0
+27,2025-01-19,Laugh Track,Comedy,110,1
+7,2025-01-25,The Big Audition,Reality,77,1
+35,2025-01-26,Signal Lost,Sci-Fi,85,0
+67,2025-01-14,Wild Routes,Documentary,140,1
+10,2025-01-19,Second Chances,Drama,109,1
+68,2025-01-30,Ocean Deep,Documentary,117,1
+27,2025-01-11,Wild Routes,Documentary,111,0
+36,2025-01-07,The Long Road,Drama,53,1
+10,2025-01-12,Laugh Track,Comedy,67,0
+101,2025-01-03,The Big Audition,Reality,72,0
+80,2025-01-16,Ocean Deep,Documentary,81,0
+93,2025-01-30,Cities of Tomorrow,Documentary,44,0

@@ -1,0 +1,31 @@
+RECOMMENDATION ENGINE RESULTS
+============================================================
+Customers: 120
+Products: 20
+Transactions: 758
+
+Products similar to Laptop:
+product
+Monitor            0.750
+Docking Station    0.739
+Keyboard           0.720
+Mouse              0.665
+USB Hub            0.530
+
+Recommendations for customer 1:
+product
+USB Hub        145.0
+Phone Stand    138.0
+Tablet          86.0
+Webcam          77.0
+Smartwatch      76.0
+
+How it works:
+1. Count how often each customer bought each product.
+2. Compare product purchase vectors with cosine similarity.
+3. For a customer, score each unseen product by summing similarities
+   to the products they already bought.
+4. Show the highest-scoring unseen products.
+
+Limitation: this is a popularity/similarity baseline. It does not use
+ratings, prices, or whether a recommendation was actually clicked.

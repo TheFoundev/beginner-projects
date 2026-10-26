@@ -1,0 +1,23 @@
+DELIVERY TIME ANOVA RESULTS
+============================================================
+Orders: 180
+F-statistic: 31.255
+p-value: 0.00000
+Eta squared: 0.261
+At the 5% level, the warehouse difference is statistically significant.
+
+Warehouse summary:
+           orders  avg_delivery_days  sd_delivery_days  avg_distance_km
+warehouse                                                              
+A              56               3.07              0.64            11.08
+B              63               4.03              0.63            11.41
+C              61               3.74              0.73            12.08
+
+Tukey HSD pairwise comparisons:
+group1 group2  meandiff  p-adj   lower   upper  reject
+     A      B    0.9558 0.0000  0.6645  1.2470    True
+     A      C    0.6681 0.0000  0.3746  0.9616    True
+     B      C   -0.2877 0.0472 -0.5726 -0.0028    True
+
+Tukey column guide: meandiff = difference in means;
+p-adj = adjusted p-value; reject = True means the pair differs significantly.

@@ -1,0 +1,22 @@
+CUSTOMER SEGMENTATION RESULTS
+============================================================
+Customers: 400
+Clusters: 4
+Silhouette score: 0.509 (closer to 1 means better separated)
+
+Segment profiles:
+                   customers  avg_recency_days  avg_frequency  avg_monetary
+segment_name                                                               
+Occasional               132              22.6            3.0         148.8
+High-value loyal          88              29.4           19.8        1289.3
+Promising                 75             271.9           10.9         884.1
+At risk / dormant        105             125.3            5.8         409.5
+
+How to use this:
+- High-value loyal: protect with loyalty rewards and early access.
+- Promising: encourage a second/third purchase with a targeted offer.
+- Occasional: low-cost reminders and bundles.
+- At risk / dormant: win-back campaign or a feedback survey.
+
+RFM means: recency = days since last purchase, frequency = purchase count,
+monetary = total spend. Lower recency is better.

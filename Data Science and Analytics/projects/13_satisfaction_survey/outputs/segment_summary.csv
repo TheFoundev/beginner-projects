@@ -1,0 +1,4 @@
+segment,respondents,avg_satisfaction,sd_satisfaction,recommend_rate,margin_of_error
+new,98,3.4,0.82,0.47,0.16
+returning,140,3.98,0.96,0.66,0.16
+vip,62,4.24,0.78,0.76,0.19

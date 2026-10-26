@@ -1,0 +1,33 @@
+CHURN MODEL RESULTS
+============================================================
+Customers: 800
+Training rows: 560
+Test rows: 240
+Churn rate: 14.0%
+
+Accuracy:  0.892
+Precision: 0.786
+Recall:    0.324
+F1 score:  0.458
+ROC-AUC:   0.790
+Majority-class baseline: 0.858
+
+Confusion matrix (rows = actual, columns = predicted):
+                Predicted stayed  Predicted churned
+Actual stayed                203                  3
+Actual churned                23                 11
+
+Coefficients (positive = more churn, negative = less churn):
+        feature  coefficient  odds_ratio
+  late_payments        0.609       1.838
+  support_calls        0.525       1.690
+monthly_charges        0.212       1.236
+    usage_hours       -0.621       0.538
+  tenure_months       -0.791       0.453
+
+Metric reminders:
+- Precision: of customers flagged as churners, how many really churned?
+- Recall: of customers who really churned, how many did we catch?
+- ROC-AUC: ability to rank churners above stayers; 0.5 is random.
+
+This is a teaching model, not a production decision system.

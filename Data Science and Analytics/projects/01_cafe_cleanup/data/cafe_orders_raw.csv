@@ -1,0 +1,119 @@
+order_id,date,item,category,quantity,unit_price,customer_type
+57,"Feb 13, 2025", Sandwich ,Food,1.0,6.62,tourist
+90,2025-02-25,Cappuccino,,2.0,4.15,Regular
+5,"Feb 06, 2025",Cappuccino,drink,2.0,3.76,regular
+46,10-Feb-2025,latte,Drink,3.0,4.48,Tourist
+27,2025-02-04,latte,,2.0,4.72,Student
+59,22-Jan-2025,SANDWICH,food,1.0,6.41,student
+70,2025-01-01,muffin,Food,2.0,2.68,Tourist
+11,01-Jan-2025,Cappuccino,Drink,1.0,3.70,regular
+91,23-Jan-2025,SANDWICH,Food,1.0,,Regular
+74,2025-01-04,Cappuccino,drink,2.0,4.15,Tourist
+19,2025-02-06,MUFFIN,,2.0,3.05,regular
+9,06-Jan-2025, Latte ,drink,2.0,4.57,Student
+12,06-Feb-2025,muffin,food,3.0,3.43,tourist
+97,2025-02-13,muffin,,3.0,3.18,Student
+43,"Jan 10, 2025", Sandwich ,Food,2.0,6.71,Regular
+32,2025-01-18,MUFFIN,food,1.0,3.27,Student
+89,2025-02-16,latte,Drink,,4.78,Student
+1,09-Jan-2025,cappuccino,drink,-2.0,3.59,Regular
+98,2025-02-05, Cappuccino ,drink,3.0,4.06,Regular
+61,"Feb 14, 2025",Muffin,,1.0,3.01,Student
+65,18-Jan-2025,LATTE,,2.0,4.94,Tourist
+41,2025-02-06,sandwich,,1.0,6.43,Tourist
+96,05-Jan-2025,sandwich,Food,2.0,6.21,student
+54,2025-01-04,SANDWICH,Food,3.0,6.70,Tourist
+45,"Feb 10, 2025",sandwich,food,3.0,6.76,student
+13,26-Jan-2025,LATTE,Drink,1.0,,Tourist
+16,2025-01-18,muffin,food,1.0,,Tourist
+71,"Jan 29, 2025", Cappuccino ,Drink,2.0,3.78,Tourist
+16,2025-01-18,muffin,food,1.0,,Tourist
+25,13-Jan-2025,Sandwich,food,2.0,6.41,Student
+67,"Feb 20, 2025",cappuccino,Drink,2.0,4.21,Tourist
+23,06-Feb-2025,Latte,drink,2.0,4.26,student
+37,2025-02-09,CAPPUCCINO,,1.0,4.14,student
+56,07-Jan-2025,muffin,food,3.0,,regular
+82,"Mar 01, 2025",Cappuccino,,,4.03,tourist
+31,06-Jan-2025,muffin,food,3.0,3.18,student
+63,2025-01-24,SANDWICH,Food,2.0,6.44,tourist
+73,"Jan 16, 2025", Cappuccino ,,3.0,4.21,tourist
+10,"Jan 06, 2025",Cappuccino,Drink,1.0,4.29,student
+34,2025-02-25, Latte ,drink,3.0,4.50,Student
+32,2025-01-18,MUFFIN,food,1.0,3.27,Student
+69,"Jan 01, 2025",latte,,2.0,4.17,regular
+29,2025-01-24, Sandwich ,food,1.0,6.59,Tourist
+48,03-Feb-2025,Muffin,Food,3.0,3.36,regular
+85,24-Jan-2025,MUFFIN,Food,1.0,2.48,tourist
+6,16-Jan-2025, Latte ,drink,1.0,4.22,tourist
+78,18-Feb-2025,cappuccino,drink,2.0,3.81,Regular
+68,"Jan 24, 2025", Cappuccino ,drink,1.0,,tourist
+40,"Jan 06, 2025",cappuccino,Drink,3.0,4.09,Tourist
+50,2025-02-05,muffin,,3.0,2.75,regular
+36,2025-01-20, Latte ,drink,2.0,4.79,Student
+17,"Feb 24, 2025",Sandwich,,2.0,,Student
+66,2025-01-23,Cappuccino,Drink,,4.07,Regular
+35,14-Jan-2025,Sandwich,food,1.0,6.18,tourist
+86,31-Jan-2025,Muffin,Food,3.0,2.83,student
+8,2025-02-27,muffin,,2.0,3.06,regular
+44,2025-01-07,SANDWICH,food,2.0,6.60,Tourist
+40,"Jan 06, 2025",cappuccino,Drink,3.0,4.09,Tourist
+79,2025-01-13, Muffin ,,2.0,2.93,student
+28,"Jan 22, 2025",cappuccino,,3.0,4.11,regular
+20,2025-01-07,Muffin,Food,1.0,3.19,regular
+95,19-Feb-2025,muffin,Food,3.0,2.78,regular
+15,11-Jan-2025,Latte,drink,1.0,,Tourist
+26,"Feb 05, 2025",muffin,food,2.0,,student
+9,06-Jan-2025, Latte ,drink,2.0,4.57,Student
+14,2025-01-10,Sandwich,Food,1.0,6.34,student
+84,"Feb 25, 2025",latte,,1.0,4.38,Student
+4,23-Feb-2025,latte,drink,3.0,4.15,regular
+18,2025-03-01, Sandwich ,food,3.0,6.65,regular
+39,2025-01-05,muffin,,,2.78,Tourist
+92,2025-01-18, Latte ,Drink,,4.15,tourist
+7,28-Jan-2025,muffin,Food,,3.30,Tourist
+77,"Jan 31, 2025",Muffin,Food,3.0,3.14,Regular
+42,2025-01-06,muffin,food,1.0,3.11,Student
+94,18-Feb-2025,muffin,,1.0,3.19,Student
+55,24-Jan-2025,MUFFIN,Food,3.0,3.09,Regular
+51,2025-02-14, Sandwich ,,,6.29,Student
+22,23-Jan-2025,Cappuccino,,2.0,4.02,Tourist
+47,13-Jan-2025,muffin,,1.0,3.06,Student
+81,2025-02-28,Cappuccino,,3.0,3.94,regular
+62,2025-02-25, Cappuccino ,Drink,2.0,4.02,tourist
+8,2025-02-27,muffin,,2.0,3.06,regular
+80,"Jan 26, 2025",latte,drink,,4.69,tourist
+71,"Jan 29, 2025", Cappuccino ,Drink,2.0,3.78,Tourist
+42,2025-01-06,muffin,food,1.0,3.11,Student
+59,22-Jan-2025,SANDWICH,food,1.0,6.41,student
+49,12-Jan-2025,Latte,Drink,,4.52,regular
+18,2025-03-01, Sandwich ,food,3.0,6.65,regular
+58,2025-02-16,cappuccino,,3.0,3.76,Student
+76,"Jan 13, 2025",MUFFIN,,1.0,2.85,regular
+33,30-Jan-2025, Latte ,,1.0,,Tourist
+13,26-Jan-2025,LATTE,Drink,1.0,,Tourist
+60,2025-02-22,Cappuccino,,,3.95,student
+64,2025-02-08,LATTE,Drink,2.0,4.43,regular
+99,2025-01-10,sandwich,Food,2.0,6.21,Student
+38,2025-01-14,Cappuccino,Drink,1.0,3.83,tourist
+30,08-Feb-2025,sandwich,,3.0,6.26,student
+69,"Jan 01, 2025",latte,,2.0,4.17,regular
+2,2025-02-25,cappuccino,Drink,2.0,$4.50,Tourist
+53,2025-02-21,Sandwich,Food,1.0,6.59,Tourist
+22,23-Jan-2025,Cappuccino,,2.0,4.02,Tourist
+3,20-Jan-2025,Muffin,food,1.0, 5.25 ,Regular
+24,06-Feb-2025,latte,Drink,2.0,4.38,student
+100,08-Feb-2025, Muffin ,,1.0,,Tourist
+88,12-Feb-2025,latte,Drink,1.0,4.54,regular
+10,"Jan 06, 2025",Cappuccino,Drink,1.0,4.29,student
+75,"Jan 16, 2025",muffin,,1.0,3.32,student
+87,24-Feb-2025, Muffin ,food,3.0,2.73,Regular
+83,2025-01-20,Muffin,Food,3.0,3.19,tourist
+25,13-Jan-2025,Sandwich,food,2.0,6.41,Student
+21,2025-02-15, Cappuccino ,drink,3.0,3.72,Regular
+61,"Feb 14, 2025",Muffin,,1.0,3.01,Student
+72,"Jan 26, 2025", Cappuccino ,Drink,1.0,3.83,Student
+90,2025-02-25,Cappuccino,,2.0,4.15,Regular
+15,11-Jan-2025,Latte,drink,1.0,,Tourist
+93,2025-02-06,sandwich,Food,2.0,6.27,tourist
+52,2025-01-15,sandwich,,1.0,6.22,Tourist
+93,2025-02-06,sandwich,Food,2.0,6.27,tourist

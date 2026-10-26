@@ -1,0 +1,31 @@
+PRICING AND DEMAND RESULTS
+============================================================
+Rows analysed: 120
+Products: 5
+
+Main log-log regression:
+Price elasticity: -0.979
+Elasticity p-value: 0.00000
+R-squared: 0.690
+
+Coefficients:
+const                   6.3013
+log_price              -0.9787
+promotion               0.1984
+log_competitor_price    0.9227
+
+Elasticity by product:
+ product  elasticity  p_value  r_squared  observations
+  Coffee      -1.943      0.0      0.958            24
+   Salad      -1.877      0.0      0.948            24
+  Cookie      -1.876      0.0      0.943            24
+   Juice      -1.764      0.0      0.973            24
+Sandwich      -1.639      0.0      0.897            24
+
+Interpretation guide:
+- Elasticity below -1: demand is elastic; a price rise tends to reduce revenue.
+- Elasticity between -1 and 0: demand is inelastic; a price rise may increase revenue.
+- Elasticity near 0: price changes barely affect quantity.
+
+This is an observational model. It shows association, not proof of causation,
+and a real pricing decision should also consider costs, competitors and experiments.

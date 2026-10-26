@@ -1,0 +1,17 @@
+CAFE CLEANING REPORT
+==================================================
+Rows before cleaning: 118
+Rows after cleaning: 100
+Duplicate order rows removed: 18
+Invalid dates removed: 0
+Missing cells before: 59
+Missing cells after: 0
+Total revenue: $829.31
+Average order value: $8.29
+
+Revenue by item:
+item
+Sandwich      252.00
+Cappuccino    211.57
+Muffin        190.94
+Latte         174.80

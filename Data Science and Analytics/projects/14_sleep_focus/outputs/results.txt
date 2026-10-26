@@ -1,0 +1,13 @@
+SLEEP AND FOCUS RESULTS
+============================================================
+Students analysed: 150
+Sleep vs focus: Pearson r = 0.773 (p = 0.00000)
+Sleep vs focus: Spearman rho = 0.744 (p = 0.00000)
+Interpretation: a strong positive correlation.
+
+Other relationships with focus:
+- caffeine_mg: r = -0.123, p = 0.13478
+- screen_time_hours: r = -0.389, p = 0.00000
+
+Important: correlation does not prove causation.
+A third factor (for example, stress or workload) could affect both variables.

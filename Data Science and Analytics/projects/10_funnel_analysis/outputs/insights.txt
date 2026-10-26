@@ -1,0 +1,22 @@
+FUNNEL INSIGHTS
+==================================================
+Total visits: 279,553
+Total purchases: 6,639
+Overall visit-to-purchase rate: 2.37%
+Best channel by final conversion: Email (6.40%)
+Smallest step conversion: Purchases
+
+Overall funnel:
+        stage  count  share_of_visits  step_conversion
+       Visits 279553            1.000            1.000
+Product views 135561            0.485            0.485
+ Add to carts  33515            0.120            0.247
+    Purchases   6639            0.024            0.198
+
+Channel funnel:
+         visits  product_views  add_to_carts  purchases  view_rate  cart_rate  purchase_rate  visit_to_purchase
+channel                                                                                                        
+Email     31226          19406          6794       1984      0.621      0.350          0.292              0.064
+Organic   79520          43294         11877       2556      0.544      0.274          0.215              0.032
+Paid     105412          47125         10233       1592      0.447      0.217          0.156              0.015
+Social    63395          25736          4611        507      0.406      0.179          0.110              0.008

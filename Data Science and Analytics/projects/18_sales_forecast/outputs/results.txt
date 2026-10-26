@@ -1,0 +1,21 @@
+SALES FORECAST RESULTS
+============================================================
+Months of history: 36
+Training months: 30
+Test months: 6
+Trend slope: 40.90 sales per month
+
+Linear trend MAE:  63.7
+Linear trend RMSE: 67.0
+Naive baseline MAE: 83.0
+
+Next three months:
+     month  forecast_sales
+2026-01-01         2469.16
+2026-02-01         2510.06
+2026-03-01         2550.95
+
+Why this is a baseline:
+A linear trend is simple, fast and easy to explain. It captures direction
+but not complex seasonality or sudden changes. A real forecast would be
+compared against several baselines and checked with rolling validation.

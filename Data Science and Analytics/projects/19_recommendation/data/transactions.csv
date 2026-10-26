@@ -1,0 +1,1544 @@
+transaction_id,customer_id,product
+1,1,Pen Set
+1,1,Backpack
+1,1,Water Bottle
+2,1,Pen Set
+3,1,Desk Lamp
+3,1,Notebook
+3,1,Water Bottle
+4,1,Water Bottle
+5,1,Desk Lamp
+5,1,Water Bottle
+6,1,Pen Set
+7,2,Headphones
+7,2,Microphone
+8,2,Cable
+8,2,Microphone
+8,2,Charger
+9,2,Speaker
+10,2,Speaker
+11,2,Charger
+11,2,Cable
+12,2,Headphones
+12,2,Cable
+13,2,Headphones
+14,2,Phone Stand
+14,2,Headphones
+14,2,Charger
+15,2,Microphone
+15,2,Cable
+16,3,USB Hub
+16,3,Phone Stand
+16,3,Tablet
+17,3,Phone Stand
+17,3,Tablet
+18,3,Tablet
+19,3,USB Hub
+19,3,Tablet
+19,3,Phone Stand
+20,3,Phone Stand
+20,3,Webcam
+21,3,Webcam
+21,3,Phone Stand
+22,3,USB Hub
+23,4,USB Hub
+23,4,Keyboard
+24,4,Laptop
+24,4,Monitor
+25,4,USB Hub
+25,4,Keyboard
+26,4,Laptop
+26,4,Docking Station
+26,4,Mouse
+27,4,Laptop
+28,5,Desk Lamp
+29,5,Pen Set
+29,5,Desk Lamp
+29,5,Water Bottle
+30,5,Notebook
+30,5,Desk Lamp
+31,5,Desk Lamp
+31,5,Pen Set
+32,5,Backpack
+32,5,Water Bottle
+33,5,Notebook
+34,5,Desk Lamp
+34,5,Pen Set
+35,5,Pen Set
+35,5,Backpack
+36,5,Notebook
+37,6,Charger
+37,6,Phone Stand
+38,6,Phone Stand
+38,6,Headphones
+39,6,Microphone
+39,6,Cable
+40,6,Charger
+40,6,Speaker
+41,6,Microphone
+42,6,Cable
+42,6,Charger
+42,6,Speaker
+43,6,Headphones
+44,6,Speaker
+44,6,Cable
+44,6,Phone Stand
+45,6,Phone Stand
+46,7,Phone Stand
+46,7,Webcam
+47,7,USB Hub
+47,7,Webcam
+47,7,Phone Stand
+48,7,Phone Stand
+49,7,USB Hub
+49,7,Smartwatch
+50,7,Smartwatch
+50,7,USB Hub
+50,7,Webcam
+51,8,Keyboard
+52,8,Mouse
+52,8,Monitor
+53,8,Monitor
+53,8,Laptop
+54,8,Laptop
+55,8,Monitor
+55,8,Laptop
+56,8,Mouse
+56,8,Docking Station
+56,8,Keyboard
+57,8,Mouse
+57,8,USB Hub
+57,8,Laptop
+58,9,Water Bottle
+59,9,Desk Lamp
+60,9,Backpack
+60,9,Water Bottle
+61,9,Desk Lamp
+61,9,Water Bottle
+62,9,Backpack
+62,9,Pen Set
+63,9,Desk Lamp
+63,9,Pen Set
+63,9,Water Bottle
+64,9,Water Bottle
+64,9,Notebook
+64,9,Backpack
+65,9,Desk Lamp
+66,9,Pen Set
+66,9,Notebook
+66,9,Desk Lamp
+67,10,Charger
+67,10,Headphones
+68,10,Speaker
+68,10,Cable
+69,10,Microphone
+69,10,Phone Stand
+70,10,Speaker
+70,10,Cable
+70,10,Phone Stand
+71,10,Headphones
+71,10,Charger
+72,10,Cable
+72,10,Headphones
+72,10,Charger
+73,10,Speaker
+74,10,Phone Stand
+74,10,Charger
+74,10,Microphone
+75,10,Headphones
+75,10,Microphone
+76,11,Smartwatch
+77,11,Webcam
+77,11,Smartwatch
+77,11,Phone Stand
+78,11,Phone Stand
+78,11,Tablet
+79,11,Smartwatch
+79,11,Phone Stand
+79,11,Webcam
+80,11,USB Hub
+80,11,Webcam
+81,11,Tablet
+81,11,Webcam
+82,11,Tablet
+82,11,Webcam
+83,11,Webcam
+83,11,USB Hub
+84,12,Mouse
+84,12,USB Hub
+85,12,Docking Station
+85,12,Monitor
+86,12,USB Hub
+86,12,Keyboard
+87,12,Monitor
+87,12,Mouse
+87,12,Docking Station
+88,12,Monitor
+88,12,Keyboard
+89,12,Monitor
+90,12,Docking Station
+90,12,Keyboard
+91,12,Monitor
+91,12,Keyboard
+91,12,Mouse
+92,12,Docking Station
+93,13,Notebook
+93,13,Backpack
+94,13,Water Bottle
+94,13,Desk Lamp
+94,13,Pen Set
+95,13,Desk Lamp
+95,13,Notebook
+95,13,Water Bottle
+96,13,Desk Lamp
+96,13,Pen Set
+97,13,Desk Lamp
+97,13,Pen Set
+97,13,Backpack
+98,14,Microphone
+98,14,Charger
+98,14,Speaker
+99,14,Speaker
+100,14,Charger
+101,14,Microphone
+101,14,Headphones
+102,14,Microphone
+103,14,Microphone
+103,14,Charger
+103,14,Headphones
+104,14,Speaker
+104,14,Microphone
+104,14,Cable
+105,15,Phone Stand
+106,15,Phone Stand
+106,15,USB Hub
+107,15,Tablet
+107,15,Smartwatch
+108,15,Smartwatch
+109,15,Webcam
+109,15,USB Hub
+109,15,Tablet
+110,15,Phone Stand
+111,16,Keyboard
+111,16,Docking Station
+111,16,USB Hub
+112,16,Laptop
+112,16,USB Hub
+113,16,Keyboard
+114,16,USB Hub
+114,16,Mouse
+115,16,USB Hub
+115,16,Mouse
+116,16,Docking Station
+116,16,USB Hub
+117,16,Keyboard
+117,16,Docking Station
+117,16,USB Hub
+118,17,Notebook
+118,17,Backpack
+119,17,Notebook
+119,17,Water Bottle
+119,17,Pen Set
+120,17,Desk Lamp
+120,17,Backpack
+121,17,Pen Set
+122,17,Backpack
+123,17,Notebook
+124,17,Water Bottle
+124,17,Desk Lamp
+124,17,Notebook
+125,17,Pen Set
+125,17,Notebook
+126,17,Desk Lamp
+126,17,Pen Set
+127,18,Phone Stand
+127,18,Speaker
+127,18,Charger
+128,18,Phone Stand
+128,18,Charger
+128,18,Microphone
+129,18,Charger
+130,18,Speaker
+131,18,Speaker
+131,18,Cable
+132,19,Webcam
+132,19,Phone Stand
+133,19,Phone Stand
+133,19,Smartwatch
+134,19,Smartwatch
+134,19,Tablet
+134,19,Webcam
+135,19,USB Hub
+135,19,Tablet
+135,19,Smartwatch
+136,20,Monitor
+136,20,Laptop
+136,20,Docking Station
+137,20,Mouse
+137,20,Docking Station
+138,20,Monitor
+138,20,Mouse
+138,20,USB Hub
+139,20,Keyboard
+139,20,Monitor
+140,20,Keyboard
+140,20,Mouse
+140,20,Laptop
+141,20,Docking Station
+142,20,Laptop
+142,20,Mouse
+143,20,Keyboard
+143,20,Mouse
+143,20,Docking Station
+144,20,Mouse
+144,20,Laptop
+145,21,Notebook
+145,21,Water Bottle
+145,21,Desk Lamp
+146,21,Notebook
+146,21,Backpack
+146,21,Pen Set
+147,21,Notebook
+147,21,Water Bottle
+147,21,Desk Lamp
+148,21,Desk Lamp
+149,22,Speaker
+150,22,Headphones
+151,22,Headphones
+152,22,Speaker
+152,22,Charger
+153,22,Charger
+153,22,Cable
+154,23,Tablet
+154,23,Phone Stand
+154,23,Webcam
+155,23,Smartwatch
+155,23,Phone Stand
+155,23,Webcam
+156,23,Webcam
+157,23,Phone Stand
+157,23,Smartwatch
+157,23,USB Hub
+158,23,USB Hub
+158,23,Webcam
+159,23,Phone Stand
+159,23,Webcam
+159,23,Smartwatch
+160,23,Webcam
+160,23,Tablet
+160,23,Smartwatch
+161,23,USB Hub
+162,24,Docking Station
+162,24,Mouse
+162,24,Keyboard
+163,24,Mouse
+163,24,Monitor
+163,24,Docking Station
+164,24,Keyboard
+164,24,USB Hub
+165,24,Monitor
+165,24,Mouse
+165,24,Keyboard
+166,24,Keyboard
+166,24,Mouse
+166,24,Monitor
+167,24,USB Hub
+168,24,Mouse
+168,24,Docking Station
+169,24,Mouse
+169,24,Monitor
+170,25,Desk Lamp
+171,25,Backpack
+171,25,Desk Lamp
+171,25,Notebook
+172,25,Backpack
+172,25,Notebook
+173,25,Pen Set
+173,25,Water Bottle
+174,25,Desk Lamp
+174,25,Water Bottle
+174,25,Pen Set
+175,25,Notebook
+175,25,Pen Set
+175,25,Water Bottle
+176,25,Pen Set
+176,25,Backpack
+177,26,Microphone
+178,26,Headphones
+178,26,Charger
+178,26,Cable
+179,26,Charger
+180,26,Charger
+180,26,Headphones
+180,26,Speaker
+181,26,Cable
+182,26,Headphones
+182,26,Cable
+183,26,Charger
+183,26,Microphone
+184,26,Headphones
+184,26,Microphone
+185,27,USB Hub
+185,27,Phone Stand
+185,27,Tablet
+186,27,USB Hub
+186,27,Webcam
+187,27,USB Hub
+187,27,Smartwatch
+188,27,Webcam
+188,27,USB Hub
+188,27,Phone Stand
+189,27,Smartwatch
+190,27,Smartwatch
+190,27,Phone Stand
+190,27,USB Hub
+191,27,Webcam
+192,27,Webcam
+193,28,Monitor
+193,28,Docking Station
+194,28,Laptop
+194,28,Docking Station
+194,28,Mouse
+195,28,Docking Station
+196,28,Docking Station
+197,28,Laptop
+198,28,Laptop
+198,28,Mouse
+198,28,Monitor
+199,28,Laptop
+200,28,Keyboard
+201,28,Keyboard
+201,28,Mouse
+201,28,USB Hub
+202,29,Pen Set
+202,29,Water Bottle
+202,29,Backpack
+203,29,Desk Lamp
+204,29,Pen Set
+204,29,Water Bottle
+204,29,Desk Lamp
+205,29,Desk Lamp
+205,29,Pen Set
+205,29,Water Bottle
+206,29,Desk Lamp
+206,29,Notebook
+206,29,Backpack
+207,29,Backpack
+207,29,Pen Set
+207,29,Desk Lamp
+208,29,Water Bottle
+208,29,Desk Lamp
+209,30,Headphones
+209,30,Phone Stand
+209,30,Microphone
+210,30,Headphones
+211,30,Headphones
+211,30,Microphone
+212,30,Charger
+213,30,Phone Stand
+213,30,Cable
+214,30,Charger
+215,31,Webcam
+215,31,Tablet
+216,31,Phone Stand
+216,31,Smartwatch
+217,31,USB Hub
+217,31,Phone Stand
+217,31,Webcam
+218,31,USB Hub
+218,31,Webcam
+219,32,Laptop
+219,32,USB Hub
+219,32,Mouse
+220,32,Laptop
+220,32,Docking Station
+220,32,Monitor
+221,32,USB Hub
+222,32,USB Hub
+222,32,Docking Station
+222,32,Laptop
+223,32,USB Hub
+223,32,Monitor
+224,32,Monitor
+224,32,USB Hub
+224,32,Laptop
+225,33,Notebook
+225,33,Water Bottle
+225,33,Backpack
+226,33,Water Bottle
+226,33,Backpack
+227,33,Notebook
+227,33,Pen Set
+227,33,Desk Lamp
+228,33,Water Bottle
+228,33,Backpack
+228,33,Notebook
+229,33,Water Bottle
+229,33,Desk Lamp
+229,33,Notebook
+230,33,Backpack
+231,34,Speaker
+231,34,Headphones
+232,34,Phone Stand
+232,34,Speaker
+233,34,Cable
+233,34,Charger
+233,34,Microphone
+234,34,Speaker
+235,35,USB Hub
+235,35,Webcam
+236,35,Phone Stand
+236,35,Tablet
+237,35,USB Hub
+237,35,Tablet
+238,35,Tablet
+238,35,Smartwatch
+238,35,Webcam
+239,35,USB Hub
+239,35,Phone Stand
+240,35,Tablet
+241,35,Webcam
+241,35,Smartwatch
+242,36,Monitor
+242,36,Mouse
+243,36,Monitor
+244,36,Laptop
+245,36,Docking Station
+246,36,Mouse
+246,36,Monitor
+246,36,Keyboard
+247,36,Mouse
+248,37,Pen Set
+248,37,Backpack
+248,37,Desk Lamp
+249,37,Pen Set
+250,37,Desk Lamp
+251,37,Pen Set
+252,37,Notebook
+252,37,Desk Lamp
+253,37,Backpack
+254,38,Microphone
+254,38,Speaker
+255,38,Microphone
+255,38,Charger
+256,38,Microphone
+256,38,Phone Stand
+257,38,Microphone
+258,39,Phone Stand
+258,39,Webcam
+259,39,Phone Stand
+260,39,Tablet
+261,39,Tablet
+261,39,Webcam
+262,39,USB Hub
+262,39,Smartwatch
+263,39,USB Hub
+263,39,Phone Stand
+264,40,Keyboard
+264,40,Docking Station
+264,40,Laptop
+265,40,Laptop
+265,40,USB Hub
+266,40,Laptop
+266,40,Mouse
+266,40,Monitor
+267,40,USB Hub
+268,40,Docking Station
+269,41,Pen Set
+269,41,Notebook
+270,41,Water Bottle
+270,41,Backpack
+271,41,Pen Set
+272,41,Pen Set
+272,41,Backpack
+272,41,Notebook
+273,42,Phone Stand
+273,42,Charger
+274,42,Cable
+274,42,Charger
+274,42,Microphone
+275,42,Cable
+276,42,Headphones
+276,42,Microphone
+276,42,Cable
+277,42,Headphones
+278,42,Cable
+278,42,Charger
+279,43,Phone Stand
+279,43,Webcam
+280,43,Tablet
+280,43,Phone Stand
+280,43,USB Hub
+281,43,Smartwatch
+281,43,Tablet
+282,43,Tablet
+282,43,Phone Stand
+283,43,Webcam
+283,43,Phone Stand
+283,43,Smartwatch
+284,43,USB Hub
+284,43,Webcam
+285,43,Webcam
+286,43,Webcam
+286,43,Tablet
+287,43,USB Hub
+287,43,Tablet
+287,43,Phone Stand
+288,44,USB Hub
+288,44,Monitor
+289,44,Monitor
+290,44,Docking Station
+290,44,Keyboard
+290,44,Mouse
+291,44,USB Hub
+291,44,Mouse
+291,44,Laptop
+292,44,Mouse
+292,44,Monitor
+293,44,Mouse
+293,44,Laptop
+293,44,USB Hub
+294,44,Docking Station
+295,44,Monitor
+295,44,Keyboard
+296,45,Notebook
+296,45,Pen Set
+297,45,Water Bottle
+298,45,Water Bottle
+298,45,Notebook
+298,45,Backpack
+299,45,Notebook
+300,45,Pen Set
+300,45,Water Bottle
+300,45,Notebook
+301,45,Water Bottle
+301,45,Desk Lamp
+301,45,Notebook
+302,45,Pen Set
+302,45,Desk Lamp
+303,45,Pen Set
+303,45,Desk Lamp
+304,46,Speaker
+305,46,Speaker
+305,46,Phone Stand
+305,46,Cable
+306,46,Phone Stand
+307,46,Cable
+307,46,Headphones
+308,46,Cable
+308,46,Headphones
+309,46,Charger
+309,46,Microphone
+309,46,Headphones
+310,47,Tablet
+311,47,Tablet
+311,47,Webcam
+311,47,Phone Stand
+312,47,Phone Stand
+312,47,Webcam
+313,47,Smartwatch
+313,47,Webcam
+314,47,USB Hub
+314,47,Smartwatch
+315,47,Phone Stand
+316,47,Phone Stand
+316,47,USB Hub
+316,47,Webcam
+317,48,Keyboard
+318,48,Docking Station
+318,48,Laptop
+318,48,USB Hub
+319,48,Docking Station
+320,48,Mouse
+321,49,Water Bottle
+321,49,Desk Lamp
+321,49,Pen Set
+322,49,Water Bottle
+322,49,Pen Set
+323,49,Notebook
+324,49,Pen Set
+324,49,Backpack
+325,49,Backpack
+325,49,Notebook
+326,50,Charger
+327,50,Speaker
+327,50,Charger
+327,50,Headphones
+328,50,Microphone
+328,50,Phone Stand
+328,50,Headphones
+329,50,Charger
+330,50,Microphone
+330,50,Charger
+330,50,Headphones
+331,51,Smartwatch
+331,51,Phone Stand
+332,51,USB Hub
+332,51,Webcam
+332,51,Phone Stand
+333,51,Smartwatch
+333,51,Webcam
+334,51,Smartwatch
+334,51,Tablet
+334,51,Webcam
+335,51,Webcam
+335,51,USB Hub
+335,51,Smartwatch
+336,51,Phone Stand
+336,51,Tablet
+337,51,Phone Stand
+337,51,Webcam
+338,51,USB Hub
+338,51,Phone Stand
+339,52,USB Hub
+339,52,Laptop
+340,52,Keyboard
+340,52,Docking Station
+341,52,Docking Station
+341,52,Monitor
+341,52,Keyboard
+342,52,Keyboard
+342,52,USB Hub
+343,52,Keyboard
+343,52,Mouse
+344,53,Notebook
+344,53,Pen Set
+345,53,Pen Set
+345,53,Desk Lamp
+346,53,Notebook
+347,53,Desk Lamp
+348,54,Speaker
+348,54,Cable
+348,54,Phone Stand
+349,54,Cable
+350,54,Headphones
+350,54,Speaker
+350,54,Microphone
+351,54,Headphones
+352,55,USB Hub
+352,55,Smartwatch
+352,55,Tablet
+353,55,Tablet
+353,55,USB Hub
+353,55,Smartwatch
+354,55,Phone Stand
+354,55,Tablet
+355,55,Phone Stand
+355,55,USB Hub
+355,55,Webcam
+356,56,Keyboard
+356,56,Mouse
+356,56,Laptop
+357,56,Monitor
+357,56,Laptop
+358,56,Docking Station
+358,56,Mouse
+359,56,Monitor
+360,56,Keyboard
+361,56,Laptop
+362,57,Pen Set
+363,57,Desk Lamp
+364,57,Notebook
+365,57,Pen Set
+365,57,Notebook
+365,57,Water Bottle
+366,58,Speaker
+367,58,Speaker
+368,58,Charger
+369,58,Microphone
+369,58,Cable
+369,58,Headphones
+370,58,Microphone
+370,58,Cable
+370,58,Headphones
+371,59,Webcam
+372,59,Tablet
+372,59,Phone Stand
+372,59,Webcam
+373,59,Smartwatch
+373,59,Tablet
+374,59,USB Hub
+374,59,Smartwatch
+374,59,Tablet
+375,59,Webcam
+375,59,Tablet
+375,59,Smartwatch
+376,60,Mouse
+376,60,USB Hub
+377,60,USB Hub
+377,60,Mouse
+377,60,Keyboard
+378,60,Laptop
+378,60,USB Hub
+378,60,Keyboard
+379,60,Monitor
+379,60,Docking Station
+380,61,Backpack
+380,61,Notebook
+381,61,Backpack
+382,61,Desk Lamp
+383,61,Backpack
+383,61,Water Bottle
+384,61,Backpack
+385,62,Microphone
+386,62,Microphone
+387,62,Cable
+387,62,Microphone
+388,62,Cable
+388,62,Speaker
+389,62,Phone Stand
+389,62,Cable
+390,63,Phone Stand
+390,63,Tablet
+391,63,Tablet
+391,63,Phone Stand
+392,63,Phone Stand
+392,63,Tablet
+393,63,Tablet
+394,63,Webcam
+394,63,Tablet
+394,63,Smartwatch
+395,63,Phone Stand
+395,63,Webcam
+396,63,USB Hub
+396,63,Phone Stand
+397,63,USB Hub
+398,64,Monitor
+398,64,Docking Station
+399,64,Monitor
+399,64,Keyboard
+399,64,Docking Station
+400,64,Keyboard
+400,64,Laptop
+400,64,Mouse
+401,64,USB Hub
+401,64,Docking Station
+402,64,Laptop
+402,64,USB Hub
+402,64,Keyboard
+403,64,Laptop
+404,64,Docking Station
+405,65,Water Bottle
+406,65,Water Bottle
+406,65,Backpack
+407,65,Notebook
+407,65,Backpack
+407,65,Pen Set
+408,65,Backpack
+408,65,Water Bottle
+409,66,Microphone
+409,66,Cable
+410,66,Microphone
+410,66,Headphones
+410,66,Phone Stand
+411,66,Phone Stand
+412,66,Phone Stand
+412,66,Headphones
+413,66,Speaker
+414,66,Microphone
+415,66,Speaker
+416,67,Webcam
+416,67,Smartwatch
+416,67,Phone Stand
+417,67,USB Hub
+417,67,Phone Stand
+418,67,Webcam
+418,67,USB Hub
+418,67,Smartwatch
+419,67,Smartwatch
+420,67,Phone Stand
+420,67,USB Hub
+420,67,Tablet
+421,67,Tablet
+422,68,Laptop
+422,68,Docking Station
+422,68,Keyboard
+423,68,Keyboard
+424,68,USB Hub
+425,68,Laptop
+425,68,Docking Station
+426,68,Monitor
+427,68,Laptop
+427,68,Keyboard
+427,68,Mouse
+428,68,Mouse
+429,68,Docking Station
+429,68,Monitor
+429,68,USB Hub
+430,68,Monitor
+430,68,USB Hub
+430,68,Mouse
+431,69,Desk Lamp
+431,69,Water Bottle
+431,69,Notebook
+432,69,Desk Lamp
+432,69,Pen Set
+432,69,Backpack
+433,69,Notebook
+433,69,Water Bottle
+433,69,Backpack
+434,69,Water Bottle
+434,69,Desk Lamp
+434,69,Backpack
+435,70,Cable
+435,70,Microphone
+435,70,Headphones
+436,70,Microphone
+437,70,Headphones
+438,70,Headphones
+438,70,Charger
+439,70,Charger
+439,70,Microphone
+439,70,Headphones
+440,70,Speaker
+440,70,Phone Stand
+441,70,Microphone
+441,70,Phone Stand
+442,71,Smartwatch
+443,71,USB Hub
+444,71,Tablet
+445,71,Phone Stand
+446,71,Tablet
+446,71,USB Hub
+447,71,USB Hub
+447,71,Smartwatch
+447,71,Tablet
+448,71,Tablet
+448,71,Phone Stand
+448,71,Webcam
+449,71,USB Hub
+449,71,Phone Stand
+450,71,Smartwatch
+450,71,Tablet
+451,72,Keyboard
+451,72,USB Hub
+452,72,Laptop
+452,72,Docking Station
+452,72,Monitor
+453,72,Laptop
+453,72,USB Hub
+454,72,Laptop
+454,72,Monitor
+455,72,USB Hub
+455,72,Laptop
+456,72,Laptop
+456,72,Mouse
+457,73,Pen Set
+458,73,Water Bottle
+458,73,Pen Set
+458,73,Desk Lamp
+459,73,Water Bottle
+459,73,Desk Lamp
+459,73,Backpack
+460,73,Notebook
+460,73,Desk Lamp
+461,73,Desk Lamp
+462,73,Water Bottle
+462,73,Notebook
+463,73,Backpack
+463,73,Pen Set
+464,73,Pen Set
+464,73,Water Bottle
+465,73,Pen Set
+466,74,Cable
+466,74,Phone Stand
+467,74,Charger
+467,74,Speaker
+468,74,Charger
+468,74,Speaker
+469,74,Speaker
+469,74,Cable
+470,74,Phone Stand
+470,74,Speaker
+470,74,Cable
+471,74,Microphone
+472,75,Webcam
+472,75,Phone Stand
+473,75,Phone Stand
+473,75,Smartwatch
+473,75,Tablet
+474,75,USB Hub
+474,75,Tablet
+474,75,Webcam
+475,75,Smartwatch
+475,75,Phone Stand
+475,75,USB Hub
+476,75,Tablet
+476,75,Smartwatch
+477,76,USB Hub
+477,76,Docking Station
+478,76,Keyboard
+478,76,Mouse
+479,76,Mouse
+480,76,Mouse
+480,76,Keyboard
+480,76,USB Hub
+481,76,Mouse
+482,76,Docking Station
+482,76,Laptop
+483,76,Mouse
+483,76,USB Hub
+483,76,Laptop
+484,77,Notebook
+484,77,Desk Lamp
+485,77,Water Bottle
+486,77,Water Bottle
+486,77,Desk Lamp
+486,77,Notebook
+487,77,Water Bottle
+487,77,Notebook
+488,77,Water Bottle
+488,77,Notebook
+489,77,Desk Lamp
+490,77,Water Bottle
+490,77,Notebook
+491,78,Speaker
+491,78,Charger
+492,78,Headphones
+492,78,Microphone
+493,78,Cable
+493,78,Microphone
+493,78,Speaker
+494,78,Cable
+494,78,Charger
+495,78,Microphone
+496,78,Speaker
+496,78,Phone Stand
+496,78,Headphones
+497,78,Phone Stand
+497,78,Microphone
+497,78,Headphones
+498,78,Headphones
+498,78,Charger
+498,78,Microphone
+499,79,Smartwatch
+500,79,USB Hub
+501,79,Webcam
+502,79,Smartwatch
+502,79,Phone Stand
+503,79,Phone Stand
+504,80,USB Hub
+504,80,Mouse
+504,80,Monitor
+505,80,Monitor
+505,80,Keyboard
+505,80,Laptop
+506,80,Keyboard
+506,80,Mouse
+507,80,USB Hub
+508,80,Monitor
+509,80,Docking Station
+510,81,Pen Set
+510,81,Water Bottle
+511,81,Water Bottle
+511,81,Desk Lamp
+511,81,Backpack
+512,81,Desk Lamp
+512,81,Pen Set
+513,81,Water Bottle
+514,81,Water Bottle
+514,81,Desk Lamp
+514,81,Notebook
+515,81,Backpack
+515,81,Water Bottle
+516,81,Backpack
+517,82,Cable
+517,82,Charger
+517,82,Headphones
+518,82,Phone Stand
+518,82,Headphones
+519,82,Cable
+520,82,Speaker
+520,82,Microphone
+520,82,Phone Stand
+521,82,Microphone
+521,82,Charger
+521,82,Speaker
+522,83,Phone Stand
+522,83,Webcam
+523,83,Tablet
+524,83,Tablet
+525,83,Smartwatch
+526,83,Smartwatch
+526,83,Tablet
+526,83,USB Hub
+527,83,Phone Stand
+527,83,Tablet
+527,83,Smartwatch
+528,83,Phone Stand
+529,83,USB Hub
+529,83,Phone Stand
+530,83,Smartwatch
+531,84,Laptop
+531,84,Docking Station
+531,84,Mouse
+532,84,Mouse
+533,84,Mouse
+533,84,Docking Station
+533,84,Monitor
+534,84,Keyboard
+534,84,USB Hub
+535,85,Pen Set
+535,85,Backpack
+535,85,Water Bottle
+536,85,Pen Set
+537,85,Pen Set
+537,85,Desk Lamp
+537,85,Backpack
+538,85,Pen Set
+538,85,Backpack
+538,85,Notebook
+539,85,Desk Lamp
+540,86,Cable
+540,86,Charger
+540,86,Speaker
+541,86,Cable
+541,86,Headphones
+541,86,Charger
+542,86,Speaker
+543,86,Cable
+544,86,Cable
+544,86,Speaker
+545,86,Microphone
+546,86,Phone Stand
+546,86,Cable
+547,86,Charger
+547,86,Headphones
+548,86,Headphones
+548,86,Phone Stand
+548,86,Cable
+549,87,Smartwatch
+549,87,Tablet
+549,87,USB Hub
+550,87,Smartwatch
+550,87,Phone Stand
+551,87,Webcam
+551,87,Phone Stand
+552,87,Phone Stand
+552,87,Tablet
+552,87,Webcam
+553,87,USB Hub
+553,87,Phone Stand
+554,87,USB Hub
+555,88,Laptop
+555,88,USB Hub
+555,88,Mouse
+556,88,USB Hub
+556,88,Keyboard
+557,88,Laptop
+557,88,Monitor
+558,88,Monitor
+558,88,Docking Station
+558,88,Laptop
+559,89,Water Bottle
+560,89,Backpack
+560,89,Desk Lamp
+561,89,Desk Lamp
+561,89,Notebook
+562,89,Notebook
+563,90,Charger
+563,90,Cable
+564,90,Cable
+564,90,Charger
+564,90,Headphones
+565,90,Speaker
+565,90,Cable
+565,90,Headphones
+566,90,Charger
+566,90,Headphones
+566,90,Cable
+567,90,Charger
+567,90,Cable
+568,90,Headphones
+568,90,Cable
+568,90,Phone Stand
+569,90,Headphones
+570,90,Charger
+571,90,Cable
+572,91,Phone Stand
+572,91,USB Hub
+572,91,Webcam
+573,91,Smartwatch
+574,91,USB Hub
+574,91,Phone Stand
+574,91,Smartwatch
+575,91,Tablet
+575,91,Smartwatch
+576,91,USB Hub
+576,91,Smartwatch
+576,91,Tablet
+577,92,USB Hub
+577,92,Keyboard
+577,92,Laptop
+578,92,Monitor
+578,92,Docking Station
+578,92,Laptop
+579,92,Keyboard
+580,92,Monitor
+580,92,Laptop
+580,92,Docking Station
+581,92,Mouse
+581,92,Docking Station
+582,92,USB Hub
+583,93,Backpack
+584,93,Backpack
+584,93,Water Bottle
+584,93,Desk Lamp
+585,93,Water Bottle
+585,93,Backpack
+586,93,Notebook
+586,93,Desk Lamp
+587,94,Microphone
+587,94,Phone Stand
+587,94,Charger
+588,94,Headphones
+588,94,Phone Stand
+588,94,Microphone
+589,94,Phone Stand
+589,94,Microphone
+590,94,Headphones
+590,94,Speaker
+590,94,Cable
+591,94,Cable
+591,94,Charger
+592,94,Cable
+592,94,Phone Stand
+593,94,Headphones
+593,94,Phone Stand
+594,94,Cable
+594,94,Microphone
+595,95,Smartwatch
+595,95,USB Hub
+596,95,Webcam
+596,95,Phone Stand
+596,95,Tablet
+597,95,Smartwatch
+598,95,USB Hub
+599,95,Smartwatch
+599,95,Tablet
+599,95,Phone Stand
+600,95,Tablet
+600,95,Phone Stand
+601,95,Smartwatch
+601,95,Tablet
+602,95,Tablet
+603,96,Laptop
+604,96,Laptop
+604,96,Mouse
+604,96,Docking Station
+605,96,USB Hub
+605,96,Monitor
+606,96,USB Hub
+607,96,Monitor
+608,97,Water Bottle
+609,97,Pen Set
+610,97,Notebook
+611,97,Backpack
+611,97,Notebook
+612,97,Notebook
+612,97,Water Bottle
+612,97,Backpack
+613,97,Backpack
+613,97,Water Bottle
+613,97,Desk Lamp
+614,98,Speaker
+615,98,Microphone
+616,98,Charger
+616,98,Cable
+617,98,Speaker
+617,98,Charger
+617,98,Headphones
+618,99,Tablet
+618,99,USB Hub
+619,99,Tablet
+619,99,Smartwatch
+619,99,Phone Stand
+620,99,Webcam
+620,99,USB Hub
+620,99,Smartwatch
+621,99,Phone Stand
+621,99,USB Hub
+622,99,USB Hub
+623,100,Docking Station
+624,100,Monitor
+625,100,USB Hub
+625,100,Mouse
+626,100,Docking Station
+626,100,USB Hub
+626,100,Keyboard
+627,100,Mouse
+627,100,Docking Station
+628,100,Mouse
+629,100,Keyboard
+629,100,Mouse
+630,100,Monitor
+630,100,Mouse
+630,100,Docking Station
+631,100,Laptop
+631,100,Monitor
+631,100,Keyboard
+632,101,Desk Lamp
+632,101,Backpack
+632,101,Notebook
+633,101,Notebook
+633,101,Pen Set
+633,101,Backpack
+634,101,Backpack
+635,101,Pen Set
+636,101,Water Bottle
+637,101,Desk Lamp
+638,102,Microphone
+638,102,Headphones
+639,102,Headphones
+639,102,Microphone
+639,102,Cable
+640,102,Headphones
+641,102,Microphone
+642,103,USB Hub
+642,103,Tablet
+643,103,Phone Stand
+644,103,Tablet
+644,103,Phone Stand
+645,103,Tablet
+645,103,Smartwatch
+646,103,Tablet
+646,103,Smartwatch
+646,103,Phone Stand
+647,103,Phone Stand
+647,103,Tablet
+647,103,USB Hub
+648,103,USB Hub
+649,104,Mouse
+649,104,Docking Station
+649,104,USB Hub
+650,104,Keyboard
+650,104,Laptop
+650,104,USB Hub
+651,104,Mouse
+651,104,USB Hub
+652,104,Keyboard
+652,104,USB Hub
+652,104,Laptop
+653,104,USB Hub
+653,104,Docking Station
+653,104,Mouse
+654,104,USB Hub
+654,104,Mouse
+654,104,Docking Station
+655,104,Mouse
+655,104,Docking Station
+655,104,Keyboard
+656,104,Mouse
+656,104,Keyboard
+657,104,Monitor
+658,105,Water Bottle
+658,105,Pen Set
+658,105,Desk Lamp
+659,105,Desk Lamp
+659,105,Water Bottle
+660,105,Water Bottle
+660,105,Pen Set
+660,105,Desk Lamp
+661,105,Notebook
+662,105,Pen Set
+662,105,Notebook
+663,105,Pen Set
+663,105,Desk Lamp
+663,105,Water Bottle
+664,105,Desk Lamp
+665,106,Phone Stand
+665,106,Microphone
+665,106,Headphones
+666,106,Charger
+666,106,Phone Stand
+667,106,Cable
+667,106,Charger
+667,106,Headphones
+668,106,Charger
+668,106,Speaker
+669,107,Webcam
+669,107,USB Hub
+670,107,Smartwatch
+670,107,Webcam
+670,107,Tablet
+671,107,Tablet
+671,107,USB Hub
+671,107,Phone Stand
+672,107,Tablet
+672,107,Phone Stand
+672,107,Webcam
+673,108,Monitor
+673,108,Laptop
+673,108,Mouse
+674,108,Monitor
+674,108,USB Hub
+674,108,Laptop
+675,108,Laptop
+675,108,Mouse
+676,108,Mouse
+677,108,Keyboard
+677,108,Docking Station
+677,108,Mouse
+678,108,Keyboard
+678,108,Laptop
+678,108,USB Hub
+679,108,Monitor
+679,108,Keyboard
+680,108,Laptop
+681,108,Keyboard
+682,109,Backpack
+683,109,Water Bottle
+683,109,Pen Set
+683,109,Desk Lamp
+684,109,Backpack
+684,109,Pen Set
+684,109,Water Bottle
+685,109,Desk Lamp
+685,109,Water Bottle
+685,109,Pen Set
+686,109,Water Bottle
+686,109,Backpack
+686,109,Notebook
+687,109,Water Bottle
+687,109,Desk Lamp
+687,109,Pen Set
+688,110,Headphones
+689,110,Headphones
+689,110,Microphone
+689,110,Charger
+690,110,Headphones
+691,110,Cable
+691,110,Charger
+691,110,Phone Stand
+692,110,Charger
+692,110,Speaker
+692,110,Phone Stand
+693,110,Phone Stand
+694,110,Headphones
+694,110,Charger
+694,110,Microphone
+695,111,Tablet
+695,111,Webcam
+696,111,Tablet
+696,111,USB Hub
+697,111,Smartwatch
+697,111,Webcam
+698,111,Tablet
+699,111,USB Hub
+699,111,Smartwatch
+699,111,Webcam
+700,111,Smartwatch
+701,111,Tablet
+701,111,Smartwatch
+702,112,USB Hub
+703,112,USB Hub
+704,112,USB Hub
+705,112,Mouse
+705,112,Docking Station
+705,112,Laptop
+706,112,Keyboard
+706,112,Docking Station
+707,112,USB Hub
+708,112,Laptop
+708,112,Docking Station
+709,113,Backpack
+709,113,Desk Lamp
+709,113,Notebook
+710,113,Notebook
+710,113,Water Bottle
+711,113,Pen Set
+711,113,Water Bottle
+712,113,Notebook
+712,113,Backpack
+713,114,Phone Stand
+714,114,Phone Stand
+714,114,Speaker
+714,114,Microphone
+715,114,Charger
+715,114,Cable
+715,114,Speaker
+716,114,Microphone
+717,114,Headphones
+718,114,Phone Stand
+719,114,Phone Stand
+720,114,Charger
+721,115,Phone Stand
+721,115,Tablet
+721,115,Webcam
+722,115,Webcam
+723,115,Smartwatch
+724,115,Smartwatch
+724,115,Tablet
+725,115,Phone Stand
+725,115,USB Hub
+725,115,Tablet
+726,115,Smartwatch
+726,115,Tablet
+726,115,Webcam
+727,115,Phone Stand
+727,115,Webcam
+727,115,Smartwatch
+728,116,Keyboard
+729,116,Monitor
+729,116,USB Hub
+730,116,USB Hub
+730,116,Laptop
+730,116,Keyboard
+731,116,Keyboard
+731,116,Docking Station
+731,116,Laptop
+732,116,Monitor
+732,116,Docking Station
+733,116,Laptop
+733,116,Monitor
+733,116,Docking Station
+734,117,Water Bottle
+734,117,Notebook
+735,117,Backpack
+736,117,Pen Set
+737,117,Pen Set
+738,117,Desk Lamp
+738,117,Backpack
+738,117,Notebook
+739,117,Water Bottle
+739,117,Desk Lamp
+739,117,Notebook
+740,117,Desk Lamp
+741,117,Backpack
+741,117,Water Bottle
+741,117,Desk Lamp
+742,118,Microphone
+742,118,Cable
+742,118,Headphones
+743,118,Headphones
+743,118,Microphone
+743,118,Cable
+744,118,Headphones
+745,118,Phone Stand
+746,118,Speaker
+746,118,Cable
+747,119,Webcam
+747,119,Smartwatch
+748,119,Tablet
+749,119,Tablet
+750,119,Phone Stand
+750,119,Tablet
+750,119,Webcam
+751,119,Webcam
+751,119,Smartwatch
+751,119,USB Hub
+752,119,Phone Stand
+752,119,Smartwatch
+753,120,USB Hub
+754,120,Keyboard
+754,120,Docking Station
+755,120,USB Hub
+755,120,Monitor
+756,120,Monitor
+756,120,USB Hub
+756,120,Keyboard
+757,120,Mouse
+757,120,USB Hub
+757,120,Laptop
+758,120,USB Hub
+758,120,Laptop

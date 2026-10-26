@@ -1,0 +1,15 @@
+SALES OUTLIER REPORT
+==================================================
+Rows loaded: 360
+Negative values repaired: 4
+IQR outliers repaired: 4
+Missing values repaired: 5
+Clean total sales: $188,304.57
+Clean daily average: $523.07
+
+Clean summary by store:
+         mean     min     max
+store                        
+A      546.06  350.85  740.36
+B      497.88  330.01  679.69
+C      525.26  354.82  719.78

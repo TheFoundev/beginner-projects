@@ -1,0 +1,4 @@
+warehouse,orders,avg_delivery_days,sd_delivery_days,avg_distance_km
+A,56,3.07,0.64,11.08
+B,63,4.03,0.63,11.41
+C,61,3.74,0.73,12.08

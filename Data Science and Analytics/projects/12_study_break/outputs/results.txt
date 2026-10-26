@@ -1,0 +1,12 @@
+STUDY BREAK EXPERIMENT RESULTS
+============================================================
+Break group: n=40, mean=78.3, sd=8.6
+No-break group: n=40, mean=72.7, sd=7.4
+Mean difference: 5.54 points
+t-statistic: 3.084
+p-value: 0.00284
+Cohen's d: 0.69
+95% CI for difference: [1.96, 9.12]
+
+At the 5% level, the difference is statistically significant.
+A p-value is not the same as the size of the effect; report both.

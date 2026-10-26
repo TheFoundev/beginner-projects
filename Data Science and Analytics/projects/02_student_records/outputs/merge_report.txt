@@ -1,0 +1,19 @@
+STUDENT RECORDS MERGE REPORT
+==================================================
+Student rows before de-duplication: 88
+Unique students: 80
+Score rows before cleaning: 270
+Missing scores filled: 18
+Score rows for unknown students: 5 IDs
+Students with no scores: 0
+
+Average score by program:
+program
+CIVIL    67.0
+CSE      67.5
+ECE      69.8
+MECH     71.0
+
+Pass / support counts:
+status
+Pass    80

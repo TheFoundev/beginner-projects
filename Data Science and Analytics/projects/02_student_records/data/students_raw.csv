@@ -1,0 +1,89 @@
+student_id,name,program,email
+s001,Diya 1,ECE,student1@college.edu
+S-002,Kabir 2,cse,student2@college.edu
+S003,Meera 3,mech,student3@college.edu
+s004,Rohan 4,MECH,student4@college.edu
+S005,Sara 5,ece,student5@college.edu
+S-006,Vivaan 6,CIVIL,student6@college.edu
+s007,Anaya 7,civil,student7@college.edu
+ S008 ,Ishaan 8,cse,student8@college.edu
+S-009,Nisha 9,civil,student9@college.edu
+S010,Arjun 10,ECE,student10@college.edu
+S011,Tara 11,CSE,student11@college.edu
+s012,Dev 12,MECH,student12@college.edu
+ S013 ,Priya 13,mech,student13@college.edu
+ S014 ,Kiran 14,cse,student14@college.edu
+s015,Neha 15,civil,student15@college.edu
+S-016,Aarav 16,civil,student16@college.edu
+S-017,Diya 17,civil,student17@college.edu
+S018,Kabir 18,ECE,student18@college.edu
+S-019,Meera 19,cse,student19@college.edu
+ S020 ,Rohan 20,ece,student20@college.edu
+s021,Sara 21,civil,student21@college.edu
+S-022,Vivaan 22,ECE,student22@college.edu
+s023,Anaya 23,cse,student23@college.edu
+ S024 ,Ishaan 24,CSE,student24@college.edu
+s025,Nisha 25,ece,student25@college.edu
+S-026,Arjun 26,cse,student26@college.edu
+s027,Tara 27,ECE,student27@college.edu
+ S028 ,Dev 28,CSE,student28@college.edu
+s029,Priya 29,cse,student29@college.edu
+s030,Kiran 30,CIVIL,student30@college.edu
+s031,Neha 31,cse,student31@college.edu
+ S032 ,Aarav 32,civil,student32@college.edu
+s033,Diya 33,civil,student33@college.edu
+S-034,Kabir 34,MECH,student34@college.edu
+ S035 ,Meera 35,CSE,student35@college.edu
+s036,Rohan 36,MECH,student36@college.edu
+s037,Sara 37,mech,student37@college.edu
+S-038,Vivaan 38,MECH,student38@college.edu
+ S039 ,Anaya 39,ECE,student39@college.edu
+ S040 ,Ishaan 40,cse,student40@college.edu
+S-041,Nisha 41,ece,student41@college.edu
+ S042 ,Arjun 42,ECE,student42@college.edu
+ S043 ,Tara 43,CSE,student43@college.edu
+ S044 ,Dev 44,ECE,student44@college.edu
+S045,Priya 45,ECE,student45@college.edu
+ S046 ,Kiran 46,MECH,student46@college.edu
+ S047 ,Neha 47,cse,student47@college.edu
+ S048 ,Aarav 48,civil,student48@college.edu
+S-049,Diya 49,MECH,student49@college.edu
+S050,Kabir 50,ece,student50@college.edu
+S-051,Meera 51,ece,student51@college.edu
+ S052 ,Rohan 52,MECH,student52@college.edu
+ S053 ,Sara 53,cse,student53@college.edu
+S-054,Vivaan 54,civil,student54@college.edu
+ S055 ,Anaya 55,civil,student55@college.edu
+s056,Ishaan 56,CIVIL,student56@college.edu
+S-057,Nisha 57,mech,student57@college.edu
+ S058 ,Arjun 58,MECH,student58@college.edu
+S-059,Tara 59,mech,student59@college.edu
+ S060 ,Dev 60,CIVIL,student60@college.edu
+S061,Priya 61,mech,student61@college.edu
+s062,Kiran 62,CSE,student62@college.edu
+s063,Neha 63,ECE,student63@college.edu
+ S064 ,Aarav 64,ece,student64@college.edu
+S065,Diya 65,ECE,student65@college.edu
+S066,Kabir 66,MECH,student66@college.edu
+ S067 ,Meera 67,ece,student67@college.edu
+S068,Rohan 68,MECH,student68@college.edu
+S069,Sara 69,MECH,student69@college.edu
+s070,Vivaan 70,mech,student70@college.edu
+s071,Anaya 71,CSE,student71@college.edu
+ S072 ,Ishaan 72,CSE,student72@college.edu
+S073,Nisha 73,mech,student73@college.edu
+ S074 ,Arjun 74,civil,student74@college.edu
+s075,Tara 75,ece,student75@college.edu
+S076,Dev 76,ece,student76@college.edu
+S077,Priya 77,civil,student77@college.edu
+S-078,Kiran 78,cse,student78@college.edu
+s079,Neha 79,CSE,student79@college.edu
+ S080 ,Aarav 80,CIVIL,student80@college.edu
+s062,Kiran 62,CSE,student62@college.edu
+ S058 ,Arjun 58,MECH,student58@college.edu
+S-078,Kiran 78,cse,student78@college.edu
+s007,Anaya 7,civil,student7@college.edu
+ S046 ,Kiran 46,MECH,student46@college.edu
+S-009,Nisha 9,civil,student9@college.edu
+s036,Rohan 36,MECH,student36@college.edu
+ S074 ,Arjun 74,civil,student74@college.edu

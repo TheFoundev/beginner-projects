@@ -1,0 +1,17 @@
+SURVEY CLEANING REPORT
+==================================================
+Rows before cleaning: 290
+Rows after de-duplication: 250
+Duplicate rows removed: 40
+Missing ages filled: 11
+Missing satisfaction values filled: 22
+Blank recommendation answers treated as 0: 19
+Average satisfaction: 3.60 / 5
+Recommendation rate: 55.6%
+
+Average satisfaction by gender:
+gender
+Female     3.67
+Male       3.56
+Other      3.55
+Unknown    3.55

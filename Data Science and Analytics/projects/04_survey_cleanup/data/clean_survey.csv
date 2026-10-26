@@ -1,0 +1,251 @@
+respondent_id,age,gender,satisfaction,would_recommend,comments
+85,52.0,Male,5.0,0,Loved it
+70,36.0,Other,2.0,0,Great service
+46,56.0,Unknown,2.0,1,
+176,46.0,Male,1.0,1,Great service
+144,47.0,Female,1.0,0,Could be better
+126,52.0,Male,5.0,0,Not sure
+225,32.0,Male,4.0,1,
+119,32.0,Other,5.0,1,Loved it
+10,28.0,Female,4.0,0,Could be better
+91,56.0,Unknown,4.0,1,Could be better
+148,18.0,Other,3.0,1,Could be better
+4,53.0,Female,4.0,1,Great service
+34,59.0,Other,4.0,0,
+55,41.0,Unknown,5.0,1,Not sure
+219,60.0,Other,3.0,1,
+78,20.0,Female,4.0,1,Loved it
+47,32.0,Male,4.0,1,Could be better
+6,48.0,Male,5.0,0,
+229,22.0,Male,2.0,1,Not sure
+170,33.0,Female,5.0,1,Loved it
+125,50.0,Male,4.0,0,
+214,59.0,Other,5.0,1,Great service
+190,32.0,Female,4.0,0,Could be better
+102,24.0,Female,5.0,0,Great service
+76,23.0,Other,2.0,0,Not sure
+180,42.0,Other,3.0,0,Could be better
+210,47.0,Female,2.0,1,Not sure
+110,46.0,Male,4.0,0,Could be better
+61,20.0,Female,5.0,1,Great service
+227,55.0,Male,3.0,1,Not sure
+43,47.0,Female,5.0,1,
+57,35.0,Other,3.0,0,Great service
+118,38.0,Other,4.0,0,Not sure
+128,25.0,Female,2.0,0,Great service
+166,23.0,Female,2.0,1,Not sure
+230,38.0,Female,5.0,1,
+114,41.0,Female,3.0,0,Loved it
+160,19.0,Female,3.0,1,
+64,60.0,Male,4.0,1,
+147,37.0,Other,1.0,0,Not sure
+67,59.0,Unknown,5.0,0,
+236,47.0,Other,4.0,1,
+159,23.0,Female,5.0,1,Could be better
+181,52.0,Male,1.0,0,Not sure
+31,44.0,Male,4.0,1,
+23,41.0,Male,5.0,1,Loved it
+25,32.0,Male,5.0,0,Great service
+226,21.0,Male,4.0,0,
+120,46.0,Male,3.0,1,Loved it
+198,28.0,Male,5.0,0,Not sure
+80,22.0,Male,5.0,0,Not sure
+18,41.0,Other,5.0,0,Loved it
+243,19.0,Unknown,1.0,1,Could be better
+212,45.0,Female,4.0,1,Not sure
+177,39.0,Male,3.0,1,Could be better
+183,41.0,Female,4.0,0,Great service
+169,38.0,Unknown,4.0,1,Could be better
+7,47.0,Female,4.0,0,Could be better
+224,41.0,Female,3.0,1,Not sure
+158,38.0,Female,2.0,0,Could be better
+74,23.0,Female,5.0,1,Great service
+26,21.0,Female,5.0,0,Not sure
+113,27.0,Male,3.0,1,Loved it
+149,36.0,Female,5.0,0,Not sure
+73,21.0,Male,3.0,1,Could be better
+20,31.0,Female,5.0,0,
+115,38.0,Female,3.0,1,
+94,39.0,Male,1.0,0,Not sure
+16,52.0,Other,3.0,1,Loved it
+11,26.0,Male,5.0,1,Great service
+83,22.0,Unknown,4.0,1,Not sure
+69,54.0,Other,5.0,1,Loved it
+209,25.0,Unknown,2.0,1,Not sure
+38,38.0,Other,2.0,0,Great service
+17,37.0,Male,5.0,0,Not sure
+30,46.0,Male,5.0,0,Could be better
+141,56.0,Female,5.0,0,Not sure
+138,53.0,Female,2.0,1,Loved it
+68,18.0,Female,4.0,0,Could be better
+237,40.0,Male,5.0,0,Great service
+127,40.0,Female,4.0,1,Could be better
+112,57.0,Other,4.0,0,Great service
+211,53.0,Male,3.0,1,Loved it
+153,58.0,Unknown,1.0,1,Great service
+19,30.0,Male,5.0,1,Loved it
+53,37.0,Male,1.0,0,Could be better
+87,52.0,Female,4.0,0,
+228,56.0,Male,3.0,0,Not sure
+93,26.0,Male,3.0,1,Great service
+98,46.0,Unknown,3.0,1,Not sure
+109,33.0,Male,4.0,0,
+213,18.0,Male,4.0,0,Not sure
+56,57.0,Male,4.0,0,Could be better
+185,19.0,Other,4.0,1,Great service
+233,19.0,Female,4.0,1,Great service
+39,55.0,Male,5.0,1,Loved it
+179,28.0,Male,4.0,0,
+171,30.0,Female,4.0,1,Could be better
+58,42.0,Female,4.0,1,
+117,60.0,Male,4.0,0,Loved it
+155,54.0,Female,4.0,1,Could be better
+195,39.0,Female,3.0,1,Great service
+32,53.0,Female,5.0,1,
+37,42.0,Unknown,5.0,0,Great service
+79,26.0,Female,4.0,1,Great service
+207,30.0,Male,3.0,1,Could be better
+178,20.0,Unknown,4.0,0,Not sure
+40,24.0,Other,1.0,0,Loved it
+97,33.0,Female,3.0,1,Could be better
+173,35.0,Male,3.0,0,
+133,27.0,Male,2.0,0,Could be better
+196,60.0,Male,3.0,1,Could be better
+168,41.0,Male,4.0,0,Loved it
+3,27.0,Other,4.0,0,Not sure
+105,39.0,Other,3.0,0,Loved it
+77,22.0,Male,1.0,1,Great service
+116,21.0,Female,3.0,1,Not sure
+249,51.0,Other,5.0,1,Not sure
+165,54.0,Female,3.0,1,
+187,45.0,Other,3.0,1,Loved it
+121,28.0,Unknown,3.0,1,
+194,54.0,Unknown,4.0,0,Could be better
+247,38.0,Other,4.0,1,Not sure
+75,26.0,Female,4.0,0,
+248,57.0,Female,5.0,0,Loved it
+223,19.0,Male,4.0,1,
+108,49.0,Male,4.0,0,Not sure
+140,49.0,Male,3.0,0,Could be better
+145,45.0,Unknown,5.0,1,
+232,53.0,Male,5.0,1,Could be better
+174,59.0,Unknown,5.0,0,Great service
+66,53.0,Unknown,4.0,0,Loved it
+182,21.0,Female,4.0,0,
+86,22.0,Male,3.0,0,Great service
+197,35.0,Unknown,4.0,1,Great service
+13,27.0,Female,5.0,1,Loved it
+36,26.0,Male,4.0,1,Not sure
+29,59.0,Unknown,4.0,1,Could be better
+143,59.0,Unknown,1.0,1,Could be better
+241,25.0,Other,4.0,0,Loved it
+234,53.0,Male,4.0,1,Could be better
+156,40.0,Male,1.0,0,
+52,38.0,Other,4.0,1,Could be better
+96,39.0,Male,3.0,0,Great service
+204,27.0,Female,5.0,1,Great service
+42,46.0,Other,5.0,0,Great service
+99,26.0,Female,5.0,1,Great service
+201,51.0,Other,5.0,1,Could be better
+137,33.0,Male,2.0,1,
+27,39.0,Other,4.0,0,Could be better
+142,24.0,Female,3.0,0,Loved it
+184,51.0,Female,2.0,0,Loved it
+1,48.0,Other,2.0,1,Loved it
+101,56.0,Female,4.0,1,Could be better
+240,47.0,Male,3.0,1,Could be better
+235,51.0,Male,3.0,0,Not sure
+62,44.0,Female,2.0,1,Not sure
+151,23.0,Unknown,3.0,1,Not sure
+217,56.0,Male,5.0,1,Not sure
+186,35.0,Unknown,4.0,0,Not sure
+222,24.0,Male,2.0,0,
+12,23.0,Female,4.0,1,Not sure
+28,36.0,Female,4.0,1,
+203,30.0,Female,4.0,0,Loved it
+5,49.0,Other,4.0,1,Could be better
+123,58.0,Unknown,4.0,0,Loved it
+33,25.0,Female,3.0,1,Could be better
+205,36.0,Unknown,3.0,0,Loved it
+163,38.0,Male,5.0,1,Could be better
+193,38.0,Female,5.0,0,
+238,37.0,Male,1.0,1,Great service
+139,33.0,Male,5.0,1,
+63,36.0,Female,4.0,1,Not sure
+136,29.0,Female,2.0,0,
+129,25.0,Unknown,3.0,1,Loved it
+122,40.0,Female,5.0,1,Loved it
+71,41.0,Female,1.0,1,Loved it
+65,49.0,Other,5.0,1,
+45,23.0,Other,3.0,1,Could be better
+216,54.0,Male,3.0,0,
+157,51.0,Female,2.0,1,
+41,44.0,Other,1.0,0,Great service
+124,27.0,Other,4.0,0,Could be better
+245,32.0,Other,5.0,1,Not sure
+154,50.0,Male,3.0,0,
+24,33.0,Female,5.0,1,Loved it
+246,46.0,Female,5.0,0,
+82,54.0,Male,4.0,1,Great service
+208,56.0,Female,4.0,0,Not sure
+220,40.0,Male,4.0,1,Could be better
+239,31.0,Female,2.0,1,Loved it
+200,57.0,Female,2.0,1,Could be better
+15,59.0,Female,5.0,1,Great service
+48,18.0,Female,4.0,1,Loved it
+95,21.0,Other,4.0,0,
+221,38.0,Unknown,5.0,1,Great service
+202,39.0,Male,4.0,0,Not sure
+162,42.0,Other,5.0,0,Great service
+44,31.0,Female,5.0,1,Loved it
+218,48.0,Female,2.0,0,
+146,26.0,Male,5.0,0,
+191,57.0,Female,3.0,0,Loved it
+231,27.0,Male,5.0,1,Could be better
+106,27.0,Male,3.0,1,
+54,46.0,Female,3.0,0,Could be better
+134,35.0,Male,4.0,0,Loved it
+2,34.0,Male,4.0,0,Loved it
+132,24.0,Male,4.0,1,Not sure
+104,18.0,Female,5.0,0,Could be better
+50,54.0,Male,5.0,1,Could be better
+164,35.0,Male,3.0,0,Loved it
+81,38.0,Female,1.0,1,Great service
+206,19.0,Female,4.0,1,Not sure
+35,60.0,Female,2.0,1,Loved it
+8,50.0,Female,4.0,1,Could be better
+172,34.0,Male,3.0,0,Could be better
+199,35.0,Other,1.0,0,
+103,41.0,Female,4.0,1,
+111,36.0,Female,4.0,0,Could be better
+92,36.0,Female,1.0,1,
+84,28.0,Unknown,3.0,1,
+130,21.0,Male,1.0,0,Could be better
+90,25.0,Female,5.0,0,
+9,33.0,Male,5.0,1,Could be better
+250,20.0,Female,3.0,0,Could be better
+242,32.0,Male,4.0,1,Loved it
+14,47.0,Female,4.0,1,Great service
+60,49.0,Male,1.0,1,Could be better
+89,33.0,Unknown,4.0,1,Great service
+167,49.0,Male,4.0,1,Not sure
+21,25.0,Other,4.0,1,Loved it
+135,22.0,Male,4.0,1,Could be better
+244,30.0,Female,2.0,0,Loved it
+51,27.0,Unknown,3.0,1,Could be better
+175,54.0,Male,1.0,0,Great service
+188,27.0,Female,4.0,1,Loved it
+59,20.0,Male,4.0,0,Could be better
+49,37.0,Female,5.0,0,Could be better
+22,29.0,Female,5.0,1,Great service
+161,53.0,Female,4.0,1,Not sure
+192,44.0,Male,5.0,1,
+150,38.0,Male,4.0,0,
+131,26.0,Male,3.0,0,Great service
+152,56.0,Male,4.0,0,Not sure
+100,58.0,Male,3.0,1,
+88,57.0,Female,4.0,1,Not sure
+215,23.0,Unknown,4.0,1,Loved it
+189,42.0,Female,3.0,1,Great service
+72,40.0,Unknown,4.0,0,Could be better
+107,47.0,Female,2.0,0,Not sure

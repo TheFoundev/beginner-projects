@@ -1,0 +1,401 @@
+customer_id,recency_days,frequency,monetary,signup_days_ago,channel,cluster,segment_name
+1,31,28,1589.53,734,paid,1,High-value loyal
+2,353,8,675.86,291,organic,2,Promising
+3,22,2,98.29,98,referral,0,Occasional
+4,58,21,1515.17,270,paid,1,High-value loyal
+5,242,6,844.62,376,organic,2,Promising
+6,130,7,309.45,113,organic,3,At risk / dormant
+7,106,5,188.99,111,paid,3,At risk / dormant
+8,180,2,358.8,472,paid,3,At risk / dormant
+9,227,10,823.58,786,paid,2,Promising
+10,8,2,77.96,201,organic,0,Occasional
+11,59,4,321.9,822,paid,0,Occasional
+12,23,2,131.84,773,organic,0,Occasional
+13,24,4,143.37,607,organic,0,Occasional
+14,120,4,303.95,323,paid,3,At risk / dormant
+15,123,2,20.0,203,paid,3,At risk / dormant
+16,28,5,198.65,68,paid,0,Occasional
+17,56,28,1096.59,612,referral,1,High-value loyal
+18,361,5,927.32,861,organic,2,Promising
+19,2,5,119.94,760,referral,0,Occasional
+20,21,3,57.06,869,paid,0,Occasional
+21,75,2,477.52,232,organic,3,At risk / dormant
+22,29,14,1519.04,556,paid,1,High-value loyal
+23,6,2,178.74,784,organic,0,Occasional
+24,11,30,826.1,585,paid,1,High-value loyal
+25,24,3,172.49,118,paid,0,Occasional
+26,333,12,801.84,442,organic,2,Promising
+27,162,7,379.16,841,referral,3,At risk / dormant
+28,41,29,715.51,253,paid,1,High-value loyal
+29,252,13,814.46,216,referral,2,Promising
+30,14,3,20.0,660,referral,0,Occasional
+31,72,8,450.98,343,referral,3,At risk / dormant
+32,7,22,635.01,804,referral,1,High-value loyal
+33,288,7,1133.2,545,paid,2,Promising
+34,23,5,25.56,95,referral,0,Occasional
+35,58,12,649.33,75,paid,3,At risk / dormant
+36,263,15,559.86,697,referral,2,Promising
+37,52,26,964.9,749,referral,1,High-value loyal
+38,54,16,1630.49,305,organic,1,High-value loyal
+39,171,8,1092.1,195,organic,2,Promising
+40,7,5,103.58,124,paid,0,Occasional
+41,165,8,222.24,777,paid,3,At risk / dormant
+42,176,13,1106.16,615,paid,2,Promising
+43,296,12,903.23,729,organic,2,Promising
+44,143,14,754.0,117,organic,3,At risk / dormant
+45,9,4,125.1,234,organic,0,Occasional
+46,9,2,141.23,306,paid,0,Occasional
+47,47,10,1124.56,751,referral,1,High-value loyal
+48,150,4,239.64,893,organic,3,At risk / dormant
+49,9,1,142.86,836,organic,0,Occasional
+50,8,3,111.1,540,paid,0,Occasional
+51,122,7,315.73,387,referral,3,At risk / dormant
+52,20,24,1030.79,468,paid,1,High-value loyal
+53,48,26,1354.91,486,paid,1,High-value loyal
+54,28,3,82.87,53,organic,0,Occasional
+55,9,12,1606.49,183,paid,1,High-value loyal
+56,2,5,101.36,324,organic,0,Occasional
+57,96,7,243.24,549,paid,3,At risk / dormant
+58,106,2,405.63,232,referral,3,At risk / dormant
+59,24,5,43.26,621,paid,0,Occasional
+60,9,16,1645.48,597,organic,1,High-value loyal
+61,18,11,1117.49,100,referral,1,High-value loyal
+62,51,24,1194.73,885,organic,1,High-value loyal
+63,36,20,1353.82,549,organic,1,High-value loyal
+64,7,4,176.55,389,paid,0,Occasional
+65,256,8,398.15,291,referral,2,Promising
+66,3,25,609.65,293,organic,1,High-value loyal
+67,25,5,36.56,477,paid,0,Occasional
+68,233,9,708.13,160,paid,2,Promising
+69,55,22,1396.57,467,organic,1,High-value loyal
+70,198,12,970.44,329,paid,2,Promising
+71,76,8,238.15,386,organic,3,At risk / dormant
+72,23,12,968.25,288,paid,1,High-value loyal
+73,31,12,1566.54,684,referral,1,High-value loyal
+74,52,17,1488.38,66,organic,1,High-value loyal
+75,333,10,610.66,76,organic,2,Promising
+76,22,3,96.71,372,referral,0,Occasional
+77,132,4,313.52,299,organic,3,At risk / dormant
+78,14,5,174.35,752,organic,0,Occasional
+79,35,23,1477.4,265,referral,1,High-value loyal
+80,258,14,1366.03,564,paid,2,Promising
+81,235,11,1077.18,499,organic,2,Promising
+82,8,24,1142.21,157,organic,1,High-value loyal
+83,54,2,386.72,291,organic,0,Occasional
+84,16,4,46.68,195,organic,0,Occasional
+85,4,5,132.91,195,paid,0,Occasional
+86,117,7,282.07,557,paid,3,At risk / dormant
+87,12,26,1571.64,319,paid,1,High-value loyal
+88,132,5,303.25,589,paid,3,At risk / dormant
+89,96,5,227.39,659,referral,3,At risk / dormant
+90,18,1,35.77,463,paid,0,Occasional
+91,4,1,158.78,421,paid,0,Occasional
+92,23,19,1128.48,819,referral,1,High-value loyal
+93,8,21,1577.88,583,paid,1,High-value loyal
+94,24,2,197.34,142,paid,0,Occasional
+95,14,12,1032.66,600,referral,1,High-value loyal
+96,268,13,466.06,103,referral,2,Promising
+97,85,3,344.36,263,organic,3,At risk / dormant
+98,262,11,937.91,485,referral,2,Promising
+99,36,17,1380.61,710,organic,1,High-value loyal
+100,18,5,113.11,148,organic,0,Occasional
+101,54,15,1617.36,873,organic,1,High-value loyal
+102,20,4,145.06,264,organic,0,Occasional
+103,15,1,131.37,610,referral,0,Occasional
+104,109,2,517.02,865,paid,3,At risk / dormant
+105,16,2,128.36,770,organic,0,Occasional
+106,134,6,824.12,76,paid,3,At risk / dormant
+107,129,3,294.26,222,referral,3,At risk / dormant
+108,162,3,339.3,61,referral,3,At risk / dormant
+109,135,8,1112.26,539,paid,3,At risk / dormant
+110,187,13,1077.25,681,paid,2,Promising
+111,48,3,552.69,527,organic,0,Occasional
+112,41,6,224.31,97,referral,0,Occasional
+113,243,13,723.54,857,paid,2,Promising
+114,58,8,234.55,744,organic,0,Occasional
+115,211,12,1051.32,797,organic,2,Promising
+116,15,1,73.8,759,organic,0,Occasional
+117,55,18,1794.63,252,organic,1,High-value loyal
+118,47,28,1264.66,859,organic,1,High-value loyal
+119,134,8,135.93,478,organic,3,At risk / dormant
+120,238,14,867.72,279,organic,2,Promising
+121,136,8,130.94,438,paid,3,At risk / dormant
+122,12,28,1284.28,662,referral,1,High-value loyal
+123,353,15,1078.24,678,organic,2,Promising
+124,125,2,239.55,37,organic,3,At risk / dormant
+125,52,28,1653.99,661,referral,1,High-value loyal
+126,266,5,815.38,410,organic,2,Promising
+127,30,1,88.93,653,organic,0,Occasional
+128,210,13,1287.56,853,organic,2,Promising
+129,216,14,880.06,289,organic,2,Promising
+130,7,4,46.08,539,paid,0,Occasional
+131,171,11,942.46,214,paid,2,Promising
+132,73,5,233.84,822,organic,0,Occasional
+133,29,16,1361.86,774,referral,1,High-value loyal
+134,8,3,127.1,889,organic,0,Occasional
+135,38,7,269.56,54,organic,0,Occasional
+136,14,2,110.43,239,referral,0,Occasional
+137,30,14,1275.57,404,paid,1,High-value loyal
+138,263,9,918.89,579,paid,2,Promising
+139,163,2,319.93,515,paid,3,At risk / dormant
+140,26,1,97.81,190,referral,0,Occasional
+141,45,7,343.97,294,referral,0,Occasional
+142,18,3,91.43,288,paid,0,Occasional
+143,23,2,150.36,771,organic,0,Occasional
+144,355,14,1389.64,754,referral,2,Promising
+145,130,5,707.86,492,paid,3,At risk / dormant
+146,6,1,63.13,422,organic,0,Occasional
+147,10,24,778.47,351,paid,1,High-value loyal
+148,151,3,164.45,618,paid,3,At risk / dormant
+149,5,4,140.52,428,paid,0,Occasional
+150,20,1,132.07,227,paid,0,Occasional
+151,297,5,904.22,876,organic,2,Promising
+152,15,5,186.97,148,paid,0,Occasional
+153,358,10,775.22,131,referral,2,Promising
+154,4,1,20.0,733,organic,0,Occasional
+155,20,2,92.61,771,referral,0,Occasional
+156,41,20,1159.46,782,paid,1,High-value loyal
+157,256,8,661.94,514,organic,2,Promising
+158,271,12,298.28,450,organic,2,Promising
+159,13,3,122.21,320,paid,0,Occasional
+160,59,19,1572.59,789,organic,1,High-value loyal
+161,16,1,189.77,211,organic,0,Occasional
+162,121,14,816.17,722,referral,3,At risk / dormant
+163,123,3,252.6,865,referral,3,At risk / dormant
+164,51,20,1359.31,867,referral,1,High-value loyal
+165,24,22,1403.16,414,organic,1,High-value loyal
+166,28,2,164.16,406,referral,0,Occasional
+167,133,5,439.51,571,organic,3,At risk / dormant
+168,60,23,1084.06,101,referral,1,High-value loyal
+169,284,6,675.38,320,organic,2,Promising
+170,173,7,493.63,632,paid,3,At risk / dormant
+171,148,11,547.2,617,paid,3,At risk / dormant
+172,49,12,1486.45,664,paid,1,High-value loyal
+173,359,15,665.97,741,paid,2,Promising
+174,4,29,1011.92,860,referral,1,High-value loyal
+175,66,5,285.33,624,paid,0,Occasional
+176,21,1,235.81,523,paid,0,Occasional
+177,350,10,899.97,816,organic,2,Promising
+178,38,17,1593.84,183,paid,1,High-value loyal
+179,14,17,740.2,361,organic,1,High-value loyal
+180,34,21,1347.77,574,organic,1,High-value loyal
+181,362,15,1104.39,829,organic,2,Promising
+182,124,8,1057.06,309,paid,3,At risk / dormant
+183,31,20,1441.35,84,paid,1,High-value loyal
+184,40,14,1227.09,281,paid,1,High-value loyal
+185,164,7,212.97,172,organic,3,At risk / dormant
+186,125,6,1080.91,469,referral,3,At risk / dormant
+187,140,4,294.6,118,paid,3,At risk / dormant
+188,240,14,901.77,547,organic,2,Promising
+189,21,20,1490.38,233,paid,1,High-value loyal
+190,18,22,1899.45,803,referral,1,High-value loyal
+191,55,13,1283.7,346,organic,1,High-value loyal
+192,73,7,266.54,591,paid,3,At risk / dormant
+193,46,15,1677.68,588,referral,1,High-value loyal
+194,106,2,370.24,279,organic,3,At risk / dormant
+195,22,2,71.84,712,paid,0,Occasional
+196,2,5,252.12,40,referral,0,Occasional
+197,10,28,733.81,820,organic,1,High-value loyal
+198,13,2,153.77,374,organic,0,Occasional
+199,120,11,892.07,320,paid,3,At risk / dormant
+200,19,26,1256.09,378,paid,1,High-value loyal
+201,23,5,89.96,488,organic,0,Occasional
+202,100,8,402.46,806,paid,3,At risk / dormant
+203,28,5,119.4,481,organic,0,Occasional
+204,12,3,71.23,138,organic,0,Occasional
+205,65,3,254.8,783,referral,0,Occasional
+206,39,2,503.71,838,paid,0,Occasional
+207,124,6,337.0,728,paid,3,At risk / dormant
+208,26,2,92.03,358,organic,0,Occasional
+209,55,4,565.07,360,paid,3,At risk / dormant
+210,350,15,869.92,829,referral,2,Promising
+211,219,8,850.24,880,referral,2,Promising
+212,166,5,202.82,815,paid,3,At risk / dormant
+213,28,2,122.17,763,referral,0,Occasional
+214,311,11,1121.67,56,paid,2,Promising
+215,30,26,912.23,279,organic,1,High-value loyal
+216,37,26,1113.99,608,referral,1,High-value loyal
+217,53,3,261.94,113,organic,0,Occasional
+218,45,21,1307.59,825,organic,1,High-value loyal
+219,6,3,206.44,516,organic,0,Occasional
+220,71,3,95.61,585,organic,0,Occasional
+221,274,15,899.8,875,paid,2,Promising
+222,268,8,582.97,34,referral,2,Promising
+223,304,14,661.75,294,organic,2,Promising
+224,158,8,446.68,108,organic,3,At risk / dormant
+225,151,10,864.06,604,organic,3,At risk / dormant
+226,163,6,280.17,731,organic,3,At risk / dormant
+227,132,8,120.12,799,referral,3,At risk / dormant
+228,86,8,402.18,762,referral,3,At risk / dormant
+229,284,8,746.27,89,referral,2,Promising
+230,143,2,257.6,176,paid,3,At risk / dormant
+231,23,1,121.14,40,referral,0,Occasional
+232,22,22,1244.96,361,paid,1,High-value loyal
+233,125,11,614.94,823,paid,3,At risk / dormant
+234,39,16,1348.56,468,referral,1,High-value loyal
+235,267,8,1000.62,207,referral,2,Promising
+236,2,1,172.66,60,paid,0,Occasional
+237,128,8,782.6,458,paid,3,At risk / dormant
+238,10,19,848.18,163,paid,1,High-value loyal
+239,38,26,1461.06,443,referral,1,High-value loyal
+240,153,14,851.88,150,referral,2,Promising
+241,12,14,1403.41,346,organic,1,High-value loyal
+242,135,2,426.78,822,paid,3,At risk / dormant
+243,188,13,693.85,333,organic,2,Promising
+244,178,12,1471.51,880,organic,2,Promising
+245,10,3,139.65,210,organic,0,Occasional
+246,211,14,863.77,472,referral,2,Promising
+247,330,7,901.43,109,paid,2,Promising
+248,296,10,909.15,636,referral,2,Promising
+249,25,1,86.75,150,organic,0,Occasional
+250,12,1,143.46,641,referral,0,Occasional
+251,79,6,296.67,269,referral,3,At risk / dormant
+252,74,3,358.29,584,referral,3,At risk / dormant
+253,19,1,117.18,357,referral,0,Occasional
+254,4,16,1430.77,642,organic,1,High-value loyal
+255,27,21,1777.49,802,organic,1,High-value loyal
+256,118,4,114.69,860,organic,3,At risk / dormant
+257,6,16,1265.04,774,organic,1,High-value loyal
+258,20,18,863.68,426,organic,1,High-value loyal
+259,21,4,85.16,687,organic,0,Occasional
+260,26,5,95.79,438,organic,0,Occasional
+261,6,10,1395.32,397,organic,1,High-value loyal
+262,165,8,275.37,318,organic,3,At risk / dormant
+263,305,13,909.82,243,organic,2,Promising
+264,120,6,404.91,261,paid,3,At risk / dormant
+265,171,7,260.49,519,organic,3,At risk / dormant
+266,189,10,843.09,116,organic,2,Promising
+267,126,11,883.52,861,paid,3,At risk / dormant
+268,24,4,127.76,758,organic,0,Occasional
+269,127,4,163.28,750,paid,3,At risk / dormant
+270,362,15,624.97,781,paid,2,Promising
+271,9,1,178.61,217,organic,0,Occasional
+272,6,2,107.56,884,organic,0,Occasional
+273,4,3,65.33,645,paid,0,Occasional
+274,49,10,1277.22,413,organic,1,High-value loyal
+275,42,19,1340.93,291,organic,1,High-value loyal
+276,161,3,177.64,589,paid,3,At risk / dormant
+277,17,19,834.45,64,organic,1,High-value loyal
+278,99,6,283.19,587,referral,3,At risk / dormant
+279,54,4,229.42,883,referral,0,Occasional
+280,111,4,134.68,718,referral,3,At risk / dormant
+281,10,4,111.42,204,referral,0,Occasional
+282,36,29,858.3,496,paid,1,High-value loyal
+283,254,11,930.05,51,paid,2,Promising
+284,19,2,137.45,113,referral,0,Occasional
+285,131,6,197.03,141,paid,3,At risk / dormant
+286,8,2,62.87,167,referral,0,Occasional
+287,67,2,330.64,125,paid,0,Occasional
+288,3,2,116.31,731,referral,0,Occasional
+289,59,3,278.3,888,referral,0,Occasional
+290,116,3,288.28,674,referral,3,At risk / dormant
+291,35,11,965.41,247,organic,1,High-value loyal
+292,9,1,223.61,300,organic,0,Occasional
+293,92,2,330.8,448,paid,3,At risk / dormant
+294,26,4,99.13,229,paid,0,Occasional
+295,12,3,120.16,886,paid,0,Occasional
+296,146,6,347.07,342,paid,3,At risk / dormant
+297,16,29,1447.55,242,referral,1,High-value loyal
+298,56,26,1593.08,713,paid,1,High-value loyal
+299,21,4,175.06,34,organic,0,Occasional
+300,45,7,135.21,570,organic,0,Occasional
+301,2,17,1485.51,202,paid,1,High-value loyal
+302,16,15,1358.72,35,organic,1,High-value loyal
+303,13,23,1168.79,102,paid,1,High-value loyal
+304,320,9,731.56,289,referral,2,Promising
+305,10,2,63.91,243,paid,0,Occasional
+306,341,6,802.41,748,referral,2,Promising
+307,2,16,1643.23,198,organic,1,High-value loyal
+308,23,10,860.82,623,referral,3,At risk / dormant
+309,16,13,875.78,142,referral,1,High-value loyal
+310,325,14,1023.83,464,paid,2,Promising
+311,3,1,63.13,247,organic,0,Occasional
+312,10,2,131.41,425,paid,0,Occasional
+313,23,1,78.98,60,paid,0,Occasional
+314,360,10,1393.54,564,organic,2,Promising
+315,7,3,74.48,354,organic,0,Occasional
+316,317,12,900.54,91,paid,2,Promising
+317,2,1,214.28,155,referral,0,Occasional
+318,58,5,358.16,202,paid,0,Occasional
+319,96,5,439.03,814,referral,3,At risk / dormant
+320,40,21,1178.45,392,paid,1,High-value loyal
+321,272,12,512.12,722,referral,2,Promising
+322,29,3,134.71,699,paid,0,Occasional
+323,44,25,1472.37,447,paid,1,High-value loyal
+324,69,4,86.97,849,paid,0,Occasional
+325,4,2,61.11,364,organic,0,Occasional
+326,284,10,1127.94,284,organic,2,Promising
+327,166,3,281.05,710,organic,3,At risk / dormant
+328,14,2,116.07,280,referral,0,Occasional
+329,121,5,864.8,302,referral,3,At risk / dormant
+330,129,8,814.44,306,organic,3,At risk / dormant
+331,27,5,153.5,587,paid,0,Occasional
+332,112,8,502.46,60,organic,3,At risk / dormant
+333,81,2,385.12,496,paid,3,At risk / dormant
+334,1,3,143.86,533,referral,0,Occasional
+335,123,8,300.4,708,organic,3,At risk / dormant
+336,3,1,83.41,757,referral,0,Occasional
+337,235,15,646.04,178,paid,2,Promising
+338,143,5,686.76,536,referral,3,At risk / dormant
+339,23,4,172.65,687,organic,0,Occasional
+340,193,15,979.15,783,paid,2,Promising
+341,25,1,123.03,59,organic,0,Occasional
+342,26,10,1498.03,89,organic,1,High-value loyal
+343,141,4,401.96,42,organic,3,At risk / dormant
+344,37,16,1000.93,400,referral,1,High-value loyal
+345,6,13,1739.84,768,paid,1,High-value loyal
+346,18,1,59.56,354,referral,0,Occasional
+347,48,2,295.48,303,referral,0,Occasional
+348,174,7,340.29,796,paid,3,At risk / dormant
+349,175,5,327.99,226,paid,3,At risk / dormant
+350,146,8,464.69,868,organic,3,At risk / dormant
+351,107,3,381.29,418,referral,3,At risk / dormant
+352,269,10,721.93,779,paid,2,Promising
+353,2,4,119.59,629,organic,0,Occasional
+354,9,4,224.07,552,organic,0,Occasional
+355,30,1,124.63,565,referral,0,Occasional
+356,201,8,1322.58,302,paid,2,Promising
+357,85,5,435.98,838,paid,3,At risk / dormant
+358,178,8,267.98,683,paid,3,At risk / dormant
+359,114,7,327.06,281,referral,3,At risk / dormant
+360,92,7,190.67,237,paid,3,At risk / dormant
+361,193,8,1252.43,739,referral,2,Promising
+362,95,4,199.59,163,referral,3,At risk / dormant
+363,136,4,361.91,783,paid,3,At risk / dormant
+364,34,8,253.12,580,referral,0,Occasional
+365,97,2,328.03,288,referral,3,At risk / dormant
+366,14,5,142.25,502,organic,0,Occasional
+367,12,3,66.79,735,referral,0,Occasional
+368,56,6,314.8,455,referral,0,Occasional
+369,67,2,361.85,624,referral,0,Occasional
+370,127,4,408.81,862,organic,3,At risk / dormant
+371,25,1,41.71,856,referral,0,Occasional
+372,127,4,389.85,352,organic,3,At risk / dormant
+373,329,9,1093.22,855,paid,2,Promising
+374,16,1,59.24,764,organic,0,Occasional
+375,20,1,49.04,817,organic,0,Occasional
+376,177,8,284.47,581,organic,3,At risk / dormant
+377,154,7,318.54,283,referral,3,At risk / dormant
+378,4,20,1513.01,606,paid,1,High-value loyal
+379,141,2,188.39,588,paid,3,At risk / dormant
+380,30,1,142.69,716,organic,0,Occasional
+381,15,5,96.22,72,organic,0,Occasional
+382,237,10,1265.7,462,organic,2,Promising
+383,32,8,212.05,523,paid,0,Occasional
+384,159,3,259.18,91,organic,3,At risk / dormant
+385,176,5,387.29,325,referral,3,At risk / dormant
+386,340,14,877.59,815,paid,2,Promising
+387,278,14,490.07,460,paid,2,Promising
+388,343,6,936.07,486,paid,2,Promising
+389,86,7,479.11,492,organic,3,At risk / dormant
+390,12,2,104.27,647,organic,0,Occasional
+391,14,2,80.01,793,organic,0,Occasional
+392,39,2,305.44,490,paid,0,Occasional
+393,18,2,141.83,594,paid,0,Occasional
+394,55,28,1128.88,252,organic,1,High-value loyal
+395,157,4,454.53,488,organic,3,At risk / dormant
+396,72,8,537.02,646,organic,3,At risk / dormant
+397,121,6,884.49,40,referral,3,At risk / dormant
+398,318,8,362.31,200,organic,2,Promising
+399,1,18,1646.33,175,referral,1,High-value loyal
+400,119,6,487.83,847,organic,3,At risk / dormant

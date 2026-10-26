@@ -1,0 +1,6 @@
+genre,total_minutes,avg_minutes,completion_rate,views
+Comedy,10068,70.41,0.59,143
+Sci-Fi,9668,66.22,0.53,146
+Reality,9648,67.94,0.64,142
+Drama,9603,70.09,0.51,137
+Documentary,9312,70.55,0.55,132

@@ -1,0 +1,271 @@
+score_id,student_id,subject,score
+1,S-001,Math,105.0
+2,S-001,Science,-5.0
+3,S-001,English,88
+4,s002,Math,74.7
+5,s002,Science,57.0
+6,s002,English,52.3
+7, S003 ,Math,86.5
+8, S003 ,Science,75.2
+9, S003 ,English,
+10, S004 ,Math,70.5
+11, S004 ,Science,
+12, S004 ,English,68.1
+13,s005,Math,75.0
+14,s005,Science,43.3
+15,s005,English,74.7
+16,s006,Math,52.2
+17,s006,Science,68.1
+18,s006,English,73.7
+19,s007,Math,59.9
+20,s007,Science,64.4
+21,s007,English,79.3
+22,s008,Math,52.4
+23,s008,Science,58.1
+24,s008,English,73.2
+25, S009 ,Math,69.0
+26, S009 ,Science,62.6
+27, S009 ,English,78.0
+28,s010,Math,64.4
+29,s010,Science,94.7
+30,s010,English,85.8
+31,S011,Math,57.4
+32,S011,Science,63.4
+33,S011,English,
+34,s012,Math,53.9
+35,s012,Science,62.8
+36,s012,English,81.2
+37, S013 ,Math,
+38, S013 ,Science,88.0
+39, S013 ,English,73.2
+40,s014,Math,75.7
+41,s014,Science,69.6
+42,s014,English,61.6
+43,s015,Math,72.7
+44,s015,Science,62.2
+45,s015,English,70.0
+46, S016 ,Math,
+47, S016 ,Science,68.4
+48, S016 ,English,88.9
+49, S017 ,Math,53.3
+50, S017 ,Science,67.1
+51, S017 ,English,
+52,S018,Math,92.1
+53,S018,Science,55.0
+54,S018,English,75.0
+55,s019,Math,38.2
+56,s019,Science,73.2
+57,s019,English,94.3
+58,S020,Math,60.7
+59,S020,Science,65.8
+60,S020,English,81.4
+61,S021,Math,64.0
+62,S021,Science,
+63,S021,English,51.7
+64,S022,Math,75.7
+65,S022,Science,53.2
+66,S022,English,70.2
+67, S023 ,Math,90.1
+68, S023 ,Science,59.9
+69, S023 ,English,72.5
+70,S024,Math,72.6
+71,S024,Science,47.2
+72,S024,English,68.4
+73,S-025,Math,76.4
+74,S-025,Science,94.2
+75,S-025,English,71.1
+76,S026,Math,69.0
+77,S026,Science,68.7
+78,S026,English,69.5
+79, S027 ,Math,89.2
+80, S027 ,Science,56.7
+81, S027 ,English,70.0
+82,S-028,Math,40.1
+83,S-028,Science,48.9
+84,S-028,English,71.5
+85, S029 ,Math,73.6
+86, S029 ,Science,85.5
+87, S029 ,English,58.9
+88, S030 ,Math,60.6
+89, S030 ,Science,69.5
+90, S030 ,English,
+91,s031,Math,60.7
+92,s031,Science,80.1
+93,s031,English,73.2
+94,s032,Math,68.6
+95,s032,Science,41.6
+96,s032,English,60.7
+97,S-033,Math,78.0
+98,S-033,Science,61.2
+99,S-033,English,
+100,s034,Math,79.8
+101,s034,Science,
+102,s034,English,78.3
+103,S035,Math,55.7
+104,S035,Science,68.8
+105,S035,English,85.5
+106,s036,Math,74.2
+107,s036,Science,69.6
+108,s036,English,79.7
+109,S037,Math,71.9
+110,S037,Science,46.8
+111,S037,English,
+112,S038,Math,49.3
+113,S038,Science,89.4
+114,S038,English,77.6
+115, S039 ,Math,78.5
+116, S039 ,Science,51.7
+117, S039 ,English,71.1
+118,S-040,Math,80.0
+119,S-040,Science,
+120,S-040,English,78.4
+121,S-041,Math,47.9
+122,S-041,Science,67.3
+123,S-041,English,74.2
+124,S042,Math,61.9
+125,S042,Science,51.5
+126,S042,English,85.8
+127,S-043,Math,60.9
+128,S-043,Science,57.0
+129,S-043,English,67.3
+130,S-044,Math,82.2
+131,S-044,Science,62.0
+132,S-044,English,74.1
+133,S-045,Math,
+134,S-045,Science,68.3
+135,S-045,English,69.0
+136, S046 ,Math,56.8
+137, S046 ,Science,
+138, S046 ,English,76.7
+139,S-047,Math,75.4
+140,S-047,Science,58.2
+141,S-047,English,68.8
+142, S048 ,Math,62.1
+143, S048 ,Science,51.8
+144, S048 ,English,
+145, S049 ,Math,75.1
+146, S049 ,Science,55.0
+147, S049 ,English,82.3
+148, S050 ,Math,
+149, S050 ,Science,83.1
+150, S050 ,English,80.6
+151,S-051,Math,70.3
+152,S-051,Science,
+153,S-051,English,72.6
+154, S052 ,Math,77.6
+155, S052 ,Science,91.1
+156, S052 ,English,76.8
+157, S053 ,Math,80.7
+158, S053 ,Science,65.0
+159, S053 ,English,75.4
+160,S-054,Math,77.1
+161,S-054,Science,79.9
+162,S-054,English,64.8
+163,S055,Math,62.2
+164,S055,Science,67.2
+165,S055,English,
+166,S056,Math,71.2
+167,S056,Science,59.0
+168,S056,English,53.9
+169,S057,Math,60.8
+170,S057,Science,94.8
+171,S057,English,56.7
+172, S058 ,Math,52.2
+173, S058 ,Science,95.5
+174, S058 ,English,49.1
+175,s059,Math,75.1
+176,s059,Science,69.3
+177,s059,English,72.9
+178,s060,Math,87.7
+179,s060,Science,97.1
+180,s060,English,71.8
+181,S-061,Math,65.4
+182,S-061,Science,62.6
+183,S-061,English,63.7
+184,s062,Math,71.5
+185,s062,Science,63.0
+186,s062,English,72.2
+187, S063 ,Math,55.5
+188, S063 ,Science,64.3
+189, S063 ,English,65.2
+190,S064,Math,62.2
+191,S064,Science,63.0
+192,S064,English,74.5
+193,S-065,Math,79.1
+194,S-065,Science,60.8
+195,S-065,English,66.4
+196,S066,Math,83.0
+197,S066,Science,79.2
+198,S066,English,46.1
+199, S067 ,Math,84.3
+200, S067 ,Science,56.6
+201, S067 ,English,62.6
+202,S068,Math,84.2
+203,S068,Science,52.7
+204,S068,English,89.2
+205, S069 ,Math,59.5
+206, S069 ,Science,61.5
+207, S069 ,English,62.9
+208,S-070,Math,77.3
+209,S-070,Science,73.2
+210,S-070,English,70.2
+211, S071 ,Math,48.7
+212, S071 ,Science,60.5
+213, S071 ,English,81.1
+214,S-072,Math,53.7
+215,S-072,Science,84.9
+216,S-072,English,66.0
+217,S-073,Math,77.5
+218,S-073,Science,77.1
+219,S-073,English,60.1
+220,s074,Math,61.2
+221,s074,Science,57.8
+222,s074,English,60.6
+223,S-075,Math,59.9
+224,S-075,Science,83.4
+225,S-075,English,62.0
+226, S076 ,Math,72.8
+227, S076 ,Science,78.1
+228, S076 ,English,70.2
+229,S-077,Math,61.7
+230,S-077,Science,61.6
+231,S-077,English,72.1
+232,s078,Math,63.7
+233,s078,Science,77.4
+234,s078,English,89.8
+235,s079,Math,51.3
+236,s079,Science,72.6
+237,s079,English,66.1
+238,S-080,Math,63.7
+239,S-080,Science,59.7
+240,S-080,English,65.4
+241,S081,Math,100.0
+242,S081,Science,89.8
+243,S081,English,57.8
+244,S-082,Math,70.7
+245,S-082,Science,81.7
+246,S-082,English,64.7
+247, S083 ,Math,82.2
+248, S083 ,Science,87.6
+249, S083 ,English,74.2
+250,s084,Math,72.9
+251,s084,Science,65.9
+252,s084,English,64.7
+253,S-085,Math,67.3
+254,S-085,Science,78.1
+255,S-085,English,72.5
+256,S081,Math,75.0
+257,S081,Science,75.0
+258,S081,English,75.0
+259,S082,Math,75.0
+260,S082,Science,75.0
+261,S082,English,75.0
+262,S083,Math,75.0
+263,S083,Science,75.0
+264,S083,English,75.0
+265,S084,Math,75.0
+266,S084,Science,75.0
+267,S084,English,75.0
+268,S085,Math,75.0
+269,S085,Science,75.0
+270,S085,English,75.0

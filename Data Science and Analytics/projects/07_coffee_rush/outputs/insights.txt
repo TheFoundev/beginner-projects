@@ -1,0 +1,22 @@
+COFFEE SHOP INSIGHTS
+==================================================
+Total revenue: $6,094.40
+Total orders: 800
+Overall average order value: $7.62
+Peak revenue hour: 10:00 ($748.33)
+Channel with highest average order value: walk-in ($7.77)
+
+Hourly summary:
+ hour  orders  revenue  avg_order_value
+    7      32   235.42         7.356875
+    8      68   557.15         8.193382
+    9      93   699.33         7.519677
+   10     104   748.33         7.195481
+   11      89   684.16         7.687191
+   12      83   625.54         7.536627
+   13      76   580.42         7.637105
+   14      61   490.15         8.035246
+   15      65   484.08         7.447385
+   16      58   391.83         6.755690
+   17      48   395.70         8.243750
+   18      23   202.29         8.795217

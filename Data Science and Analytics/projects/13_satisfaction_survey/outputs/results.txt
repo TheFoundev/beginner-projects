@@ -1,0 +1,23 @@
+SATISFACTION SURVEY RESULTS
+============================================================
+Respondents: 300
+Overall average satisfaction: 3.84 / 5
+Overall recommendation rate: 61.67%
+
+Average satisfaction by segment:
+           respondents  avg_satisfaction  sd_satisfaction  recommend_rate  margin_of_error
+segment                                                                                   
+new                 98              3.40             0.82            0.47             0.16
+returning          140              3.98             0.96            0.66             0.16
+vip                 62              4.24             0.78            0.76             0.19
+
+Chi-square: 15.207 (df=2), p-value=0.00050
+Cramer's V: 0.23
+At the 5% level, there is a statistically significant association between segment and recommendation.
+
+Expected counts (used by the test):
+would_recommend     0     1
+segment                    
+new              37.6  60.4
+returning        53.7  86.3
+vip              23.8  38.2

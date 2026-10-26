@@ -1,0 +1,16 @@
+A/B TEST RESULTS
+============================================================
+Group A: 1,500 users, 142 conversions, conversion rate 9.47%
+Group B: 1,500 users, 196 conversions, conversion rate 13.07%
+
+Absolute difference (B - A): 3.60%
+Relative lift: 38.0%
+z-statistic: 3.118
+p-value: 0.00182
+95% confidence interval: [1.34%, 5.86%]
+
+At the 5% significance level, the result is statistically significant.
+Revenue per user: A = $4.19, B = $5.64
+
+Rule of thumb: a p-value below 0.05 is often treated as evidence of a real difference,
+but always consider sample size, practical impact and how the experiment was run.
