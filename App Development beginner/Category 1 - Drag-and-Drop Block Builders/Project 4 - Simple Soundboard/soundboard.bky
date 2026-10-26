@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Simple Soundboard - MIT App Inventor Blocks -->
+
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <!-- CowButton.Click -->
+  <block type="when_Button_Click" id="cow_click">
+    <statement name="do">
+      <block type="call_Sound_Play">
+        <value name="component">Sound_Cow</value>
+      </block>
+    </statement>
+  </block>
+
+  <!-- BellButton.Click -->
+  <block type="when_Button_Click" id="bell_click">
+    <statement name="do">
+      <block type="call_Sound_Play">
+        <value name="component">Sound_Bell</value>
+      </block>
+    </statement>
+  </block>
+
+  <!-- ClapButton.Click -->
+  <block type="when_Button_Click" id="clap_click">
+    <statement name="do">
+      <block type="call_Sound_Play">
+        <value name="component">Sound_Clap</value>
+      </block>
+    </statement>
+  </block>
+
+  <!-- LaserButton.Click -->
+  <block type="when_Button_Click" id="laser_click">
+    <statement name="do">
+      <block type="call_Sound_Play">
+        <value name="component">Sound_Laser</value>
+      </block>
+    </statement>
+  </block>
+</xml>

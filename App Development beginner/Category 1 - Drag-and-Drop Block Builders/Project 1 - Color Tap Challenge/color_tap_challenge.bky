@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Color Tap Challenge - MIT App Inventor Blocks -->
+<!-- This file represents the block logic for the Color Tap Challenge app -->
+<!-- To use: Import this into MIT App Inventor 2 -->
+
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <!-- Screen1.Initialize -->
+  <block type="when_screen_initialize" id="init" x="50" y="50">
+    <statement name="do">
+      <block type="set_global_reaction_index">
+        <value name="value">
+          <block type="math_number"><field name="NUM">0</field></block>
+        </value>
+      </block>
+    </statement>
+  </block>
+
+  <!-- ColorButton.Click handler -->
+  <block type="when_Button_Click" id="color_click" x="50" y="150">
+    <statement name="do">
+      <!-- Set r to random 0-255 -->
+      <block type="set_global_r">
+        <value name="value">
+          <block type="random_int">
+            <value name="from">
+              <block type="math_number"><field name="NUM">0</field></block>
+            </value>
+            <value name="to">
+              <block type="math_number"><field name="NUM">255</field></block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="do">
+      <!-- Set g to random 0-255 -->
+      <block type="set_global_g">
+        <value name="value">
+          <block type="random_int">
+            <value name="from"><block type="math_number"><field name="NUM">0</field></block></value>
+            <value name="to"><block type="math_number"><field name="NUM">255</field></block></value>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="do">
+      <!-- Set b to random 0-255 -->
+      <block type="set_global_b">
+        <value name="value">
+          <block type="random_int">
+            <value name="from"><block type="math_number"><field name="NUM">0</field></block></value>
+            <value name="to"><block type="math_number"><field name="NUM">255</field></block></value>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="do">
+      <!-- Set colorValue = create color from r g b -->
+      <block type="set_global_colorValue">
+        <value name="value">
+          <block type="color_create_rgb">
+            <value name="r"><block type="global_r"><name>r</name></block></value>
+            <value name="g"><block type="global_g"><name>g</name></block></value>
+            <value name="b"><block type="global_b"><name>b</name></block></value>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="do">
+      <!-- Set ColorButton.BackgroundColor to colorValue -->
+      <block type="set_Button_BackgroundColor">
+        <value name="value"><block type="global_colorValue"><name>colorValue</name></block></value>
+      </block>
+    </statement>
+    <statement name="do">
+      <!-- Set RGBLabel.Text to "R: r, G: g, B: b" -->
+      <block type="set_Label_Text">
+        <value name="value">
+          <block type="join">
+            <value name="arg0"><block type="text"><field name="TEXT">R: </field></block></value>
+            <value name="arg1"><block type="global_r"><name>r</name></block></value>
+            <value name="arg2"><block type="text"><field name="TEXT">, G: </field></block></value>
+            <value name="arg3"><block type="global_g"><name>g</name></block></value>
+            <value name="arg4"><block type="text"><field name="TEXT">, B: </field></block></value>
+            <value name="arg5"><block type="global_b"><name>b</name></block></value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+
+  <!-- Global variable declarations -->
+  <block type="global_declaration" id="global_r" x="10" y="10">
+    <field name="NAME">r</field>
+  </block>
+  <block type="global_declaration" id="global_g" x="10" y="30">
+    <field name="NAME">g</field>
+  </block>
+  <block type="global_declaration" id="global_b" x="10" y="50">
+    <field name="NAME">b</field>
+  </block>
+  <block type="global_declaration" id="global_colorValue" x="10" y="70">
+    <field name="NAME">colorValue</field>
+  </block>
+</xml>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Magic 8-Ball Fortune Teller - MIT App Inventor Blocks -->
+
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <!-- Global variable declarations -->
+  <block type="global_declaration" id="gv_fortunes" x="10" y="10">
+    <field name="NAME">fortunes</field>
+  </block>
+  <block type="global_declaration" id="gv_last_shake" x="10" y="30">
+    <field name="NAME">last_shake_time</field>
+  </block>
+
+  <!-- Screen1.Initialize -->
+  <block type="when_screen_initialize" id="init" x="50" y="50">
+    <statement name="do">
+      <block type="set_global_fortunes">
+        <value name="value">
+          <block type="make_list">
+            <value name="item0"><block type="text"><field name="TEXT">Yes</field></block></value>
+            <value name="item1"><block type="text"><field name="TEXT">No</field></block></value>
+            <value name="item2"><block type="text"><field name="TEXT">It is certain</field></block></value>
+            <value name="item3"><block type="text"><field name="TEXT">Don't count on it</field></block></value>
+            <value name="item4"><block type="text"><field name="TEXT">Ask again later</field></block></value>
+            <value name="item5"><block type="text"><field name="TEXT">Outlook good</field></block></value>
+            <value name="item6"><block type="text"><field name="TEXT">Very doubtful</field></block></value>
+            <value name="item7"><block type="text"><field name="TEXT">Signs point to yes</field></block></value>
+            <value name="item8"><block type="text"><field name="TEXT">Better not tell you now</field></block></value>
+            <value name="item9"><block type="text"><field name="TEXT">My sources say no</field></block></value>
+            <value name="item10"><block type="text"><field name="TEXT">Yes - definitely</field></block></value>
+            <value name="item11"><block type="text"><field name="TEXT">Reply hazy, try again</field></block></value>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="do">
+      <block type="set_global_last_shake_time">
+        <value name="value"><block type="math_number"><field name="NUM">0</field></block></value>
+      </block>
+    </statement>
+  </block>
+
+  <!-- AccelerometerSensor1.AccelerationChanged -->
+  <block type="when_AccelerometerSensor_AccelerationChanged" id="accel_handler">
+    <value name="xAccel"><name>xAccel</name></value>
+    <value name="yAccel"><name>yAccel</name></value>
+    <value name="zAccel"><name>zAccel</name></value>
+    <statement name="do">
+      <block type="set_global_total_accel">
+        <value name="value">
+          <block type="math_power">
+            <value name="base">
+              <block type="math_arithmetic">
+                <field name="OP">ADD</field>
+                <value name="a">
+                  <block type="math_arithmetic">
+                    <field name="OP">MULTIPLY</field>
+                    <value name="a"><name>xAccel</name>value>
+                    <value name="b"><block type="math_number"><field name="NUM">2</field></block></value>
+                  </block>
+                </value>
+                <value name="b">
+                  <block type="math_arithmetic">
+                    <field name="OP">MULTIPLY</field>
+                    <value name="a"><name>yAccel</name></value>
+                    <value name="b"><block type="math_number"><field name="NUM">2</field></block></value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="exp"><block type="math_number"><field name="NUM">0.5</field></block></value>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="do">
+      <block type="if">
+        <value name="condition">
+          <block type="math_arithmetic">
+            <field name="OP">GT</field>
+            <value name="a"><block type="global_total_accel"><name>total_accel</name></block></value>
+            <value name="b"><block type="math_number"><field name="NUM">2.0</field></block></value>
+          </block>
+        </value>
+        <statement name="do">
+          <block type="call_procedure">
+            <value name="proc_name">show_fortune</value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+
+  <!-- TapButton.Click -->
+  <block type="when_Button_Click" id="tap_click">
+    <statement name="do">
+      <block type="call_procedure">
+        <value name="proc_name">show_fortune</value>
+      </block>
+    </statement>
+  </block>
+
+  <!-- show_fortune procedure -->
+  <block type="procedure_def" id="show_fortune" x="50" y="300">
+    <field name="NAME">show_fortune</field>
+    <statement name="do">
+      <block type="set_global_random_index">
+        <value name="value">
+          <block type="random_int">
+            <value name="from"><block type="math_number"><field name="NUM">0</field></block></value>
+            <value name="to"><block type="math_number"><field name="NUM">11</field></block></value>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="do">
+      <block type="set_Label_Text">
+        <value name="value">
+          <block type="select_list_item">
+            <value name="list"><block type="global_fortunes"><name>fortunes</name></block></value>
+            <value name="index">
+              <block type="math_arithmetic">
+                <field name="OP">ADD</field>
+                <value name="a"><block type="global_random_index"><name>random_index</name></block></value>
+                <value name="b"><block type="math_number"><field name="NUM">1</field></block></value>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+</xml>

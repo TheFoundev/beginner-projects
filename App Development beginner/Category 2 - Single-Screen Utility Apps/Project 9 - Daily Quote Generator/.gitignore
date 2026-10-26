@@ -1,0 +1,16 @@
+# Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# Flutter
+/build/
+/.dart_tool/
+/flutter_export_environment.sh
+/doc/
+android/app/src/main/gen/
+.DS_Store
+.env

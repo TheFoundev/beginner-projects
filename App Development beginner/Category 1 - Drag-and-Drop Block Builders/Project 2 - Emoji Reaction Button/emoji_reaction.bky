@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Emoji Reaction Button - MIT App Inventor Blocks -->
+
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <!-- Global variable declarations -->
+  <block type="global_declaration" id="gv_reaction_index" x="10" y="10">
+    <field name="NAME">reaction_index</field>
+  </block>
+
+  <!-- Screen1.Initialize -->
+  <block type="when_screen_initialize" id="init" x="50" y="50">
+    <statement name="do">
+      <block type="set_global_reaction_index">
+        <value name="value"><block type="math_number"><field name="NUM">0</field></block></value>
+      </block>
+    </statement>
+    <statement name="do">
+      <block type="call_procedure">
+        <value name="proc_name">setup_emoji_list</value>
+      </block>
+    </statement>
+  </block>
+
+  <!-- Setup procedure: create the emoji list -->
+  <block type="procedure_def" id="setup_emoji_list" x="50" y="100">
+    <field name="NAME">setup_emoji_list</field>
+    <statement name="do">
+      <block type="set_global_emoji_reactions">
+        <value name="value">
+          <block type="make_list">
+            <value name="item0"><block type="text"><field name="TEXT">😀</field></block></value>
+            <value name="item1"><block type="text"><field name="TEXT">😂</field></block></value>
+            <value name="item2"><block type="text"><field name="TEXT">😮</field></block></value>
+            <value name="item3"><block type="text"><field name="TEXT">😴</field></block></value>
+            <value name="item4"><block type="text"><field name="TEXT">😎</field></block></value>
+            <value name="item5"><block type="text"><field name="TEXT">🥳</field></block></value>
+            <value name="item6"><block type="text"><field name="TEXT">😊</field></block></value>
+            <value name="item7"><block type="text"><field name="TEXT">😉</field></block></value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+
+  <!-- EmojiButton.Click handler -->
+  <block type="when_Button_Click" id="emoji_click" x="50" y="250">
+    <statement name="do">
+      <block type="set_global_reaction_index">
+        <value name="value">
+          <block type="math_arithmetic">
+            <field name="OP">ADD</field>
+            <value name="a">
+              <block type="global_reaction_index"><name>reaction_index</name></block>
+            </value>
+            <value name="b"><block type="math_number"><field name="NUM">1</field></block></value>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="do">
+      <block type="set_global_reaction_index">
+        <value name="value">
+          <block type="math_arithmetic">
+            <field name="OP">MODULO</field>
+            <value name="a">
+              <block type="global_reaction_index"><name>reaction_index</name></block>
+            </value>
+            <value name="b"><block type="math_number"><field name="NUM">8</field></block></value>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="do">
+      <block type="set_Button_Text">
+        <value name="value">
+          <block type="select_list_item">
+            <value name="list"><block type="global_emoji_reactions"><name>emoji_reactions</name></block></value>
+            <value name="index">
+              <block type="math_arithmetic">
+                <field name="OP">ADD</field>
+                <value name="a"><block type="global_reaction_index"><name>reaction_index</name></block></value>
+                <value name="b"><block type="math_number"><field name="NUM">1</field></block></value>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="do">
+      <block type="set_Label_Text">
+        <value name="value">
+          <block type="join">
+            <value name="arg0"><block type="text"><field name="TEXT">Mood #</field></block></value>
+            <value name="arg1"><block type="math_arithmetic">
+              <field name="OP">ADD</field>
+              <value name="a"><block type="global_reaction_index"><name>reaction_index</name></block></value>
+              <value name="b"><block type="math_number"><field name="NUM">1</field></block></value>
+            </block></value>
+            <value name="arg2"><block type="text"><field name="TEXT"> of 8</field></block></value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+</xml>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Step Counter Pet - MIT App Inventor Blocks -->
+
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <!-- Global variable declarations -->
+  <block type="global_declaration" id="gv_total_steps" x="10" y="10">
+    <field name="NAME">total_steps</field>
+  </block>
+  <block type="global_declaration" id="gv_molesVisible" x="10" y="30">
+    <field name="NAME">saved_steps</field>
+  </block>
+
+  <!-- Screen1.Initialize -->
+  <block type="when_screen_initialize" id="init">
+    <statement name="do">
+      <block type="call_AcclerometerSensor_Start" />
+    </statement>
+    <statement name="do">
+      <block type="set_global_saved_steps">
+        <value name="value">
+          <block type="TinyDB_getValue">
+            <value name="tag"><block type="text"><field name="TEXT">total_steps</field></block></value>
+            <value name="value_if_not_found"><block type="math_number"><field name="NUM">0</field></block></value>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="do">
+      <block type="set_global_total_steps">
+        <value name="value"><block type="global_saved_steps"><name>saved_steps</name></block></value>
+      </block>
+    </statement>
+    <statement name="do">
+      <block type="set_StepsLabel_Text">
+        <value name="value">
+          <block type="join">
+            <value name="arg0"><block type="text"><field name="TEXT">Steps: </field></block></value>
+            <value name="arg1"><block type="global_total_steps"><name>total_steps</name></block></value>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="do">
+      <block type="set_PetLabel_Text"><value name="value"><block type="text"><field name="TEXT">😴</field></block></value></block>
+    </statement>
+  </block>
+
+  <!-- Pedometer1.StepCountChanged -->
+  <block type="when_Pedometer_StepCountChanged" id="step_change">
+    <value name="newSteps"><name>newSteps</name></value>
+    <statement name="do">
+      <block type="set_global_total_steps">
+        <value name="value"><name>newSteps</name></block>
+      </block>
+    </statement>
+    <statement name="do">
+      <block type="set_StepsLabel_Text">
+        <value name="value">
+          <block type="join">
+            <value name="arg0"><block type="text"><field name="TEXT">Steps: </field></block></value>
+            <value name="arg1"><block type="global_total_steps"><name>total_steps</name></block></value>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="do">
+      <block type="call_procedure">
+        <value name="proc_name">update_pet_status</value>
+      </block>
+    </statement>
+  </block>
+
+  <!-- ResetButton.Click -->
+  <block type="when_Button_Click" id="reset_click">
+    <statement name="do">
+      <block type="set_global_total_steps">
+        <value name="value"><block type="math_number"><field name="NUM">0</field></block></value>
+      </block>
+    </statement>
+    <statement name="do">
+      <block type="set_StepsLabel_Text">
+        <value name="value">
+          <block type="join">
+            <value name="arg0"><block type="text"><field name="TEXT">Steps: </field></block></value>
+            <value name="arg1"><block type="math_number"><field name="NUM">0</field></block></value>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="do">
+      <block type="set_PetLabel_Text"><value name="value"><block type="text"><field name="TEXT">😴</field></block></value></block>
+    </statement>
+    <statement name="do">
+      <block type="call_TinyDB_StoreValue">
+        <value name="tag"><block type="text"><field name="TEXT">total_steps</field></block></value>
+        <value name="value_to_store"><block type="math_number"><field name="NUM">0</field></block></value>
+      </block>
+    </statement>
+  </block>
+
+  <!-- update_pet_status procedure -->
+  <block type="procedure_def" id="update_pet">
+    <field name="NAME">update_pet_status</field>
+    <statement name="do">
+      <block type="if-elif-else">
+        <!-- If total_steps < 50 -->
+        <value name="condition0">
+          <block type="math_arithmetic">
+            <field name="OP">LT</field>
+            <value name="a"><block type="global_total_steps"><name>total_steps</name></block></value>
+            <value name="b"><block type="math_number"><field name="NUM">50</field></block></value>
+          </block>
+        </value>
+        <statement name="do0">
+          <block type="set_PetLabel_Text"><value name="value"><block type="text"><field name="TEXT">😴</field></block></value></block>
+        </statement>
+        
+        <!-- Else if total_steps < 200 -->
+        <value name="condition1">
+          <block type="math_arithmetic">
+            <field name="OP">LT</field>
+            <value name="a"><block type="global_total_steps"><name>total_steps</name></block></value>
+            <value name="b"><block type="math_number"><field name="NUM">200</field></block></value>
+          </block>
+        </value>
+        <statement name="do1">
+          <block type="set_PetLabel_Text"><value name="value"><block type="text"><field name="TEXT">🙂</field></block></value></block>
+        </statement>
+        
+        <!-- Else if total_steps < 500 -->
+        <value name="condition2">
+          <block type="math_arithmetic">
+            <field name="OP">LT</field>
+            <value name="a"><block type="global_total_steps"><name>total_steps</name></block></value>
+            <value name="b"><block type="math_number"><field name="NUM">500</field></block></value>
+          </block>
+        </value>
+        <statement name="do2">
+          <block type="set_PetLabel_Text"><value name="value"><block type="text"><field name="TEXT">😊</field></block></value></block>
+        </statement>
+        
+        <!-- Else -->
+        <statement name="else">
+          <block type="set_PetLabel_Text"><value name="value"><block type="text"><field name="TEXT">🏃‍♂️🐶</field></block></value></block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>
